@@ -136,12 +136,9 @@
     }
 
     function getIndexUrl() {
-        // Soporte para URLs relativas o root-relative
         const rootAttr = document.body.getAttribute('data-wpsa-root');
-        if (rootAttr) {
-            return rootAttr.replace(/\/+$/, '') + '/search-index.json';
-        }
-        return '/search-index.json';
+        const prefix = (rootAttr && rootAttr !== '.') ? (rootAttr.replace(/\/+$/, '') + '/') : './';
+        return prefix + 'search-index.json';
     }
 
     function loadIndex(callback) {
@@ -284,7 +281,7 @@
 
             html +=
                 '<div class="wpsa-search-item" data-index="' + i + '" role="option">' +
-                    '<a href="' + escapeHtml(item.url) + '" class="wpsa-search-item-link">' +
+                    '<a href="' + (document.body.getAttribute('data-wpsa-root') ? document.body.getAttribute('data-wpsa-root').replace(/\/+$/, '') + '/' : './') + item.slug + '/" class="wpsa-search-item-link">' +
                         '<div class="wpsa-item-header">' +
                             '<span class="wpsa-item-title">' + highlightedTitle + '</span>' +
                             '<span class="wpsa-item-badge ' + typeClass + '">' + typeLabel + '</span>' +
