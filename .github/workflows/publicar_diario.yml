@@ -23,18 +23,14 @@ jobs:
       - name: Instalar dependencias
         run: |
           python -m pip install --upgrade pip
-          pip install requests python-frontmatter markdown
+          pip install requests python-frontmatter markdown beautifulsoup4
 
-      - name: Ejecutar script de publicación
-        env:
-          WP_URL_TARGET: ${{ secrets.WP_URL_TARGET }}
-          WP_USER: ${{ secrets.WP_USER }}
-          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
-        run: python publicar_desde_github.py
+      - name: Ejecutar SSG (Publicación Estática)
+        run: python publicar_estatico.py
 
-      - name: Commit de los borradores eliminados
+      - name: Commit de los borradores eliminados y HTML generado
         run: |
           git config --global user.name 'GitHub Action Bot'
           git config --global user.email 'action@github.com'
-          git add borradores/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Automatización: 1 post publicado y eliminado de la cola" && git push)
+          git add borradores/ mundossimuladosexport/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automatización: 1 post convertido a estático y publicado" && git push)
