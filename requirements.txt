@@ -1,0 +1,6 @@
+google-generativeai
+python-frontmatter
+markdown
+requests
+pandas
+python-dotenv

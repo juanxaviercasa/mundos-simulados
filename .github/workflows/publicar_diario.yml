@@ -1,0 +1,40 @@
+name: Publicar Artículos en WordPress
+
+on:
+  schedule:
+    - cron: '0 13 * * *' # Mañana (13:00 UTC / 8:00 AM EST)
+    - cron: '0 18 * * *' # Tarde (18:00 UTC / 1:00 PM EST)
+    - cron: '0 23 * * *' # Noche (23:00 UTC / 6:00 PM EST)
+  workflow_dispatch: # Permite ejecución manual desde la interfaz de GitHub
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests python-frontmatter markdown
+
+      - name: Ejecutar script de publicación
+        env:
+          WP_URL_TARGET: ${{ secrets.WP_URL_TARGET }}
+          WP_USER: ${{ secrets.WP_USER }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+        run: python publicar_desde_github.py
+
+      - name: Commit de los borradores eliminados
+        run: |
+          git config --global user.name 'GitHub Action Bot'
+          git config --global user.email 'action@github.com'
+          git add borradores/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automatización: 1 post publicado y eliminado de la cola" && git push)

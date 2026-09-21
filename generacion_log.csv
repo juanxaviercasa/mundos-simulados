@@ -1,0 +1,310 @@
+slug,estado,detalle
+apagon-global-internet-7-dias,error,"Sin éxito tras 4 intentos: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.7-flash
+Please retry in 26.277989517s. [links {
+  description: ""Learn more about Gemini API quotas""
+  url: ""https://ai.google.dev/gemini-api/docs/rate-limits""
+}
+, violations {
+  quota_metric: ""generativelanguage.googleapis.com/generate_content_free_tier_requests""
+  quota_id: ""GenerateRequestsPerDayPerProjectPerModel-FreeTier""
+  quota_dimensions {
+    key: ""model""
+    value: ""gemini-3.7-flash""
+  }
+  quota_dimensions {
+    key: ""location""
+    value: ""global""
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 26
+}
+]"
+mundo-gobernado-por-ia,error,"Sin éxito tras 4 intentos: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.7-flash
+Please retry in 44.492905217s. [links {
+  description: ""Learn more about Gemini API quotas""
+  url: ""https://ai.google.dev/gemini-api/docs/rate-limits""
+}
+, violations {
+  quota_metric: ""generativelanguage.googleapis.com/generate_content_free_tier_requests""
+  quota_id: ""GenerateRequestsPerDayPerProjectPerModel-FreeTier""
+  quota_dimensions {
+    key: ""model""
+    value: ""gemini-3.7-flash""
+  }
+  quota_dimensions {
+    key: ""location""
+    value: ""global""
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 44
+}
+]"
+fin-de-las-contrasenas-biometria,error,"Sin éxito tras 4 intentos: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.7-flash
+Please retry in 37.640690807s. [links {
+  description: ""Learn more about Gemini API quotas""
+  url: ""https://ai.google.dev/gemini-api/docs/rate-limits""
+}
+, violations {
+  quota_metric: ""generativelanguage.googleapis.com/generate_content_free_tier_requests""
+  quota_id: ""GenerateRequestsPerDayPerProjectPerModel-FreeTier""
+  quota_dimensions {
+    key: ""model""
+    value: ""gemini-3.7-flash""
+  }
+  quota_dimensions {
+    key: ""location""
+    value: ""global""
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 37
+}
+]"
+apagon-global-internet-7-dias,ok,
+mundo-gobernado-por-ia,ok,
+fin-de-las-contrasenas-biometria,ok,
+conciencia-en-la-nube-2050,ok,
+colapso-financiero-virus-digital,ok,
+robots-con-derechos-laborales,ok,
+realidad-virtual-indistinguible,ok,
+gps-caido-caos-logistico,ok,
+silencio-movil-sin-smartphones,ok,
+nanobots-medicos-privacidad,ok,
+codigo-autonomo-programacion-ia,ok,
+borrado-social-psicologia-global,ok,
+trafico-aereo-urbano-autos-voladores,ok,
+chip-cerebral-obligatorio-sociedad,ok,
+error-matrix-pruebas-simulacion,ok,
+guerra-drones-sin-humanos,ok,
+ciudades-inteligentes-control,ok,
+hologramas-fisicos-viajes,ok,
+mercado-negro-recuerdos-digitales,ok,
+desempleo-global-automatizacion,ok,
+impresion-3d-organos-humanos,ok,
+deepfakes-evidencia-legal,ok,
+ia-bloqueando-comunicaciones,ok,
+quiebra-empresas-petroleras,ok,
+telepatia-sintetica-fin-mentira,ok,
+mascotas-roboticas-reemplazo,ok,
+internet-cuantico-encriptacion,ok,
+traductores-neurales-idiomas,ok,
+ceguera-digital-pantallas-oculares,ok,
+jueces-ia-sistema-legal,ok,
+agricultura-robotica-fin-hambruna,ok,
+musica-sintetica-ia-grammy,ok,
+borrado-memoria-traumas,ok,
+clonacion-voz-estafas,ok,
+ropa-inteligente-emociones,ok,
+arquitectura-dinamica-ciudades,ok,
+prohibicion-conducir-humanos,ok,
+escaneres-adn-citas-romanticas,ok,
+mineria-asteroides-desplome-economia,ok,
+suenos-patrocinados-publicidad,ok,
+carceles-virtuales-cadenas-perpetuas,ok,
+resurreccion-digital-avatares,ok,
+ciberataque-red-electrica-europea,ok,
+elecciones-ia-algoritmo-voto,ok,
+profesores-ia-cierre-escuelas,ok,
+policia-predictiva-arrestos-ia,ok,
+comida-sintetica-impresa-supermercados,ok,
+traduccion-animal-ladridos,ok,
+bebes-diseno-genetico-clases,ok,
+arte-sin-artistas-museos-ia,ok,
+algoritmos-pareja-fin-divorcios,ok,
+control-clima-satelite-guerra,ok,
+dispositivos-invisibilidad-seguridad,ok,
+turismo-virtual-quiebra-aerolineas,ok,
+medicion-estres-impuestos,ok,
+redes-neuronales-planetarias,ok,
+interfaces-hapticas-dolor-internet,ok,
+curacion-acelerada-nanotecnologia,ok,
+vigilancia-nivel-atomico-privacidad,ok,
+boton-de-apagado-ia-global,ok,
+hibrido-oso-tigre-anatomia,ok,
+hibernacion-humana-metamorfosis,ok,
+mundo-sin-mosquitos-colapso,ok,
+retorno-dinosaurios-ciudades,ok,
+abismos-secos-fosa-marianas,ok,
+evolucion-branquias-humanas,ok,
+oxigeno-doble-insectos-gigantes,ok,
+oceanos-agua-dulce-extincion,ok,
+esperanza-vida-200-anos,ok,
+rebelion-ganado-animales-hablan,ok,
+biologia-herbivora-mutacion,ok,
+hielo-derretido-nuevo-mapa,ok,
+un-ano-sin-noche-insomnio,ok,
+gravedad-mitad-atrofia-muscular,ok,
+silencio-abejas-fin-polinizacion,ok,
+piel-fotosintetica-alimentacion-sol,ok,
+bosques-gigantes-crecimiento-instantaneo,ok,
+mutacion-ocular-vision-infrarroja,ok,
+regreso-megalodon-superdepredador,ok,
+inmunidad-absoluta-fin-enfermedades,ok,
+alas-humanas-biomecanica-vuelo,ok,
+bacterias-devoran-plastico-evolucion,ok,
+sin-cuerdas-vocales-humanidad,ok,
+sangre-fria-humanos-reptiles,ok,
+sexto-sentido-campos-magneticos,ok,
+arboles-caminantes-adaptacion-botanica,ok,
+desierto-global-secado-amazonas,ok,
+inteligencia-chimpances-segunda-especie,ok,
+ceguera-global-adaptacion-ciudades,ok,
+piel-titanio-modificacion-genetica,ok,
+fusion-simbiotica-hongos-piel,ok,
+sin-dormir-colapso-mental,ok,
+crecimiento-ilimitado-humanos,ok,
+regeneracion-extremidades-salamandras,ok,
+veneno-humano-glandulas-defensa,ok,
+extincion-perros-impacto-psicologico,ok,
+comunicacion-telepatica-fauna,ok,
+hibridos-hombre-maquina-biologia,ok,
+huracanes-categoria-6-diarios,ok,
+flora-bioluminiscente-ciudades-arboles,ok,
+retorno-megafauna-mamuts,ok,
+reproduccion-asexual-humana-fin-relaciones,ok,
+digestion-metales-dieta-chatarra,ok,
+olfato-sabueso-infierno-sensorial,ok,
+inmortalidad-biologica-estancamiento,ok,
+resistencia-radiacion-nuclear,ok,
+virus-antiguos-permafrost,ok,
+polinizacion-robotica-drones,ok,
+ecosistemas-subterraneos-migracion,ok,
+sin-dolor-extincion-rapida,ok,
+adaptacion-alta-presion-marina,ok,
+piel-camaleonica-camuflaje,ok,
+fotosintesis-inversa-absorber-oscuridad,ok,
+desaparicion-plancton-asfixia,ok,
+vida-basada-en-silicio,ok,
+gigantismo-aracnidos-mutacion,ok,
+invernacion-inversa-estivacion,ok,
+perdida-oido-vibraciones-tactiles,ok,
+semillas-extraterrestres-invasion,ok,
+el-ultimo-arbol-original-protegido,ok,
+mundo-sin-numero-dos,ok,
+efectivo-caducable-mensual,ok,
+salario-universal-obligatorio,ok,
+energia-gratuita-quiebra-industrias,ok,
+retorno-trueque-sin-dinero,ok,
+cero-impuestos-pais-privado,ok,
+fin-bancos-fisicos-boveda-personal,ok,
+deuda-perdonada-jubileo-mundial,ok,
+vivienda-gratuita-mercado-inmobiliario,ok,
+un-millon-al-nacer-hiperinflacion,ok,
+oro-sin-valor-asteroide,ok,
+quiebra-bolsa-cierre-wall-street,ok,
+moneda-global-unica-soberania,ok,
+semana-laboral-dos-dias,ok,
+ilegalizacion-interes-prestamos,ok,
+pagar-por-oxigeno-aire-limpio,ok,
+economia-del-tiempo-moneda,ok,
+herencias-prohibidas-reset-generacional,ok,
+multas-segun-ingresos,ok,
+expropiacion-billonarios-limite-riqueza,ok,
+sin-jubilacion-trabajo-eterno,ok,
+precio-fijo-universal-comercio,ok,
+consumo-racionado-por-ia,ok,
+criptomonedas-obligatorias-exclusiones,ok,
+pago-por-atencion-publicidad,ok,
+mercados-predictivos-extremos,ok,
+fin-propiedad-privada-suscripcion,ok,
+impuesto-carbono-personal-cuotas,ok,
+quiebra-aseguradoras-sin-proteccion,ok,
+renta-por-datos-personales,ok,
+desaparicion-comercio-minorista,ok,
+subastas-organos-legales,ok,
+estado-control-total-empresas,ok,
+desaparicion-fronteras-economicas,ok,
+trabajo-infantil-legalizado,ok,
+dinero-reputacion-social,ok,
+penalizacion-del-ahorro-multas,ok,
+salarios-calorias-quemadas,ok,
+educacion-superior-exclusiva,ok,
+fin-subsidios-agricolas-precios,ok,
+monopolio-corporativo-unico-omnicorp,ok,
+reciclaje-obligatorio-economia-chatarra,ok,
+impuesto-belleza-fisica-genetica,ok,
+pagar-por-luz-solar-corporaciones,ok,
+inversion-genetica-ninos-prodigio,ok,
+eliminacion-clases-medias,ok,
+fin-patentes-investigacion-medica,ok,
+suscripcion-inmortalidad-millonaria,ok,
+economia-subterranea-legalizada,ok,
+salario-emocional-realidad-virtual,ok,
+fin-intermediarios-bienes-raices,ok,
+intercambio-de-vidas-mercado,ok,
+dinero-genetico-monedas-adn,ok,
+burbuja-agua-dulce-bolsa,ok,
+trabajo-forzado-gimnasios-impuestos,ok,
+cero-publicidad-colapso-medios,ok,
+atencion-medica-privada-latido,ok,
+suscripcion-ciudadania-nacionalidad,ok,
+mercado-sueno-vender-descanso,ok,
+fin-escasez-artificial-diamantes,ok,
+tierra-deja-de-girar,ok,
+sol-desaparece-8-minutos,ok,
+tierra-con-dos-lunas,ok,
+anillos-de-saturno-tierra,ok,
+tierra-tamano-jupiter-gravedad,ok,
+agujero-negro-tamano-moneda,ok,
+velocidad-luz-100-kmh,ok,
+tormenta-solar-fin-tecnologia,ok,
+meteorito-diamante-oceano,ok,
+tierra-orbita-enana-roja,ok,
+cielo-sin-contaminacion-luminica,ok,
+asteroide-roza-tierra-luna,ok,
+vida-planeta-anclado-marea,ok,
+tierra-se-expande-10-porciento,ok,
+tierra-atraviesa-nebulosa-densa,ok,
+jupiter-reemplaza-luna,ok,
+supernova-cercana-tierra,ok,
+nucleo-tierra-se-enfria,ok,
+planeta-errante-cruza-sistema,ok,
+enana-blanca-reemplaza-sol,ok,
+olas-de-gravedad-terrestre,ok,
+atmosfera-escapa-al-espacio,ok,
+micro-agujero-negro-tierra,ok,
+sistema-solar-materia-oscura,ok,
+inversion-polos-magneticos-tierra,ok,
+luna-shatter-fragmentos,ok,
+brote-rayos-gamma-impacto,ok,
+tierra-se-vuelve-venus,ok,
+sol-gigante-roja-traga-tierra,ok,
+meteorito-antimateria-impacto,ok,
+muerte-termica-universo-simulacion,ok,
+luz-de-estrellas-muertas-realidad,ok,
+colision-andromeda-via-lactea,ok,
+tiempo-se-detiene-horizonte-sucesos,ok,
+lluvia-de-diamantes-en-neptuno,ok,
+estrellas-de-neutrones-cuchillo-atomo,ok,
+universo-holografico-realidad-falsa,ok,
+fuga-de-fotones-oscuridad-total,ok,
+paradoja-de-fermi-silencio-espacial,ok,
+espejo-cosmico-copia-tierra,ok,
+gravedad-cero-musculos-humanos,ok,
+anillos-de-hielo-cometas-impacto,ok,
+gigantes-rojas-absorben-sistema,ok,
+materia-espejo-universo-paralelo,ok,
+gravedad-negativa-energia-oscura,ok,
+tiempo-y-espacio-relativo-gps,ok,
+estrellas-fugaces-mortales,ok,
+marea-roja-lunar-eclipse,ok,
+satelites-en-caida-libre-eterna,ok,
+rayos-cosmicos-interferencia-cerebral,ok,
+planeta-de-diamante-fundido,ok,
+viento-solar-auroras-urbanas-letales,ok,
+cometa-halley-impacto-tierra,ok,
+noche-eterna-cometa-gigante,ok,
+sol-doble-sistema-binario-tierra,ok,
+pulsar-cercano-emision-ondas-radio,ok,
+anomalia-magnetica-del-atlantico-espacio,ok,
+choque-estelar-fuga-sistema,ok,
+tiempo-cuantico-dilatacion-extrema,ok,
+fin-del-viaje-espacial-gravedad,ok,

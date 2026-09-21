@@ -1,0 +1,52 @@
+---
+alt_destacada: Cometa Halley gigante con una cola brillante cruzando hacia la Tierra
+alt_interna_1: Colosal impacto de cometa generando una muralla de agua hirviendo
+alt_interna_2: Campos de cultivo cubiertos de nieve sucia y polvo cósmico
+categoria: astrofisica
+focus_keyword: cometa halley impacto
+imagen_destacada: cometa-halley-impacto-tierra.webp
+imagen_interna_1: impacto-oceano-halley.webp
+imagen_interna_2: invierno-polvo-cosmico.webp
+meta_description: El cometa más famoso de la historia regresa cada 75 años. Simulamos
+  el impacto apocalíptico si decidiera estrellarse contra nuestro planeta.
+slug: cometa-halley-impacto-tierra
+tags:
+- Cometa Halley
+- Astronomía
+- Impacto
+- Espacio
+- Apocalipsis
+title: 'El visitante maldito: Si el Cometa Halley chocara contra la Tierra'
+---
+
+El Cometa Halley orbita alrededor del Sol siguiendo una trayectoria elíptica bien documentada que completa un ciclo cada 75 u 76 años. Los registros astronómicos de este cuerpo celeste se remontan al año 240 antes de nuestra era, con observaciones sistemáticas recogidas por astrónomos chinos, babilónicos y europeos a lo largo de los siglos. Su perihelio, el punto de su órbita más cercano al Sol, se sitúa a unos 88 millones de kilómetros, cruzando la órbita de la Tierra a una velocidad relativa que, en el momento del impacto con nuestro planeta, alcanzaría los 70 kilómetros por segundo. Analizar una colisión con el cometa halley impacto directo no requiere recurrir a la ciencia ficción, sino aplicar las leyes de la física orbital y la termodinámica a un escenario que, aunque estadísticamente improbable en el corto plazo, resulta físicamente factible bajo una alteración extrema de su órbita debido a perturbaciones gravitacionales no previstas.
+
+## La trayectoria histórica del cometa y su próxima visita en 2061
+
+La órbita del Halley es retrógrada, lo que significa que se mueve en dirección opuesta a la rotación de los planetas del sistema solar. Esta característica aumenta de forma drástica la energía cinética de cualquier posible encuentro. Durante su última aparición en 1986, las sondas espaciales internacionales, lideradas por la flota de naves Vega y Giotto, pudieron medir con precisión milimétrica sus parámetros orbitales y la velocidad a la que se desplaza por el vacío espacial. Sabemos con certeza matemática que la próxima visita del Halley a las inmediaciones de la Tierra ocurrirá en el año 2061, cuando alcance de nuevo el punto interno de su viaje y despliegue su característica cabellera y cola de gas y polvo.
+
+En el mundo real, los cálculos de la mecánica celeste demuestran que la probabilidad de que el Halley colisione con la Tierra en 2061 es prácticamente nula. Su órbita está separada de la nuestra por una distancia segura en los puntos de intersección orbital. Sin embargo, para entender los límites de nuestra civilización, podemos cambiar una sola variable de este escenario físico: supongamos que una inusual interacción gravitacional con un objeto masivo no detectado en el cinturón de Kuiper desvía el eje orbital del Halley justo antes de su paso por el perihelio, situándolo en una trayectoria de colisión directa contra la superficie terrestre.
+
+Al cruzar la atmósfera a la velocidad récord de 70 kilómetros por segundo, la fricción con el aire comprimiría los gases frente al núcleo del cometa casi de forma instantánea. En cuestión de segundos, la fricción atmosférica elevaría la temperatura superficial del objeto a miles de grados Celsius, desintegrando las capas externas de hielo y compuestos volátiles. Lejos de desvanecerse por completo, la masa principal continuaría su descenso implacable hacia la superficie del planeta sin que ningún sistema tecnológico actual pudiera desviar su trayectoria con apenas unos meses de preaviso.
+
+{{IMAGEN_INTERNA_1}}
+
+## El núcleo de hielo y roca de 15 kilómetros de ancho
+
+Las mediciones directas obtenidas por la sonda Giotto revelaron que el núcleo del Cometa Halley tiene unas dimensiones aproximadas de 15 kilómetros de largo por 8 kilómetros de ancho y 8 kilómetros de alto. Su densidad media es extremadamente baja, calculada en alrededor de 0,6 gramos por centímetro cúbico, lo que indica que se trata de un cuerpo altamente poroso, compuesto principalmente de hielo de agua, monóxido de carbono, metano, amoníaco y una matriz rocosa rica en silicatos y compuestos orgánicos complejos. A pesar de su baja densidad, su volumen implica una masa total estimada en unos tres mil millones de toneladas métricas moviéndose a velocidad hipervelocidad.
+
+Cuando este bloque de quince kilómetros de diámetro impacte contra la Tierra, la corteza terrestre actuará como un obstáculo insignificante. Si el impacto se produce en una zona oceánica, que cubre más del setenta por ciento del planeta, el fondo marino quedaría expuesto en un radio de cientos de kilómetros en una fracción de milisegundo. La energía liberada en el evento superaría con creces la detonación simultánea de todas las armas nucleares existentes en los arsenales humanos, alcanzando el equivalente a millones de megatones de TNT.
+
+La onda expansiva inicial vaporizaría el agua del mar o la roca continental en el punto de impacto, generando una columna de plasma y vapor de alta presión que se expandiría por la atmósfera superior a velocidades supersónicas. Los terremotos resultantes de magnitud superior a 10 en la escala de Richter sacudirían todos los continentes de manera simultánea, destruyendo las infraestructuras urbanas y colapsando las redes de suministro eléctrico en todo el planeta. La atmósfera local se encendería en un frente de fuego termonuclear que devoraría biomasa a escala continental en cuestión de horas.
+
+## El invierno de polvo y el fin de la agricultura global
+
+El verdadero mecanismo de extinción tras el impacto del cometa halley impacto no sería la explosión inicial, sino las consecuencias atmosféricas a medio plazo. Millones de toneladas de polvo fino, vaporizado a partir de la corteza terrestre y del propio núcleo cometario, serían inyectadas directamente en la estratosfera. A esto se sumaría el hollín generado por los incendios forestales globales que consumirían los bosques del planeta durante semanas. Este material particulado fino permanecería suspendido en las corrientes atmosféricas superiores durante años debido a la ausencia de lluvia capaz de lavarlo a esas altitudes.
+
+La consecuencia directa de esta capa de aerosoles sería el bloqueo casi total de la radiación solar directa. La cantidad de luz que llega a la superficie terrestre se reduciría en más de un noventa por ciento, sumiendo al planeta en una penumbra permanente similar a la de un crepúsculo perpetuo. Las temperaturas medias globales descenderían de forma drástica entre 15 y 25 grados Celsius en las regiones continentales, provocando una inversión térmica severa que mataría los bosques y detendría por completo los ciclos agrícolas tradicionales.
+
+{{IMAGEN_INTERNA_2}}
+
+En este escenario de invierno prolongado, la fotosíntesis se detendría en los océanos y en la tierra firme. Las cadenas tróficas marinas basadas en el fitoplancton colapsarían en cuestión de meses, eliminando la base de la alimentación para peces y mamíferos marinos. En tierra, las reservas de grano almacenadas por la civilización humana se agotarían en pocos años sin posibilidad de reponerlas mediante nuevas cosechas. La falta de luz solar, unida a la contaminación del agua potable por cenizas y productos químicos derivados del impacto, haría insostenible la supervivencia de la mayor parte de la población humana en el transcurso de pocas temporadas agrícolas perdidas.
+
+Este análisis nos recuerda que la biosfera terrestre es un sistema frágil, dependiente de un delicado equilibrio energético con el Sol que puede verse alterado de forma irreversible por la dinámica ciega del sistema solar exterior.
