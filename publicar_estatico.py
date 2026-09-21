@@ -9,9 +9,9 @@ import subprocess
 
 POSTS_PER_RUN = 1
 BORRADORES_DIR = "borradores"
-EXPORT_DIR = "mundossimuladosexport"
-TEMPLATE_HTML = os.path.join(EXPORT_DIR, "piel-camaleonica-camuflaje", "index.html")
-SEARCH_INDEX = os.path.join(EXPORT_DIR, "search-index.json")
+EXPORT_DIR = "."
+TEMPLATE_HTML = os.path.join(".", "piel-camaleonica-camuflaje", "index.html")
+SEARCH_INDEX = os.path.join(".", "search-index.json")
 
 def publicar_posts():
     archivos_md = glob.glob(os.path.join(BORRADORES_DIR, "*.md"))
