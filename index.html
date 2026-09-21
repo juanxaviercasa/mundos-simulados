@@ -115,6 +115,7 @@ a { color: #2563EB; }
 a:hover, a:focus { color: #1D4ED8; }
 
 </style>
+  <link rel="stylesheet" href="./wp-content/themes/astra/dark-branding.css" />
 </head>
 
 
@@ -1359,7 +1360,7 @@ body #ast-hf-menu-1 ul.sub-menu li a.menu-link:hover {
   .ms-hud-panel { grid-template-columns: repeat(2, 1fr); gap: 18px; }
   .ms-dimensions-grid { grid-template-columns: 1fr; }
   .ms-cards-grid { grid-template-columns: 1fr; }
-  .ms-dossier-box { grid-template-columns: 1fr; }
+  .ms-dossier-box { grid-template-columns: 1fr; padding: 32px 24px; gap: 28px; }
   .ms-method-grid { grid-template-columns: 1fr; }
   .ms-newsletter-card { grid-template-columns: 1fr; padding: 32px 24px; }
   .ms-author-strip { flex-direction: column; text-align: center; }
@@ -1375,6 +1376,111 @@ body #ast-hf-menu-1 ul.sub-menu li a.menu-link:hover {
   .ms-footer-dot {
     display: none;
   }
+}
+
+@media (max-width: 640px) {
+  .ms-dossier-box {
+    padding: 22px 16px;
+    border-radius: 18px;
+    gap: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .ms-dossier-title {
+    font-size: 1.55rem;
+    line-height: 1.2;
+  }
+  .ms-timeline-preview {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 18px 0 24px;
+  }
+  .ms-timeline-step {
+    padding: 10px 14px;
+  }
+  .ms-dossier-box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    box-sizing: border-box;
+  }
+  .ms-hud-panel {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding: 14px 16px;
+  }
+  .ms-hud-stat strong {
+    font-size: 1.6rem;
+  }
+}
+
+/* ============================================================
+   ESTILOS DE MENÚ MÓVIL Y CABECERA OSCURA SCI-FI
+   ============================================================ */
+.ast-mobile-header-wrap {
+  background: rgba(5, 8, 20, 0.96) !important;
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(0, 240, 255, 0.2);
+}
+.ast-mobile-header-content {
+  background: rgba(6, 10, 20, 0.98) !important;
+  backdrop-filter: blur(24px) !important;
+  border-bottom: 1px solid rgba(0, 240, 255, 0.3) !important;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.95) !important;
+  padding: 16px 20px 24px !important;
+}
+.ast-mobile-header-content .main-header-menu {
+  background: transparent !important;
+  border: none !important;
+}
+.ast-mobile-header-content .menu-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+.ast-mobile-header-content .menu-item a,
+.ast-mobile-header-content .menu-link {
+  color: #F8FAFC !important;
+  font-family: 'Space Grotesk', sans-serif !important;
+  font-size: 1.12rem !important;
+  font-weight: 600 !important;
+  padding: 14px 8px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  text-decoration: none !important;
+  transition: all 0.2s ease !important;
+}
+.ast-mobile-header-content .menu-item a:hover,
+.ast-mobile-header-content .menu-link:hover,
+.ast-mobile-header-content .current-menu-item > a {
+  color: #00F0FF !important;
+  text-shadow: 0 0 12px rgba(0, 240, 255, 0.6) !important;
+  padding-left: 14px !important;
+}
+.ast-mobile-header-content .dropdown-menu-toggle {
+  color: #00F0FF !important;
+  fill: #00F0FF !important;
+}
+.ast-mobile-header-content .sub-menu {
+  background: rgba(13, 20, 36, 0.95) !important;
+  border-left: 2px solid #00F0FF !important;
+  margin: 6px 0 10px 14px !important;
+  padding: 4px 0 !important;
+  border-radius: 0 8px 8px 0;
+}
+.ast-mobile-header-content .sub-menu .menu-link {
+  font-size: 0.98rem !important;
+  color: #94A3B8 !important;
+  padding: 10px 14px !important;
+  border-bottom: none !important;
+}
+.ast-mobile-header-content .sub-menu .menu-link:hover {
+  color: #00F0FF !important;
+}
+.menu-toggle, .ast-mobile-menu-trigger-minimal {
+  color: #00F0FF !important;
+}
+.menu-toggle .ast-mobile-svg {
+  fill: #00F0FF !important;
 }
 </style>
 
@@ -1489,8 +1595,8 @@ body #ast-hf-menu-1 ul.sub-menu li a.menu-link:hover {
           <p class="ms-dim-desc">Mecánica celeste extrema, colapso de estrellas, órbitas imposibles y fuerzas de marea destructivas.</p>
           <ul class="ms-dim-links">
             <li><a href="./que-pasaria-si-la-luna-tuviera-la-mitad-de-su-masa/">➜ Qué pasaría si la Luna tuviera la mitad de su masa</a></li>
-            <li><a href="./astrofisica/tierra-deja-de-girar/">➜ El día que la Tierra se detuvo: la catástrofe de los 1.600 km/h</a></li>
-            <li><a href="./astrofisica/sol-desaparece-8-minutos/">➜ 8 minutos de luz: el caos cuando el Sol desapareció</a></li>
+            <li><a href="./tierra-deja-de-girar/">➜ El día que la Tierra se detuvo: la catástrofe de los 1.600 km/h</a></li>
+            <li><a href="./sol-desaparece-8-minutos/">➜ 8 minutos de luz: el caos cuando el Sol desapareció</a></li>
           </ul>
         </div>
         <a class="ms-dim-btn" href="./category/astrofisica/">Explorar dimensión astrofísica ➔</a>
@@ -1510,9 +1616,9 @@ body #ast-hf-menu-1 ul.sub-menu li a.menu-link:hover {
           <h3 class="ms-dim-title">Biosfera y Evolución</h3>
           <p class="ms-dim-desc">Ecosistemas que colapsan por una especie extinta, mutaciones anatómicas extremas y nueva botánica.</p>
           <ul class="ms-dim-links">
-            <li><a href="./biosfera/silencio-abejas-fin-polinizacion/">➜ El silencio de las abejas: meses contados sin polinización</a></li>
-            <li><a href="./biosfera/hibrido-oso-tigre-anatomia/">➜ El híbrido supremo: anatomía del cruce entre oso y tigre</a></li>
-            <li><a href="./biosfera/gravedad-mitad-atrofia-muscular/">➜ Gravedad al 50%: la atrofia muscular masiva</a></li>
+            <li><a href="./silencio-abejas-fin-polinizacion/">➜ El silencio de las abejas: meses contados sin polinización</a></li>
+            <li><a href="./hibrido-oso-tigre-anatomia/">➜ El híbrido supremo: anatomía del cruce entre oso y tigre</a></li>
+            <li><a href="./gravedad-mitad-atrofia-muscular/">➜ Gravedad al 50%: la atrofia muscular masiva</a></li>
           </ul>
         </div>
         <a class="ms-dim-btn" href="./category/biosfera/">Explorar dimensión biológica ➔</a>
@@ -1532,9 +1638,9 @@ body #ast-hf-menu-1 ul.sub-menu li a.menu-link:hover {
           <h3 class="ms-dim-title">Simulaciones Tecnológicas</h3>
           <p class="ms-dim-desc">Inteligencias artificiales gobernando la sociedad, ciberataques de apagón total y el límite entre simulación y realidad.</p>
           <ul class="ms-dim-links">
-            <li><a href="./tecnologia/apagon-global-internet-7-dias/">➜ El día que el internet murió: los primeros 7 días sin red</a></li>
-            <li><a href="./tecnologia/mundo-gobernado-por-ia/">➜ IA al mando: un mundo regido por algoritmos autónomos</a></li>
-            <li><a href="./tecnologia/error-matrix-pruebas-simulacion/">➜ El error Matrix: las pruebas de que vivimos en una simulación</a></li>
+            <li><a href="./apagon-global-internet-7-dias/">➜ El día que el internet murió: los primeros 7 días sin red</a></li>
+            <li><a href="./mundo-gobernado-por-ia/">➜ IA al mando: un mundo regido por algoritmos autónomos</a></li>
+            <li><a href="./error-matrix-pruebas-simulacion/">➜ El error Matrix: las pruebas de que vivimos en una simulación</a></li>
           </ul>
         </div>
         <a class="ms-dim-btn" href="./category/tecnologia/">Explorar dimensión tecnológica ➔</a>
@@ -1554,9 +1660,9 @@ body #ast-hf-menu-1 ul.sub-menu li a.menu-link:hover {
           <h3 class="ms-dim-title">Realidades Económicas</h3>
           <p class="ms-dim-desc">Monedas caducables, abolición de deudas, asteroides de oro destruyendo mercados y fin del trabajo humano.</p>
           <ul class="ms-dim-links">
-            <li><a href="./economia/efectivo-caducable-mensual/">➜ Efectivo caducable: el dinero que se esfuma si no lo gastas</a></li>
-            <li><a href="./economia/deuda-perdonada-jubileo-mundial/">➜ Deuda perdonada: las 48 horas tras el jubileo de crédito</a></li>
-            <li><a href="./economia/mundo-sin-numero-dos/">➜ El universo impar: la crisis en un mundo sin el número 2</a></li>
+            <li><a href="./efectivo-caducable-mensual/">➜ Efectivo caducable: el dinero que se esfuma si no lo gastas</a></li>
+            <li><a href="./deuda-perdonada-jubileo-mundial/">➜ Deuda perdonada: las 48 horas tras el jubileo de crédito</a></li>
+            <li><a href="./mundo-sin-numero-dos/">➜ El universo impar: la crisis en un mundo sin el número 2</a></li>
           </ul>
         </div>
         <a class="ms-dim-btn" href="./category/economia/">Explorar dimensión económica ➔</a>
@@ -1594,7 +1700,7 @@ body #ast-hf-menu-1 ul.sub-menu li a.menu-link:hover {
           <span class="ms-pill-cat">Astrofísica</span>
         </div>
         <div class="ms-scenario-body">
-          <h3 class="ms-scenario-title"><a href="./astrofisica/tierra-deja-de-girar/">El día que la Tierra se detuvo: la catástrofe de los 1.600 km/h</a></h3>
+          <h3 class="ms-scenario-title"><a href="./tierra-deja-de-girar/">El día que la Tierra se detuvo: la catástrofe de los 1.600 km/h</a></h3>
           <p class="ms-scenario-var">Variable alterada: <b>Velocidad de rotación terrestre</b></p>
         </div>
       </article>
@@ -1606,7 +1712,7 @@ body #ast-hf-menu-1 ul.sub-menu li a.menu-link:hover {
           <span class="ms-pill-cat">Tecnología</span>
         </div>
         <div class="ms-scenario-body">
-          <h3 class="ms-scenario-title"><a href="./tecnologia/apagon-global-internet-7-dias/">El día que el internet murió: los primeros 7 días sin red</a></h3>
+          <h3 class="ms-scenario-title"><a href="./apagon-global-internet-7-dias/">El día que el internet murió: los primeros 7 días sin red</a></h3>
           <p class="ms-scenario-var">Variable alterada: <b>Conectividad global de telecomunicaciones</b></p>
         </div>
       </article>
@@ -1640,7 +1746,7 @@ body #ast-hf-menu-1 ul.sub-menu li a.menu-link:hover {
           </div>
         </div>
 
-        <a class="ms-btn-glow" href="./tecnologia/apagon-global-internet-7-dias/">
+        <a class="ms-btn-glow" href="./apagon-global-internet-7-dias/">
           <span>Leer el Dossier Completo ➔</span>
         </a>
       </div>
@@ -1742,6 +1848,7 @@ body #ast-hf-menu-1 ul.sub-menu li a.menu-link:hover {
 
     <div class="ms-footer-copyright">
       <p>Todos los derechos © 2026 Mundos Simulados | Desarrollado por <a href="http://juan.cabellosalirrosas.com" target="_blank" rel="noopener">Xavier Cabello</a></p>
+      <p style="margin-top: 8px; font-size: 0.85rem; color: #94A3B8;">Contacto: <a href="mailto:contacto@mundossimulados.onine" style="color: #00F0FF; text-decoration: none;">contacto@mundossimulados.onine</a></p>
     </div>
   </div>
 </footer>

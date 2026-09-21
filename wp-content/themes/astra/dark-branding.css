@@ -1,1108 +1,451 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
-
 /* ============================================================
-   1. GLOBAL & ASTRA OVERRIDES (OCULTAR FOOTER ROTO DE ASTRA)
+   MUNDOS SIMULADOS - SISTEMA DE DISEÑO DARK SCI-FI GLOBAL
+   Aplica estética cinematográfica, futurista y de alta fidelidad
+   en todas las páginas secundarias, categorías, blog y posts.
    ============================================================ */
-body {
-  background-color: #04060E !important;
-  color: #E2E8F0 !important;
-  overflow-x: hidden;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@500;600;700;800;900&family=Space+Grotesk:wght@500;600;700;800&display=swap');
+
+:root {
+  --ms-bg-deep: #04060E;
+  --ms-bg-card: rgba(13, 20, 36, 0.75);
+  --ms-bg-card-hover: rgba(18, 28, 50, 0.9);
+  --ms-cyan-neon: #00F0FF;
+  --ms-cyan-glow: rgba(0, 240, 255, 0.25);
+  --ms-purple-neon: #A855F7;
+  --ms-text-main: #F8FAFC;
+  --ms-text-muted: #94A3B8;
+  --ms-text-subtle: #64748B;
+  --ms-border: rgba(255, 255, 255, 0.08);
+  --ms-border-glow: rgba(0, 240, 255, 0.35);
 }
 
-/* Ocultar completamente el footer roto de Astra para usar nuestro footer nativo y simétrico */
-body footer.site-footer,
-body #colophon,
-body .site-primary-footer-wrap,
-body .site-below-footer-wrap {
-  display: none !important;
+/* 1. Reset Global y Fondo de Espacio */
+html, body {
+  background-color: var(--ms-bg-deep) !important;
+  color: var(--ms-text-main) !important;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  overflow-x: hidden !important;
 }
 
-/* Cabecera pegajosa con desenfoque de cristal */
-body .site-header,
-body #ast-desktop-header,
-body .main-header-bar,
-body .ast-primary-header-bar,
-body #masthead,
-body .ast-mobile-header-wrap {
-  background: rgba(4, 6, 14, 0.95) !important;
-  backdrop-filter: blur(20px) !important;
-  -webkit-backdrop-filter: blur(20px) !important;
+#page, .site, #content, .site-content, .ast-container, .ast-separate-container {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* 2. Cabecera y Navegación Sci-Fi */
+.site-header, 
+.main-header-bar, 
+.ast-primary-header-bar, 
+.ast-mobile-header-wrap {
+  background: rgba(5, 8, 20, 0.95) !important;
+  backdrop-filter: blur(16px) !important;
   border-bottom: 1px solid rgba(0, 240, 255, 0.2) !important;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.85) !important;
-  position: sticky !important;
-  top: 0 !important;
-  z-index: 99999 !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8) !important;
 }
 
-/* ============================================================
-   2. LOGO NATIVO INTEGRADO (CERO MARCO, CERO PANCARTA)
-   ============================================================ */
-.custom-logo-link,
-.site-logo-img,
-.site-branding,
-.ast-site-identity {
-  background: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
-  display: inline-flex !important;
-  align-items: center !important;
-  padding: 0 !important;
-  margin: 0 !important;
+.ast-theme-transparent-header .main-header-bar {
+  background: rgba(5, 8, 20, 0.95) !important;
 }
 
-.custom-logo,
-.site-logo-img img,
-.ast-site-identity img {
-  content: url('./wp-content/uploads/2026/09/logotipo-ms-transparent-clean-1.webp') !important;
-  background: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
-  filter: drop-shadow(0 0 10px rgba(0, 240, 255, 0.5)) !important;
-  max-height: 42px !important;
-  width: auto !important;
-  display: block !important;
-  transition: filter 0.3s ease, transform 0.3s ease !important;
-}
-
-.custom-logo:hover,
-.site-logo-img img:hover {
-  filter: drop-shadow(0 0 18px rgba(0, 240, 255, 0.85)) !important;
-  transform: scale(1.02) !important;
-}
-
-/* ============================================================
-   3. NAVEGACIÓN SUPERIOR ELEGANTE (SIN CAJAS GRUESAS)
-   ============================================================ */
-body .main-header-bar-navigation,
-body .main-header-menu,
-body #ast-hf-menu-1,
-body #ast-hf-mobile-menu {
-  display: flex !important;
-  align-items: center !important;
-  gap: 6px !important;
-  height: auto !important;
-  line-height: normal !important;
-}
-
-body .main-header-menu .menu-item,
-body #ast-hf-menu-1 .menu-item,
-body #ast-hf-mobile-menu .menu-item {
-  height: auto !important;
-  line-height: normal !important;
-  display: inline-flex !important;
-  align-items: center !important;
-}
-
-/* Enlaces limpios y minimalistas (texto blanco puro + sutil brillo al hover) */
-body .main-header-menu .menu-item > .menu-link,
-body #ast-hf-menu-1 .menu-item > .menu-link,
-body #ast-hf-mobile-menu .menu-item > .menu-link,
-body .site-header .main-header-menu a.menu-link {
-  color: #F1F5F9 !important;
+.main-header-menu .menu-link,
+.ast-header-navigation-arrow,
+.dropdown-menu-toggle {
+  color: #F8FAFC !important;
   font-family: 'Space Grotesk', sans-serif !important;
-  font-size: 0.92rem !important;
+  font-size: 0.98rem !important;
   font-weight: 600 !important;
-  letter-spacing: 0.04em !important;
-  text-transform: uppercase !important;
-  padding: 8px 14px !important;
-  margin: 0 !important;
-  background: transparent !important;
-  border: none !important;
-  border-bottom: 2px solid transparent !important;
-  border-radius: 6px !important;
-  box-shadow: none !important;
-  text-decoration: none !important;
-  display: inline-flex !important;
-  align-items: center !important;
+  letter-spacing: 0.02em !important;
   transition: all 0.25s ease !important;
 }
 
-body .main-header-menu .menu-item > .menu-link:hover,
-body #ast-hf-menu-1 .menu-item > .menu-link:hover,
-body #ast-hf-mobile-menu .menu-item > .menu-link:hover,
-body .site-header .main-header-menu a.menu-link:hover {
-  color: #00F0FF !important;
-  background: rgba(0, 240, 255, 0.08) !important;
-  border-bottom: 2px solid #00F0FF !important;
-  text-shadow: 0 0 12px rgba(0, 240, 255, 0.7) !important;
-  box-shadow: none !important;
-  transform: none !important;
+.main-header-menu .menu-link:hover,
+.main-header-menu .current-menu-item > .menu-link,
+.main-header-menu .current_page_parent > .menu-link {
+  color: var(--ms-cyan-neon) !important;
+  text-shadow: 0 0 12px rgba(0, 240, 255, 0.6) !important;
 }
 
-/* Submenús desplegables */
-body .main-header-menu ul.sub-menu,
-body #ast-hf-menu-1 ul.sub-menu {
-  background: #080D1D !important;
-  border: 1px solid rgba(0, 240, 255, 0.35) !important;
+.main-header-menu .sub-menu {
+  background: rgba(8, 12, 24, 0.98) !important;
+  border: 1px solid var(--ms-border-glow) !important;
   border-radius: 12px !important;
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.9), 0 0 25px rgba(0, 240, 255, 0.15) !important;
-  padding: 8px !important;
-  list-style: none !important;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.9) !important;
+  padding: 8px 0 !important;
 }
 
-body .main-header-menu ul.sub-menu li a.menu-link,
-body #ast-hf-menu-1 ul.sub-menu li a.menu-link {
+.main-header-menu .sub-menu .menu-link {
   color: #CBD5E1 !important;
-  font-size: 0.88rem !important;
-  font-weight: 500 !important;
-  border: none !important;
+  font-size: 0.92rem !important;
+  padding: 10px 18px !important;
+}
+
+.main-header-menu .sub-menu .menu-link:hover {
+  color: var(--ms-cyan-neon) !important;
+  background: rgba(0, 240, 255, 0.08) !important;
+}
+
+/* 3. Menú Móvil Cyberpunk */
+.ast-mobile-header-content {
+  background: rgba(6, 10, 20, 0.98) !important;
+  backdrop-filter: blur(24px) !important;
+  border-bottom: 1px solid var(--ms-border-glow) !important;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.95) !important;
+  padding: 16px 20px 24px !important;
+}
+
+.ast-mobile-header-content .main-header-menu {
   background: transparent !important;
-  padding: 10px 16px !important;
-  border-radius: 8px !important;
-  text-transform: none !important;
+  border: none !important;
 }
 
-body .main-header-menu ul.sub-menu li a.menu-link:hover,
-body #ast-hf-menu-1 ul.sub-menu li a.menu-link:hover {
-  color: #FFFFFF !important;
-  background: linear-gradient(90deg, rgba(0, 240, 255, 0.25), rgba(168, 85, 247, 0.25)) !important;
-  padding-left: 20px !important;
+.ast-mobile-header-content .menu-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
 }
 
-/* ============================================================
-   4. CORE & FONDOS DEL UNIVERSO
-   ============================================================ */
-.ms-universe {
-  position: relative;
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  font-size: 16px;
-  line-height: 1.65;
-  color: #CBD5E1;
-  background: #04060E;
-  overflow: hidden;
-}
-
-.ms-universe * { box-sizing: border-box; }
-.ms-universe h1, .ms-universe h2, .ms-universe h3, .ms-universe h4, .ms-universe p { margin: 0; padding: 0; }
-.ms-universe a { text-decoration: none; color: inherit; transition: all 0.25s ease; }
-
-.ms-container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 24px;
-  position: relative;
-  z-index: 2;
-}
-
-/* Rejilla de simulación cuántica */
-.ms-ambient-grid {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background-image: 
-    linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
-  background-size: 48px 48px;
-  mask-image: radial-gradient(circle at 50% 30%, black 40%, transparent 80%);
-  -webkit-mask-image: radial-gradient(circle at 50% 30%, black 40%, transparent 80%);
-}
-
-.ms-glow-orb-1 {
-  position: absolute;
-  top: -100px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 800px;
-  height: 800px;
-  background: radial-gradient(circle, rgba(0, 240, 255, 0.12) 0%, rgba(139, 92, 246, 0.06) 45%, transparent 70%);
-  filter: blur(90px);
-  pointer-events: none;
-}
-
-/* ============================================================
-   5. HERO SECTION - FONDO CÓSMICO 3D + TESERACTO CUÁNTICO CENTRADO
-   ============================================================ */
-.ms-hero-section {
-  padding: 30px 0 50px;
-  position: relative;
-  text-align: center;
-  background: 
-    radial-gradient(ellipse at 50% 40%, rgba(4, 6, 14, 0.4) 0%, rgba(4, 6, 14, 0.85) 65%, #04060E 95%),
-    url('./wp-content/uploads/2026/09/hero-4d-dimension-1.webp') no-repeat center center / cover;
-  border-bottom: 1px solid rgba(0, 240, 255, 0.18);
-  box-shadow: inset 0 -30px 50px #04060E;
-}
-
-/* VISOR 3D DEL TESERACTO (COMPACTO, GRANDE Y FLUIDO) */
-.ms-tesseract-viewport {
-  width: 210px;
-  height: 210px;
-  margin: 0 auto 14px;
-  position: relative;
-  perspective: 1000px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.ms-tesseract-4d {
-  width: 120px;
-  height: 120px;
-  position: relative;
-  transform-style: preserve-3d;
-  animation: rotate4D 16s linear infinite;
-}
-
-/* 3 Anillos Orbitales Giratorios */
-.ms-tess-ring {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  border-radius: 50%;
-  pointer-events: none;
-}
-
-.ms-tess-ring-1 {
-  width: 200px;
-  height: 200px;
-  margin: -100px 0 0 -100px;
-  border: 1.5px dashed rgba(0, 240, 255, 0.6);
-  box-shadow: 0 0 15px rgba(0, 240, 255, 0.35);
-  transform: rotateX(65deg) rotateY(15deg);
-  animation: spinRing1 10s linear infinite;
-}
-
-.ms-tess-ring-2 {
-  width: 170px;
-  height: 170px;
-  margin: -85px 0 0 -85px;
-  border: 1.5px dashed rgba(168, 85, 247, 0.6);
-  box-shadow: 0 0 15px rgba(168, 85, 247, 0.35);
-  transform: rotateX(25deg) rotateY(75deg);
-  animation: spinRing2 14s linear infinite reverse;
-}
-
-.ms-tess-ring-3 {
-  width: 140px;
-  height: 140px;
-  margin: -70px 0 0 -70px;
-  border: 1px dashed rgba(56, 189, 248, 0.5);
-  transform: rotateX(80deg) rotateZ(45deg);
-  animation: spinRing3 8s linear infinite;
-}
-
-/* Cubos 3D Interconectados (Teseracto) */
-.ms-cube-3d {
-  width: 86px;
-  height: 86px;
-  position: absolute;
-  top: 17px;
-  left: 17px;
-  transform-style: preserve-3d;
-}
-
-.ms-outer-cube {
-  animation: outerBreath 8s ease-in-out infinite alternate;
-}
-
-.ms-inner-cube {
-  animation: inner4DPulse 8s ease-in-out infinite alternate;
-}
-
-.ms-face {
-  position: absolute;
-  width: 86px;
-  height: 86px;
-  box-sizing: border-box;
-}
-
-/* Caras del Cubo Exterior (Cian Cuántico) */
-.ms-outer-cube .ms-face {
-  border: 2px solid #00F0FF;
-  background: rgba(0, 240, 255, 0.05);
-  box-shadow: inset 0 0 15px rgba(0, 240, 255, 0.25), 0 0 15px rgba(0, 240, 255, 0.4);
-}
-
-.ms-outer-cube .ms-f-front  { transform: translateZ(43px); }
-.ms-outer-cube .ms-f-back   { transform: rotateY(180deg) translateZ(43px); }
-.ms-outer-cube .ms-f-right  { transform: rotateY(90deg) translateZ(43px); }
-.ms-outer-cube .ms-f-left   { transform: rotateY(-90deg) translateZ(43px); }
-.ms-outer-cube .ms-f-top    { transform: rotateX(90deg) translateZ(43px); }
-.ms-outer-cube .ms-f-bottom { transform: rotateX(-90deg) translateZ(43px); }
-
-/* Caras del Cubo Interior (Violeta Multiversal) */
-.ms-inner-cube .ms-face {
-  border: 2px solid #A855F7;
-  background: rgba(168, 85, 247, 0.08);
-  box-shadow: inset 0 0 15px rgba(168, 85, 247, 0.35), 0 0 20px rgba(168, 85, 247, 0.55);
-}
-
-.ms-inner-cube .ms-f-front  { transform: translateZ(43px); }
-.ms-inner-cube .ms-f-back   { transform: rotateY(180deg) translateZ(43px); }
-.ms-inner-cube .ms-f-right  { transform: rotateY(90deg) translateZ(43px); }
-.ms-inner-cube .ms-f-left   { transform: rotateY(-90deg) translateZ(43px); }
-.ms-inner-cube .ms-f-top    { transform: rotateX(90deg) translateZ(43px); }
-.ms-inner-cube .ms-f-bottom { transform: rotateX(-90deg) translateZ(43px); }
-
-/* Núcleo de Singularidad */
-.ms-singularity-core {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 20px;
-  height: 20px;
-  margin: -10px 0 0 -10px;
-  border-radius: 50%;
-  background: radial-gradient(circle, #FFFFFF 0%, #00F0FF 40%, #A855F7 80%, transparent 100%);
-  box-shadow: 0 0 35px #00F0FF, 0 0 60px #A855F7;
-  animation: coreGlow 3s ease-in-out infinite alternate;
-}
-
-/* Animaciones de Rotación 4D e Inversión */
-@keyframes rotate4D {
-  0%   { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
-  50%  { transform: rotateX(180deg) rotateY(360deg) rotateZ(90deg); }
-  100% { transform: rotateX(360deg) rotateY(720deg) rotateZ(360deg); }
-}
-
-@keyframes inner4DPulse {
-  0%   { transform: scale3d(0.5, 0.5, 0.5) rotateX(0deg) rotateY(0deg); }
-  50%  { transform: scale3d(1.25, 1.25, 1.25) rotateX(-90deg) rotateY(-180deg); }
-  100% { transform: scale3d(0.5, 0.5, 0.5) rotateX(0deg) rotateY(0deg); }
-}
-
-@keyframes outerBreath {
-  0%   { transform: scale3d(1, 1, 1); }
-  50%  { transform: scale3d(0.85, 0.85, 0.85); }
-  100% { transform: scale3d(1, 1, 1); }
-}
-
-@keyframes spinRing1 {
-  0%   { transform: rotateX(65deg) rotateY(15deg) rotateZ(0deg); }
-  100% { transform: rotateX(65deg) rotateY(15deg) rotateZ(360deg); }
-}
-
-@keyframes spinRing2 {
-  0%   { transform: rotateX(25deg) rotateY(75deg) rotateZ(0deg); }
-  100% { transform: rotateX(25deg) rotateY(75deg) rotateZ(360deg); }
-}
-
-@keyframes spinRing3 {
-  0%   { transform: rotateX(80deg) rotateZ(45deg) rotate(0deg); }
-  100% { transform: rotateX(80deg) rotateZ(45deg) rotate(360deg); }
-}
-
-@keyframes coreGlow {
-  0%   { transform: scale(0.85); opacity: 0.7; box-shadow: 0 0 25px #00F0FF, 0 0 50px #A855F7; }
-  100% { transform: scale(1.35); opacity: 1; box-shadow: 0 0 50px #00F0FF, 0 0 90px #A855F7; }
-}
-
-/* Badge de Radar Cuántico */
-.ms-radar-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: rgba(0, 240, 255, 0.08);
-  border: 1px solid rgba(0, 240, 255, 0.35);
-  padding: 6px 18px;
-  border-radius: 9999px;
-  font-family: 'Orbitron', monospace;
-  font-size: 0.75rem;
-  letter-spacing: 0.15em;
-  color: #00F0FF;
-  text-transform: uppercase;
-  margin: 0 auto 16px;
-  box-shadow: 0 0 20px rgba(0, 240, 255, 0.2);
-}
-
-.ms-radar-dot {
-  width: 7px;
-  height: 7px;
-  background-color: #00F0FF;
-  border-radius: 50%;
-  box-shadow: 0 0 8px #00F0FF;
-}
-
-/* Titular Principal - Simetría Perfecta y Balance */
-.ms-hero-title {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: clamp(2rem, 4.2vw, 3.2rem);
-  font-weight: 700;
-  line-height: 1.15;
-  letter-spacing: -0.03em;
-  max-width: 880px;
-  margin: 0 auto 14px;
-  color: #FFFFFF;
-  text-align: center;
-}
-
-.ms-gradient-text {
-  background: linear-gradient(135deg, #00F0FF 0%, #A855F7 50%, #F59E0B 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline;
-}
-
-.ms-hero-desc {
-  font-size: 1.05rem;
-  line-height: 1.55;
-  color: #CBD5E1;
-  max-width: 700px;
-  margin: 0 auto 24px;
-  text-align: center;
-}
-
-/* Botones de Acción (Elegantes Píldoras Sci-Fi) */
-.ms-hero-actions {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  flex-wrap: wrap;
-  margin: 0 auto 34px;
-}
-
-.ms-btn-glow {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: linear-gradient(135deg, #00F0FF 0%, #3B82F6 50%, #8B5CF6 100%);
-  color: #04060E !important;
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 700;
-  font-size: 0.95rem;
-  padding: 12px 26px;
-  border-radius: 9999px;
-  box-shadow: 0 0 25px rgba(0, 240, 255, 0.45);
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-  cursor: pointer;
-  border: none;
-  text-decoration: none !important;
-}
-
-.ms-btn-glow:hover {
-  transform: translateY(-2px) scale(1.02);
-  box-shadow: 0 0 40px rgba(0, 240, 255, 0.7);
-  color: #000000 !important;
-}
-
-.ms-btn-hologram {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: rgba(15, 23, 42, 0.75);
+.ast-mobile-header-content .menu-item a,
+.ast-mobile-header-content .menu-link {
   color: #F8FAFC !important;
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 600;
-  font-size: 0.95rem;
-  padding: 12px 24px;
-  border-radius: 9999px;
-  border: 1px solid rgba(0, 240, 255, 0.35);
-  backdrop-filter: blur(12px);
-  transition: all 0.3s ease;
-  cursor: pointer;
+  font-family: 'Space Grotesk', sans-serif !important;
+  font-size: 1.12rem !important;
+  font-weight: 600 !important;
+  padding: 14px 8px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  text-decoration: none !important;
+  transition: all 0.2s ease !important;
+}
+
+.ast-mobile-header-content .menu-item a:hover,
+.ast-mobile-header-content .menu-link:hover,
+.ast-mobile-header-content .current-menu-item > a {
+  color: var(--ms-cyan-neon) !important;
+  text-shadow: 0 0 12px rgba(0, 240, 255, 0.6) !important;
+  padding-left: 14px !important;
+}
+
+.ast-mobile-header-content .dropdown-menu-toggle {
+  color: var(--ms-cyan-neon) !important;
+  fill: var(--ms-cyan-neon) !important;
+}
+
+.ast-mobile-header-content .sub-menu {
+  background: rgba(13, 20, 36, 0.95) !important;
+  border-left: 2px solid var(--ms-cyan-neon) !important;
+  margin: 6px 0 10px 14px !important;
+  padding: 4px 0 !important;
+  border-radius: 0 8px 8px 0;
+}
+
+.ast-mobile-header-content .sub-menu .menu-link {
+  font-size: 0.98rem !important;
+  color: var(--ms-text-muted) !important;
+  padding: 10px 14px !important;
+  border-bottom: none !important;
+}
+
+.ast-mobile-header-content .sub-menu .menu-link:hover {
+  color: var(--ms-cyan-neon) !important;
+}
+
+.menu-toggle, .ast-mobile-menu-trigger-minimal {
+  color: var(--ms-cyan-neon) !important;
+}
+
+.menu-toggle .ast-mobile-svg {
+  fill: var(--ms-cyan-neon) !important;
+}
+
+/* 4. Tipografía y Encabezados */
+h1, h2, h3, h4, h5, h6,
+.entry-title, .page-title, .ast-archive-title {
+  font-family: 'Space Grotesk', sans-serif !important;
+  color: #FFFFFF !important;
+  letter-spacing: -0.02em !important;
+}
+
+h1 a, h2 a, h3 a, h4 a, .entry-title a {
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease !important;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, .entry-title a:hover {
+  color: var(--ms-cyan-neon) !important;
+}
+
+p, li, span, .entry-content, .ast-excerpt-container {
+  color: #CBD5E1 !important;
+  line-height: 1.65 !important;
+}
+
+a {
+  color: var(--ms-cyan-neon) !important;
+  transition: all 0.2s ease !important;
+}
+
+a:hover {
+  color: #38BDF8 !important;
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.4) !important;
+}
+
+/* 5. Tarjetas de Artículos en Grids */
+.ast-article-post, 
+.ast-article-single, 
+.hentry, 
+.ast-article-inner {
+  background: var(--ms-bg-card) !important;
+  border: 1px solid var(--ms-border) !important;
+  border-radius: 18px !important;
+  backdrop-filter: blur(16px) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  overflow: hidden !important;
+}
+
+.ast-article-post:hover {
+  transform: translateY(-6px) !important;
+  border-color: var(--ms-border-glow) !important;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.7), 0 0 25px rgba(0, 240, 255, 0.15) !important;
+}
+
+.ast-blog-featured-section img,
+.post-thumb img {
+  border-radius: 14px !important;
+  transition: transform 0.5s ease !important;
+}
+
+.ast-article-post:hover .ast-blog-featured-section img,
+.ast-article-post:hover .post-thumb img {
+  transform: scale(1.05) !important;
+}
+
+.cat-links a, 
+.ms-pill-cat {
+  display: inline-block !important;
+  background: rgba(0, 240, 255, 0.1) !important;
+  border: 1px solid rgba(0, 240, 255, 0.3) !important;
+  color: var(--ms-cyan-neon) !important;
+  border-radius: 8px !important;
+  font-family: 'Orbitron', monospace !important;
+  font-size: 0.72rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  padding: 4px 12px !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  margin-bottom: 10px !important;
+}
+
+.entry-meta, .entry-meta * {
+  color: var(--ms-text-subtle) !important;
+  font-size: 0.85rem !important;
+}
+
+/* 6. Tabla de Contenidos y Componentes WordPress */
+#ez-toc-container {
+  background: rgba(15, 23, 42, 0.85) !important;
+  border: 1px solid var(--ms-border-glow) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6) !important;
+  padding: 20px !important;
+}
+
+#ez-toc-container .ez-toc-title {
+  color: var(--ms-cyan-neon) !important;
+  font-family: 'Space Grotesk', sans-serif !important;
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+}
+
+#ez-toc-container a {
+  color: #CBD5E1 !important;
   text-decoration: none !important;
 }
 
-.ms-btn-hologram:hover {
-  background: rgba(30, 41, 59, 0.95);
-  border-color: #A855F7;
-  color: #A855F7 !important;
-  box-shadow: 0 0 25px rgba(168, 85, 247, 0.35);
-  transform: translateY(-2px);
+#ez-toc-container a:hover {
+  color: var(--ms-cyan-neon) !important;
 }
 
-/* Métricas HUD del Hero */
-.ms-hud-panel {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-  background: rgba(11, 17, 32, 0.8);
-  border: 1px solid rgba(0, 240, 255, 0.2);
-  border-radius: 18px;
-  padding: 18px 24px;
-  backdrop-filter: blur(16px);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.ms-hud-stat strong {
-  display: block;
-  font-family: 'Orbitron', sans-serif;
-  font-size: 2.1rem;
-  font-weight: 800;
-  line-height: 1;
-  color: #00F0FF;
-  text-shadow: 0 0 20px rgba(0, 240, 255, 0.5);
-  margin-bottom: 6px;
-}
-
-.ms-hud-stat span {
-  font-size: 0.82rem;
-  color: #94A3B8;
-  font-weight: 500;
-}
-
-/* ============================================================
-   6. SECCIÓN LAS 4 DIMENSIONES (CON BANNERS CINEMATOGRÁFICOS)
-   ============================================================ */
-.ms-section {
-  padding: 90px 0;
-  position: relative;
-}
-
-.ms-section-header {
-  text-align: center;
-  max-width: 760px;
-  margin: 0 auto 54px;
-}
-
-.ms-category-tag {
-  font-family: 'Orbitron', monospace;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.18em;
-  color: #00F0FF;
-  text-transform: uppercase;
-  margin-bottom: 12px;
-  display: block;
-}
-
-.ms-section-title {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: clamp(1.8rem, 3.5vw, 2.7rem);
-  font-weight: 700;
-  color: #FFFFFF;
-  line-height: 1.15;
-  letter-spacing: -0.02em;
-}
-
-.ms-section-subtitle {
-  font-size: 1.05rem;
-  color: #94A3B8;
-  margin-top: 14px;
-}
-
-.ms-dimensions-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 28px;
-}
-
-.ms-dim-card {
-  position: relative;
-  background: rgba(13, 20, 36, 0.75);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 22px;
-  padding: 28px;
-  backdrop-filter: blur(16px);
-  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.ms-dim-card::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  opacity: 0.8;
-}
-
-.ms-dim-astro::before { background: linear-gradient(90deg, #38BDF8, #818CF8); }
-.ms-dim-bio::before { background: linear-gradient(90deg, #10B981, #34D399); }
-.ms-dim-tech::before { background: linear-gradient(90deg, #00F0FF, #A855F7); }
-.ms-dim-eco::before { background: linear-gradient(90deg, #F59E0B, #EF4444); }
-
-.ms-dim-card:hover {
-  transform: translateY(-6px);
-  border-color: rgba(0, 240, 255, 0.4);
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.75), 0 0 35px rgba(0, 240, 255, 0.18);
-}
-
-.ms-dim-banner {
+/* 7. Banner de Categoría Cinematográfico */
+.ms-cat-hero-banner {
   position: relative;
   width: 100%;
-  aspect-ratio: 16/9;
-  border-radius: 14px;
+  border-radius: 24px;
   overflow: hidden;
-  margin-bottom: 22px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  margin-bottom: 40px;
+  border: 1px solid rgba(0, 240, 255, 0.3);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.85), 0 0 30px rgba(0, 240, 255, 0.15);
+  background: #0B1120;
 }
 
-.ms-dim-banner img {
+.ms-cat-hero-img {
   width: 100%;
-  height: 100%;
+  height: 320px;
   object-fit: cover;
-  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  display: block;
+  filter: brightness(0.75) contrast(1.1);
 }
 
-.ms-dim-card:hover .ms-dim-banner img {
-  transform: scale(1.08);
-}
-
-.ms-dim-banner-overlay {
+.ms-cat-hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, transparent 40%, rgba(13, 20, 36, 0.95) 100%);
-  pointer-events: none;
-}
-
-.ms-dim-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 16px;
-}
-
-.ms-dim-icon { font-size: 2rem; line-height: 1; }
-
-.ms-dim-badge {
-  font-family: 'Orbitron', monospace;
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 6px 14px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  color: #E2E8F0;
-}
-
-.ms-dim-title {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #FFFFFF;
-  margin-bottom: 10px;
-}
-
-.ms-dim-desc {
-  font-size: 0.95rem;
-  color: #94A3B8;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-
-.ms-dim-links {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 20px;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  padding-top: 16px;
-}
-
-.ms-dim-links li { margin-bottom: 10px; }
-
-.ms-dim-links a {
-  font-size: 0.92rem;
-  color: #CBD5E1;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.ms-dim-links a:hover {
-  color: #00F0FF;
-  transform: translateX(4px);
-}
-
-.ms-dim-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 600;
-  font-size: 0.92rem;
-  color: #00F0FF !important;
-}
-
-.ms-dim-btn:hover {
-  gap: 12px;
-  text-shadow: 0 0 10px rgba(0, 240, 255, 0.6);
-}
-
-/* ============================================================
-   7. BANCO DE ESCENARIOS (GRID VISUAL)
-   ============================================================ */
-.ms-cards-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-}
-
-.ms-scenario-card {
-  background: rgba(13, 20, 36, 0.7);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 18px;
-  overflow: hidden;
-  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  background: linear-gradient(180deg, rgba(4, 6, 14, 0.2) 0%, rgba(4, 6, 14, 0.85) 75%, #04060E 100%);
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  padding: 36px 40px;
 }
 
-.ms-scenario-card:hover {
-  transform: translateY(-6px);
-  border-color: rgba(0, 240, 255, 0.4);
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6), 0 0 25px rgba(0, 240, 255, 0.2);
-}
-
-.ms-scenario-thumb {
-  position: relative;
-  aspect-ratio: 16/9;
-  overflow: hidden;
-}
-
-.ms-scenario-thumb img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.5s ease;
-}
-
-.ms-scenario-card:hover .ms-scenario-thumb img {
-  transform: scale(1.06);
-}
-
-.ms-pill-cat {
-  position: absolute;
-  top: 14px;
-  left: 14px;
-  background: rgba(4, 6, 14, 0.85);
-  backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  font-family: 'Orbitron', monospace;
-  font-size: 0.68rem;
-  font-weight: 700;
-  color: #00F0FF;
-  padding: 5px 12px;
-  border-radius: 8px;
-  text-transform: uppercase;
-}
-
-.ms-scenario-body {
-  padding: 24px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.ms-scenario-title {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 1.18rem;
-  font-weight: 700;
-  line-height: 1.35;
-  color: #FFFFFF;
-  margin-bottom: 14px;
-}
-
-.ms-scenario-card:hover .ms-scenario-title { color: #00F0FF; }
-
-.ms-scenario-var {
-  font-size: 0.82rem;
-  color: #94A3B8;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  padding-top: 14px;
-  margin-top: 14px;
-}
-
-.ms-scenario-var b { color: #E2E8F0; font-weight: 600; }
-
-/* ============================================================
-   8. DOSSIER INSIGNIA
-   ============================================================ */
-.ms-dossier-box {
-  background: linear-gradient(145deg, rgba(15, 23, 42, 0.85) 0%, rgba(8, 12, 22, 0.95) 100%);
-  border: 1px solid rgba(239, 68, 68, 0.35);
-  border-radius: 24px;
-  padding: 44px;
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8), 0 0 35px rgba(239, 68, 68, 0.12);
-  display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 40px;
-  align-items: center;
-}
-
-.ms-warning-tag {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: rgba(239, 68, 68, 0.15);
-  border: 1px solid rgba(239, 68, 68, 0.4);
-  color: #F87171;
-  font-family: 'Orbitron', monospace;
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  padding: 6px 14px;
-  border-radius: 8px;
-  text-transform: uppercase;
-  margin-bottom: 18px;
-}
-
-.ms-dossier-title {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: clamp(1.8rem, 3.2vw, 2.5rem);
-  font-weight: 700;
-  color: #FFFFFF;
-  line-height: 1.15;
-  margin-bottom: 16px;
-}
-
-.ms-timeline-preview {
-  margin: 24px 0 32px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
-}
-
-.ms-timeline-step {
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 10px;
-  padding: 12px;
-}
-
-.ms-timeline-step b {
-  display: block;
+.ms-cat-hero-tag {
   font-family: 'Orbitron', monospace;
   font-size: 0.8rem;
-  color: #F87171;
-  margin-bottom: 4px;
-}
-
-.ms-timeline-step span {
-  font-size: 0.78rem;
-  color: #94A3B8;
-  line-height: 1.3;
-  display: block;
-}
-
-/* ============================================================
-   9. MÉTODO CIENTÍFICO (E-E-A-T)
-   ============================================================ */
-.ms-method-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-  margin-bottom: 40px;
-}
-
-.ms-method-card {
-  background: rgba(11, 17, 32, 0.65);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 18px;
-  padding: 30px;
-  backdrop-filter: blur(14px);
-}
-
-.ms-method-num {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 2.2rem;
-  font-weight: 900;
-  color: #00F0FF;
-  line-height: 1;
-  margin-bottom: 14px;
-  text-shadow: 0 0 15px rgba(0, 240, 255, 0.4);
-}
-
-.ms-method-title {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 1.2rem;
   font-weight: 700;
-  color: #FFFFFF;
-  margin-bottom: 10px;
-}
-
-.ms-author-strip {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  background: rgba(15, 23, 42, 0.65);
-  border: 1px solid rgba(56, 189, 248, 0.2);
-  border-radius: 20px;
-  padding: 24px 32px;
-  max-width: 860px;
-  margin: 0 auto;
-}
-
-.ms-author-avatar {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  border: 2px solid #00F0FF;
-  box-shadow: 0 0 20px rgba(0, 240, 255, 0.4);
-  object-fit: cover;
-}
-
-.ms-author-info strong {
-  display: block;
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 1.2rem;
-  color: #FFFFFF;
-  margin-bottom: 4px;
-}
-
-.ms-author-info p {
-  font-size: 0.92rem;
-  color: #94A3B8;
-  line-height: 1.5;
-}
-
-/* ============================================================
-   10. FORMULARIO NEWSLETTER
-   ============================================================ */
-.ms-newsletter-card {
-  background: linear-gradient(135deg, rgba(11, 17, 32, 0.9) 0%, rgba(6, 9, 19, 0.95) 100%);
-  border: 1px solid rgba(0, 240, 255, 0.3);
-  border-radius: 24px;
-  padding: 50px;
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.7), 0 0 35px rgba(0, 240, 255, 0.15);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  align-items: center;
-}
-
-.ms-news-input-wrap {
-  display: flex;
-  gap: 12px;
-  background: rgba(4, 6, 14, 0.8);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 14px;
-  padding: 6px;
-  transition: border-color 0.3s ease;
-}
-
-.ms-news-input-wrap:focus-within {
-  border-color: #00F0FF;
-  box-shadow: 0 0 20px rgba(0, 240, 255, 0.25);
-}
-
-.ms-news-input {
-  flex: 1;
-  background: transparent;
-  border: none;
-  padding: 12px 18px;
-  font-family: 'Inter', sans-serif;
-  font-size: 1rem;
-  color: #FFFFFF;
-  outline: none;
-}
-
-/* ============================================================
-   11. NUEVO PIE DE PÁGINA NATIVO (100% SIMÉTRICO Y ELEGANTE)
-   ============================================================ */
-.ms-native-footer {
-  position: relative;
-  background: radial-gradient(ellipse at 50% 0%, rgba(0, 240, 255, 0.12) 0%, transparent 65%),
-              linear-gradient(180deg, #04060E 0%, #070B1A 50%, #020409 100%);
-  border-top: 1px solid rgba(0, 240, 255, 0.25);
-  box-shadow: 0 -15px 40px rgba(0, 0, 0, 0.85), 0 -1px 20px rgba(0, 240, 255, 0.15);
-  padding: 50px 0 35px;
-  text-align: center;
-  margin-top: 40px;
-}
-
-.ms-footer-brand {
-  margin-bottom: 28px;
-}
-
-.ms-footer-brand-title {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  color: #FFFFFF;
-  display: block;
+  color: var(--ms-cyan-neon);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
   margin-bottom: 8px;
 }
 
-.ms-footer-brand-desc {
-  font-size: 0.95rem;
-  color: #94A3B8;
-  max-width: 600px;
-  margin: 0 auto;
+.ms-cat-hero-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(2rem, 3.8vw, 3rem);
+  font-weight: 800;
+  color: #FFFFFF;
+  line-height: 1.15;
+  margin-bottom: 10px;
 }
 
-/* ENLACES EN UNA SOLA LÍNEA HORIZONTAL SIN CORTES EXTRAÑOS */
-.ms-footer-links-row {
+.ms-cat-hero-desc {
+  font-size: 1.05rem;
+  color: #CBD5E1;
+  max-width: 720px;
+  line-height: 1.55;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .ms-cat-hero-img {
+    height: 240px;
+  }
+  .ms-cat-hero-overlay {
+    padding: 24px 20px;
+  }
+}
+
+/* 8. Filtros Interactivos para Blog y Escenarios */
+.ms-filter-bar {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 30px 0 40px;
   align-items: center;
-  flex-wrap: nowrap;
-  gap: 22px;
-  margin: 30px auto;
-  max-width: 850px;
 }
 
-.ms-footer-links-row a {
-  color: #E2E8F0;
+.ms-filter-btn {
+  background: rgba(15, 23, 42, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #CBD5E1;
   font-family: 'Space Grotesk', sans-serif;
   font-size: 0.92rem;
   font-weight: 600;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  white-space: nowrap;
+  padding: 8px 18px;
+  border-radius: 9999px;
+  cursor: pointer;
   transition: all 0.25s ease;
+  text-decoration: none !important;
 }
 
-.ms-footer-links-row a:hover {
-  color: #00F0FF;
-  text-shadow: 0 0 15px rgba(0, 240, 255, 0.8);
+.ms-filter-btn:hover,
+.ms-filter-btn.active {
+  background: linear-gradient(135deg, rgba(0, 240, 255, 0.2) 0%, rgba(168, 85, 247, 0.2) 100%);
+  border-color: var(--ms-cyan-neon);
+  color: #FFFFFF;
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.3);
 }
 
-.ms-footer-dot {
-  color: rgba(0, 240, 255, 0.5);
-  font-size: 1.3rem;
-  font-weight: 700;
-  line-height: 1;
-  pointer-events: none;
-  user-select: none;
+.ms-search-input-wrap {
+  flex: 1;
+  min-width: 240px;
+  position: relative;
 }
 
-.ms-footer-sep {
+.ms-search-input {
   width: 100%;
-  max-width: 900px;
-  height: 1px;
-  background: rgba(255, 255, 255, 0.07);
-  margin: 28px auto 24px;
+  background: rgba(11, 17, 32, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+  padding: 10px 20px 10px 42px;
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.25s ease;
 }
 
-.ms-footer-copyright {
-  color: #64748B;
-  font-size: 0.88rem;
+.ms-search-input:focus {
+  border-color: var(--ms-cyan-neon);
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.3);
 }
 
-.ms-footer-copyright a {
+.ms-search-icon-pos {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--ms-cyan-neon);
+  pointer-events: none;
+}
+
+/* 9. Nube de Etiquetas / Organigrama */
+.ms-tag-cloud-box {
+  background: rgba(13, 20, 36, 0.6);
+  border: 1px solid var(--ms-border);
+  border-radius: 18px;
+  padding: 24px 28px;
+  margin-bottom: 40px;
+}
+
+.ms-tag-cloud-title {
+  font-family: 'Orbitron', monospace;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--ms-cyan-neon);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.ms-tag-cloud-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.ms-tag-pill {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   color: #94A3B8;
-  text-decoration: none;
-  transition: color 0.2s ease;
+  font-size: 0.85rem;
+  padding: 6px 14px;
+  border-radius: 8px;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
 }
 
-.ms-footer-copyright a:hover {
-  color: #00F0FF;
+.ms-tag-pill:hover {
+  background: rgba(0, 240, 255, 0.12);
+  border-color: var(--ms-cyan-neon);
+  color: var(--ms-cyan-neon);
+  transform: translateY(-2px);
 }
 
-/* ============================================================
-   RESPONSIVE
-   ============================================================ */
-@media (max-width: 960px) {
-  .ms-hud-panel { grid-template-columns: repeat(2, 1fr); gap: 18px; }
-  .ms-dimensions-grid { grid-template-columns: 1fr; }
-  .ms-cards-grid { grid-template-columns: 1fr; }
-  .ms-dossier-box { grid-template-columns: 1fr; }
-  .ms-method-grid { grid-template-columns: 1fr; }
-  .ms-newsletter-card { grid-template-columns: 1fr; padding: 32px 24px; }
-  .ms-author-strip { flex-direction: column; text-align: center; }
-  .ms-news-input-wrap { flex-direction: column; background: transparent; border: none; padding: 0; }
-  .ms-news-input { background: rgba(4, 6, 14, 0.8); border: 1px solid rgba(255,255,255,0.15); border-radius: 12px; margin-bottom: 10px; }
-}
 
-@media (max-width: 780px) {
-  .ms-footer-links-row {
-    flex-wrap: wrap;
-    gap: 14px;
-  }
-  .ms-footer-dot {
-    display: none;
-  }
-}
+/* Fix sidebar widgets and pagination button */
+.widget-area .widget { background-color: rgba(4, 6, 14, 0.8) !important; border: 1px solid rgba(0, 240, 255, 0.15) !important; border-radius: 12px; color: #cbd5e1; }
+.widget-area .widget-title { color: #fff !important; border-bottom: 1px solid rgba(0, 240, 255, 0.2); padding-bottom: 10px; margin-bottom: 15px; }
+.widget-area .widget ul li a { color: #94a3b8 !important; text-decoration: none; }
+.widget-area .widget ul li a:hover { color: #00F0FF !important; }
+.ms-pagination-redirect a { color: #04060E !important; text-shadow: none !important; }
+.ms-pagination-redirect a:hover { color: #fff !important; box-shadow: 0 0 25px rgba(121, 40, 202, 0.6) !important; }
