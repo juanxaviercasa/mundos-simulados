@@ -7,6 +7,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@500;600;700;800;900&family=Space+Grotesk:wght@500;600;700;800&display=swap');
 
 :root {
+  /* Override Astra CSS variables for global dark theme */
+  --ast-global-color-0: #00F0FF !important;
+  --ast-global-color-1: #38BDF8 !important;
+  --ast-global-color-2: #FFFFFF !important;
+  --ast-global-color-3: #94A3B8 !important;
+  --ast-global-color-4: rgba(13, 20, 36, 0.85) !important;
+  --ast-global-color-5: rgba(13, 20, 36, 0.85) !important;
+  --ast-global-color-6: #04060E !important;
+  --ast-global-color-7: #080C16 !important;
+  --ast-global-color-8: #0F172A !important;
+
   --ms-bg-deep: #04060E;
   --ms-bg-card: rgba(13, 20, 36, 0.75);
   --ms-bg-card-hover: rgba(18, 28, 50, 0.9);
@@ -449,3 +460,179 @@ a:hover {
 .widget-area .widget ul li a:hover { color: #00F0FF !important; }
 .ms-pagination-redirect a { color: #04060E !important; text-shadow: none !important; }
 .ms-pagination-redirect a:hover { color: #fff !important; box-shadow: 0 0 25px rgba(121, 40, 202, 0.6) !important; }
+
+
+/* Ultra-specific Dark Card Rules for Category & Archive Grids */
+.ast-separate-container .ast-article-post,
+.ast-separate-container .ast-article-inner,
+.ast-article-post .ast-article-inner,
+.ast-article-post,
+.ast-article-inner,
+.hentry,
+.post-content.ast-grid-common-col,
+.ast-plain-container .ast-article-post,
+.ast-plain-container .ast-article-inner {
+  background: rgba(13, 20, 36, 0.85) !important;
+  background-color: rgba(13, 20, 36, 0.85) !important;
+  border: 1px solid rgba(0, 240, 255, 0.18) !important;
+  border-radius: 20px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7) !important;
+  overflow: hidden !important;
+}
+
+.ast-separate-container .ast-article-inner {
+  padding: 0 0 24px 0 !important;
+}
+
+.ast-article-post .post-content {
+  padding: 20px 24px !important;
+  background: transparent !important;
+}
+
+.ast-article-post .ast-blog-featured-section {
+  margin-bottom: 16px !important;
+}
+
+.ast-article-post .ast-blog-featured-section img,
+.ast-article-post .post-thumb img {
+  border-radius: 18px 18px 0 0 !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  transition: transform 0.4s ease !important;
+}
+
+.ast-article-post:hover .ast-blog-featured-section img,
+.ast-article-post:hover .post-thumb img {
+  transform: scale(1.04) !important;
+}
+
+.ast-article-post:hover {
+  transform: translateY(-6px) !important;
+  border-color: rgba(0, 240, 255, 0.5) !important;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.85), 0 0 25px rgba(0, 240, 255, 0.25) !important;
+}
+
+.cat-links a,
+.ast-taxonomy-container.cat-links a,
+.ms-pill-cat {
+  display: inline-block !important;
+  background: rgba(0, 240, 255, 0.12) !important;
+  border: 1px solid rgba(0, 240, 255, 0.35) !important;
+  color: #00F0FF !important;
+  border-radius: 8px !important;
+  font-family: 'Orbitron', monospace !important;
+  font-size: 0.72rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+  padding: 5px 12px !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  margin-bottom: 12px !important;
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.15) !important;
+}
+
+.ast-article-post .entry-title,
+.ast-article-post .entry-title a,
+.ast-article-inner .entry-title,
+.ast-article-inner .entry-title a {
+  font-family: 'Space Grotesk', sans-serif !important;
+  font-size: 1.22rem !important;
+  font-weight: 700 !important;
+  color: #FFFFFF !important;
+  line-height: 1.35 !important;
+  margin: 8px 0 12px !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease, text-shadow 0.2s ease !important;
+}
+
+.ast-article-post .entry-title a:hover,
+.ast-article-inner .entry-title a:hover {
+  color: #00F0FF !important;
+  text-shadow: 0 0 12px rgba(0, 240, 255, 0.5) !important;
+}
+
+.ast-article-post .entry-meta,
+.ast-article-post .entry-meta *,
+.ast-article-inner .entry-meta,
+.ast-article-inner .entry-meta * {
+  color: #64748B !important;
+  font-size: 0.82rem !important;
+  font-weight: 500 !important;
+}
+
+.ast-article-post .entry-meta a:hover {
+  color: #00F0FF !important;
+}
+
+.ast-article-post .entry-content,
+.ast-article-post .entry-content p,
+.ast-article-post .ast-excerpt-container,
+.ast-article-post .ast-excerpt-container p {
+  color: #94A3B8 !important;
+  font-size: 0.92rem !important;
+  line-height: 1.6 !important;
+  margin-top: 8px !important;
+}
+
+/* Single Post Layout */
+.ast-single-post .ast-article-single,
+.single .ast-article-single,
+.single-post #primary,
+.ast-separate-container .ast-article-single {
+  background: rgba(13, 20, 36, 0.85) !important;
+  background-color: rgba(13, 20, 36, 0.85) !important;
+  border: 1px solid rgba(0, 240, 255, 0.2) !important;
+  border-radius: 24px !important;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8) !important;
+  padding: 40px !important;
+}
+
+.ast-single-post .entry-title {
+  font-size: clamp(2rem, 4vw, 3rem) !important;
+  font-weight: 800 !important;
+  color: #FFFFFF !important;
+  line-height: 1.2 !important;
+  margin-bottom: 20px !important;
+}
+
+.ast-single-post .entry-content {
+  font-size: 1.1rem !important;
+  line-height: 1.8 !important;
+  color: #CBD5E1 !important;
+}
+
+.ast-single-post .entry-content h2,
+.ast-single-post .entry-content h3 {
+  color: #FFFFFF !important;
+  border-bottom: 1px solid rgba(0, 240, 255, 0.2) !important;
+  padding-bottom: 8px !important;
+  margin-top: 35px !important;
+}
+
+.ast-single-post .entry-content strong,
+.ast-single-post .entry-content b {
+  color: #FFFFFF !important;
+}
+
+.ast-single-post .entry-content blockquote {
+  border-left: 3px solid #00F0FF !important;
+  background: rgba(0, 240, 255, 0.06) !important;
+  padding: 16px 24px !important;
+  border-radius: 0 12px 12px 0 !important;
+  color: #E2E8F0 !important;
+}
+
+/* Logo Image Styling */
+.site-logo-img, .site-branding {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.site-logo-img img,
+.custom-logo-link img,
+img.custom-logo {
+  max-height: 54px !important;
+  width: auto !important;
+  object-fit: contain !important;
+  display: block !important;
+}
