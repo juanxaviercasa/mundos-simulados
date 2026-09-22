@@ -204,20 +204,40 @@ html, body {
   display: block !important;
 }
 .ast-separate-container .ast-article-post,
+.ast-article-post,
+.hentry,
+.ast-plain-container .ast-article-post {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
 .ast-separate-container .ast-article-inner,
 .ast-article-post .ast-article-inner,
-.ast-article-post,
-.ast-article-inner,
-.hentry,
-.post-content.ast-grid-common-col,
-.ast-plain-container .ast-article-post,
 .ast-plain-container .ast-article-inner {
   background: rgba(13, 20, 36, 0.85) !important;
   background-color: rgba(13, 20, 36, 0.85) !important;
-  border: 1px solid rgba(0, 240, 255, 0.18) !important;
+  border: 1px solid rgba(0, 240, 255, 0.22) !important;
   border-radius: 20px !important;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7) !important;
   overflow: hidden !important;
+  padding: 0 0 24px 0 !important;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.ast-article-post:hover .ast-article-inner {
+  transform: translateY(-6px) !important;
+  border-color: rgba(0, 240, 255, 0.6) !important;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.85), 0 0 25px rgba(0, 240, 255, 0.25) !important;
+}
+
+.ast-article-post .post-content,
+.post-content.ast-grid-common-col {
+  padding: 20px 24px !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
 }
 .ast-separate-container .ast-article-inner {
   padding: 0 0 24px 0 !important;
@@ -340,16 +360,16 @@ html, body {
 <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
 </svg></span></button>
 <ul class="sub-menu">
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1821" id="menu-item-1821"><a class="menu-link" href="../category/astrofisica/"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" enable-background="new 57 35.171 26 16.043" height="16.043px" version="1.1" viewbox="57 35.171 26 16.043" width="26px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1821" id="menu-item-1821"><a class="menu-link" href="../astrofisica/"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" enable-background="new 57 35.171 26 16.043" height="16.043px" version="1.1" viewbox="57 35.171 26 16.043" width="26px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
 <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
 </svg></span>Astrofísica y Planetas</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1822" id="menu-item-1822"><a class="menu-link" href="../category/biosfera/"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" enable-background="new 57 35.171 26 16.043" height="16.043px" version="1.1" viewbox="57 35.171 26 16.043" width="26px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1822" id="menu-item-1822"><a class="menu-link" href="../biosfera/"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" enable-background="new 57 35.171 26 16.043" height="16.043px" version="1.1" viewbox="57 35.171 26 16.043" width="26px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
 <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
 </svg></span>Biosfera y Evolución</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1823" id="menu-item-1823"><a class="menu-link" href="../category/tecnologia/"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" enable-background="new 57 35.171 26 16.043" height="16.043px" version="1.1" viewbox="57 35.171 26 16.043" width="26px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1823" id="menu-item-1823"><a class="menu-link" href="../tecnologia/"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" enable-background="new 57 35.171 26 16.043" height="16.043px" version="1.1" viewbox="57 35.171 26 16.043" width="26px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
 <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
 </svg></span>Simulaciones Tecnológicas</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1824" id="menu-item-1824"><a class="menu-link" href="../category/economia/"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" enable-background="new 57 35.171 26 16.043" height="16.043px" version="1.1" viewbox="57 35.171 26 16.043" width="26px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1824" id="menu-item-1824"><a class="menu-link" href="../economia/"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" enable-background="new 57 35.171 26 16.043" height="16.043px" version="1.1" viewbox="57 35.171 26 16.043" width="26px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
 <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
 </svg></span>Realidades Económicas</a></li>
 </ul>
@@ -397,16 +417,16 @@ html, body {
 <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
 </svg></span></button>
 <ul class="sub-menu">
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1821"><a class="menu-link" href="../category/astrofisica/"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" enable-background="new 57 35.171 26 16.043" height="16.043px" version="1.1" viewbox="57 35.171 26 16.043" width="26px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1821"><a class="menu-link" href="../astrofisica/"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" enable-background="new 57 35.171 26 16.043" height="16.043px" version="1.1" viewbox="57 35.171 26 16.043" width="26px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
 <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
 </svg></span>Astrofísica y Planetas</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1822"><a class="menu-link" href="../category/biosfera/"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" enable-background="new 57 35.171 26 16.043" height="16.043px" version="1.1" viewbox="57 35.171 26 16.043" width="26px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1822"><a class="menu-link" href="../biosfera/"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" enable-background="new 57 35.171 26 16.043" height="16.043px" version="1.1" viewbox="57 35.171 26 16.043" width="26px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
 <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
 </svg></span>Biosfera y Evolución</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1823"><a class="menu-link" href="../category/tecnologia/"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" enable-background="new 57 35.171 26 16.043" height="16.043px" version="1.1" viewbox="57 35.171 26 16.043" width="26px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1823"><a class="menu-link" href="../tecnologia/"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" enable-background="new 57 35.171 26 16.043" height="16.043px" version="1.1" viewbox="57 35.171 26 16.043" width="26px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
 <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
 </svg></span>Simulaciones Tecnológicas</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1824"><a class="menu-link" href="../category/economia/"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" enable-background="new 57 35.171 26 16.043" height="16.043px" version="1.1" viewbox="57 35.171 26 16.043" width="26px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1824"><a class="menu-link" href="../economia/"><span class="ast-icon icon-arrow"><svg class="ast-arrow-svg" enable-background="new 57 35.171 26 16.043" height="16.043px" version="1.1" viewbox="57 35.171 26 16.043" width="26px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
 <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
 </svg></span>Realidades Económicas</a></li>
 </ul>
@@ -447,7 +467,7 @@ html, body {
     </h2>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px;">
 <!-- Dim 1: Astrofísica -->
-<a class="ms-dim-card-item" href="../category/astrofisica/" style="text-decoration: none;">
+<a class="ms-dim-card-item" href="../astrofisica/" style="text-decoration: none;">
 <div style="background: rgba(13, 20, 36, 0.8); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 20px; overflow: hidden; transition: all 0.3s ease;">
 <img alt="Astrofísica" src="../wp-content/uploads/2026/09/dim-astrofisica-banner-1.webp" style="width: 100%; height: 150px; object-fit: cover;"/>
 <div style="padding: 20px;">
@@ -458,7 +478,7 @@ html, body {
 </div>
 </a>
 <!-- Dim 2: Biosfera -->
-<a class="ms-dim-card-item" href="../category/biosfera/" style="text-decoration: none;">
+<a class="ms-dim-card-item" href="../biosfera/" style="text-decoration: none;">
 <div style="background: rgba(13, 20, 36, 0.8); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 20px; overflow: hidden; transition: all 0.3s ease;">
 <img alt="Biosfera" src="../wp-content/uploads/2026/09/dim-biosfera-banner-1.webp" style="width: 100%; height: 150px; object-fit: cover;"/>
 <div style="padding: 20px;">
@@ -469,7 +489,7 @@ html, body {
 </div>
 </a>
 <!-- Dim 3: Tecnología -->
-<a class="ms-dim-card-item" href="../category/tecnologia/" style="text-decoration: none;">
+<a class="ms-dim-card-item" href="../tecnologia/" style="text-decoration: none;">
 <div style="background: rgba(13, 20, 36, 0.8); border: 1px solid rgba(0, 240, 255, 0.3); border-radius: 20px; overflow: hidden; transition: all 0.3s ease;">
 <img alt="Tecnología" src="../wp-content/uploads/2026/09/dim-tecnologia-banner-1.webp" style="width: 100%; height: 150px; object-fit: cover;"/>
 <div style="padding: 20px;">
@@ -480,7 +500,7 @@ html, body {
 </div>
 </a>
 <!-- Dim 4: Economía -->
-<a class="ms-dim-card-item" href="../category/economia/" style="text-decoration: none;">
+<a class="ms-dim-card-item" href="../economia/" style="text-decoration: none;">
 <div style="background: rgba(13, 20, 36, 0.8); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 20px; overflow: hidden; transition: all 0.3s ease;">
 <img alt="Economía" src="../wp-content/uploads/2026/09/dim-economia-banner-1.webp" style="width: 100%; height: 150px; object-fit: cover;"/>
 <div style="padding: 20px;">

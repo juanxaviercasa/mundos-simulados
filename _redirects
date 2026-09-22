@@ -7,4 +7,16 @@
 /xmlrpc.php      /    404
 
 # Fallback 404 personalizado
+# ==========================================
+# 301 Redirects para Slugs Directos de Categorías
+# ==========================================
+/category/astrofisica/*    /astrofisica/:splat    301
+/category/astrofisica      /astrofisica/          301
+/category/biosfera/*       /biosfera/:splat       301
+/category/biosfera         /biosfera/             301
+/category/tecnologia/*     /tecnologia/:splat     301
+/category/tecnologia       /tecnologia/           301
+/category/economia/*       /economia/:splat       301
+/category/economia         /economia/             301
+
 /*    /404.html    404

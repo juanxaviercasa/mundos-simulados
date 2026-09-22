@@ -56,20 +56,40 @@ html, body {
   display: block !important;
 }
 .ast-separate-container .ast-article-post,
+.ast-article-post,
+.hentry,
+.ast-plain-container .ast-article-post {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
 .ast-separate-container .ast-article-inner,
 .ast-article-post .ast-article-inner,
-.ast-article-post,
-.ast-article-inner,
-.hentry,
-.post-content.ast-grid-common-col,
-.ast-plain-container .ast-article-post,
 .ast-plain-container .ast-article-inner {
   background: rgba(13, 20, 36, 0.85) !important;
   background-color: rgba(13, 20, 36, 0.85) !important;
-  border: 1px solid rgba(0, 240, 255, 0.18) !important;
+  border: 1px solid rgba(0, 240, 255, 0.22) !important;
   border-radius: 20px !important;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7) !important;
   overflow: hidden !important;
+  padding: 0 0 24px 0 !important;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.ast-article-post:hover .ast-article-inner {
+  transform: translateY(-6px) !important;
+  border-color: rgba(0, 240, 255, 0.6) !important;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.85), 0 0 25px rgba(0, 240, 255, 0.25) !important;
+}
+
+.ast-article-post .post-content,
+.post-content.ast-grid-common-col {
+  padding: 20px 24px !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
 }
 .ast-separate-container .ast-article-inner {
   padding: 0 0 24px 0 !important;
@@ -229,10 +249,10 @@ html, body {
                       <li class="menu-item"><a href="../escenarios/" class="menu-link">Escenarios</a></li>
                       <li class="menu-item menu-item-has-children"><a href="#" class="menu-link">Categorías</a>
                         <ul class="sub-menu">
-                          <li class="menu-item"><a href="../category/astrofisica/" class="menu-link">Astrofísica y Planetas</a></li>
-                          <li class="menu-item"><a href="../category/biosfera/" class="menu-link">Biosfera y Evolución</a></li>
-                          <li class="menu-item"><a href="../category/tecnologia/" class="menu-link">Simulaciones Tecnológicas</a></li>
-                          <li class="menu-item"><a href="../category/economia/" class="menu-link">Realidades Económicas</a></li>
+                          <li class="menu-item"><a href="../astrofisica/" class="menu-link">Astrofísica y Planetas</a></li>
+                          <li class="menu-item"><a href="../biosfera/" class="menu-link">Biosfera y Evolución</a></li>
+                          <li class="menu-item"><a href="../tecnologia/" class="menu-link">Simulaciones Tecnológicas</a></li>
+                          <li class="menu-item"><a href="../economia/" class="menu-link">Realidades Económicas</a></li>
                         </ul>
                       </li>
                       <li class="menu-item"><a href="../blog/" class="menu-link">Blog</a></li>
