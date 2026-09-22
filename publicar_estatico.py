@@ -85,7 +85,25 @@ def publicar_posts():
             new_content = BeautifulSoup(cuerpo_html, 'html.parser')
             content_div.append(new_content)
             
-        # Guardar archivo esttico
+        # Actualizar Imagen Destacada desde articulos/{slug}.md
+        art_path = os.path.join("articulos", f"{slug}.md")
+        if os.path.exists(art_path):
+            try:
+                art_meta = frontmatter.load(art_path)
+                real_img = art_meta.get('imagen_destacada')
+                real_alt = art_meta.get('alt_destacada', title)
+                if real_img:
+                    for img_tag in soup.find_all('img'):
+                        if 'piel-camaleonica-camuflaje' in img_tag.get('src', ''):
+                            img_tag['src'] = f"../wp-content/uploads/2026/08/{real_img}"
+                            img_tag['alt'] = real_alt
+                    for og in soup.find_all('meta', property=['og:image', 'twitter:image']):
+                        if 'piel-camaleonica-camuflaje' in og.get('content', ''):
+                            og['content'] = f"../wp-content/uploads/2026/08/{real_img}"
+            except Exception as e:
+                print(f"Aviso al procesar imagen para {slug}: {e}")
+
+        # Guardar archivo estático
         post_dir = os.path.join(EXPORT_DIR, slug)
         os.makedirs(post_dir, exist_ok=True)
         
@@ -128,7 +146,14 @@ def publicar_posts():
             json.dump(search_db, f, indent=2, ensure_ascii=False)
         print("search-index.json actualizado.")
         
-    print(f"\n--- Resumen: {exitosos}/{len(archivos_a_procesar)} procesados con xito ---")
+        # Sincronización automática de métricas, contadores y catálogo
+        try:
+            from sincronizar_metricas import sincronizar_todo
+            sincronizar_todo()
+        except Exception as e:
+            print(f"Error al sincronizar métricas: {e}")
+        
+    print(f"\n--- Resumen: {exitosos}/{len(archivos_a_procesar)} procesados con éxito ---")
 
 if __name__ == "__main__":
     publicar_posts()
