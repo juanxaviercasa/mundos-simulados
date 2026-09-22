@@ -57,6 +57,47 @@
 <style id="wp-img-auto-sizes-contain-inline-css">
 img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 /*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+
+/* Footer Sci-Fi Reset - Sin barras blancas, menu horizontal limpio */
+.site-footer,
+.site-primary-footer-wrap,
+.site-below-footer-wrap,
+.ast-footer-row-stack,
+.site-footer-primary-section-2,
+.site-footer .widget-area {
+  background: #04060E !important;
+  background-color: #04060E !important;
+  color: #94A3B8 !important;
+  border-color: rgba(0, 240, 255, 0.2) !important;
+}
+#astra-footer-menu {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 20px !important;
+  list-style: none !important;
+  padding: 15px 0 !important;
+  margin: 0 !important;
+}
+#astra-footer-menu li {
+  display: inline-block !important;
+  margin: 0 !important;
+}
+#astra-footer-menu a,
+#astra-footer-menu .menu-link {
+  color: #E2E8F0 !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  font-size: 0.95rem !important;
+}
+#astra-footer-menu a:hover,
+#astra-footer-menu .menu-link:hover {
+  color: #00F0FF !important;
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5) !important;
+}
+
 </style>
 <link rel='stylesheet' id='astra-theme-css-css' href='../wp-content/themes/astra/assets/css/minified/main.min.css?ver=4.13.9' media='all' />
 <style id="astra-theme-css-inline-css">
@@ -683,41 +724,30 @@ class="post-939 post type-post status-publish format-standard has-post-thumbnail
 
 	</div> <!-- ast-container -->
 	</div><!-- #content -->
-<footer
-class="site-footer" id="colophon" itemtype="https://schema.org/WPFooter" itemscope="itemscope" itemid="#colophon">
-			<div class="site-primary-footer-wrap ast-builder-grid-row-container site-footer-focus-item ast-builder-grid-row-3-equal ast-builder-grid-row-tablet-3-equal ast-builder-grid-row-mobile-full ast-footer-row-stack ast-footer-row-tablet-stack ast-footer-row-mobile-stack" data-section="section-primary-footer-builder">
-	<div class="ast-builder-grid-row-container-inner">
-					<div class="ast-builder-footer-grid-columns site-primary-footer-inner-wrap ast-builder-grid-row">
-											<div class="site-footer-primary-section-1 site-footer-section site-footer-section-1">
-									</div>
-											<div class="site-footer-primary-section-2 site-footer-section site-footer-section-2">
-								<div class="footer-widget-area widget-area site-footer-focus-item" data-section="section-footer-menu">
-				<div class="footer-bar-navigation"><nav class="site-navigation ast-flex-grow-1 navigation-accessibility footer-navigation" id="footer-site-navigation" aria-label="Navegación del sitio: Enlaces del sitio" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope"><div class="footer-nav-wrap"><ul id="astra-footer-menu" class="ast-nav-menu ast-flex astra-footer-horizontal-menu astra-footer-tablet-vertical-menu astra-footer-mobile-vertical-menu"><li id="menu-item-1835" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1835"><a href="../" class="menu-link">Inicio</a></li>
-<li id="menu-item-1836" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1836"><a href="../escenarios/" class="menu-link">Escenarios</a></li>
-<li id="menu-item-1837" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1837"><a href="../sobre-mi/" class="menu-link">Sobre mí</a></li>
-<li id="menu-item-1838" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1838"><a href="../politica-de-privacidad/" class="menu-link">Política de Privacidad</a></li>
-<li id="menu-item-1839" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1839"><a href="../terminos-y-condiciones/" class="menu-link">Términos y Condiciones</a></li>
-</ul></div></nav></div>			</div>
-							</div>
-											<div class="site-footer-primary-section-3 site-footer-section site-footer-section-3">
-									</div>
-										</div>
-			</div>
-
-</div>
-<div class="site-below-footer-wrap ast-builder-grid-row-container site-footer-focus-item ast-builder-grid-row-full ast-builder-grid-row-tablet-full ast-builder-grid-row-mobile-full ast-footer-row-stack ast-footer-row-tablet-stack ast-footer-row-mobile-stack" data-section="section-below-footer-builder">
-	<div class="ast-builder-grid-row-container-inner">
-					<div class="ast-builder-footer-grid-columns site-below-footer-inner-wrap ast-builder-grid-row">
-											<div class="site-footer-below-section-1 site-footer-section site-footer-section-1">
-								<div class="ast-builder-layout-element ast-flex site-footer-focus-item ast-footer-copyright" data-section="section-footer-builder">
-				<div class="ast-footer-copyright"><p>Todos los derechos &copy; 2026 Mundos Simulados | Desarrollado por <a title="Sitio Web de Xavier Cabello" href="http://juan.cabellosalirrosas.com" target="_blank" rel="noopener">Xavier Cabello</a></p>
-</div>			</div>
-						</div>
-										</div>
-			</div>
-
-</div>
-	</footer><!-- #colophon -->
+<footer class="ms-native-footer" style="background: radial-gradient(ellipse at 50% 0%, rgba(0, 240, 255, 0.12) 0%, transparent 65%), linear-gradient(180deg, #04060E 0%, #070B1A 50%, #020409 100%); border-top: 1px solid rgba(0, 240, 255, 0.25); padding: 50px 0 35px; text-align: center; margin-top: 60px;">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+    <div style="margin-bottom: 24px;">
+      <span style="font-family: 'Space Grotesk', sans-serif; font-size: 1.6rem; font-weight: 800; color: #FFFFFF;">MUNDOS <span style="background: linear-gradient(135deg, #00F0FF, #A855F7); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">SIMULADOS</span></span>
+      <p style="font-size: 0.95rem; color: #94A3B8; max-width: 600px; margin: 8px auto 0;">Portal de divulgación científica, astrofísica extrema y modelos matemáticos de realidades alternas.</p>
+    </div>
+    <nav style="display: flex; justify-content: center; align-items: center; gap: 18px; flex-wrap: wrap; margin: 24px 0;">
+      <a href="../" style="color: #E2E8F0; text-decoration: none; font-weight: 500; font-size: 0.95rem; transition: color 0.2s;">Inicio</a>
+      <span style="color: rgba(0,240,255,0.4); user-select: none;">·</span>
+      <a href="../escenarios/" style="color: #E2E8F0; text-decoration: none; font-weight: 500; font-size: 0.95rem; transition: color 0.2s;">Escenarios</a>
+      <span style="color: rgba(0,240,255,0.4); user-select: none;">·</span>
+      <a href="../sobre-mi/" style="color: #E2E8F0; text-decoration: none; font-weight: 500; font-size: 0.95rem; transition: color 0.2s;">Sobre mí</a>
+      <span style="color: rgba(0,240,255,0.4); user-select: none;">·</span>
+      <a href="../politica-de-privacidad/" style="color: #E2E8F0; text-decoration: none; font-weight: 500; font-size: 0.95rem; transition: color 0.2s;">Política de Privacidad</a>
+      <span style="color: rgba(0,240,255,0.4); user-select: none;">·</span>
+      <a href="../terminos-y-condiciones/" style="color: #E2E8F0; text-decoration: none; font-weight: 500; font-size: 0.95rem; transition: color 0.2s;">Términos y Condiciones</a>
+    </nav>
+    <div style="width: 100%; max-width: 850px; height: 1px; background: rgba(255,255,255,0.08); margin: 24px auto;"></div>
+    <div>
+      <p style="color: #64748B; font-size: 0.88rem; margin: 0;">Todos los derechos © 2026 Mundos Simulados | Desarrollado por <a href="http://juan.cabellosalirrosas.com" target="_blank" rel="noopener" style="color: #94A3B8;">Xavier Cabello</a></p>
+      <p style="margin-top: 8px; font-size: 0.85rem; color: #94A3B8;">Contacto: <a href="mailto:contacto@mundossimulados.onine" style="color: #00F0FF; text-decoration: none;">contacto@mundossimulados.onine</a></p>
+    </div>
+  </div>
+</footer><!-- #colophon -->
 	</div><!-- #page -->
 <script type="speculationrules">
 {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","../wp-content/uploads/*","../wp-content/*","../wp-content/plugins/*","../wp-content/themes/astra/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}

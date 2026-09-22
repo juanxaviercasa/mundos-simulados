@@ -158,6 +158,47 @@ html, body {
 .ast-single-post .entry-content b {
   color: #FFFFFF !important;
 }
+
+/* Footer Sci-Fi Reset - Sin barras blancas, menu horizontal limpio */
+.site-footer,
+.site-primary-footer-wrap,
+.site-below-footer-wrap,
+.ast-footer-row-stack,
+.site-footer-primary-section-2,
+.site-footer .widget-area {
+  background: #04060E !important;
+  background-color: #04060E !important;
+  color: #94A3B8 !important;
+  border-color: rgba(0, 240, 255, 0.2) !important;
+}
+#astra-footer-menu {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 20px !important;
+  list-style: none !important;
+  padding: 15px 0 !important;
+  margin: 0 !important;
+}
+#astra-footer-menu li {
+  display: inline-block !important;
+  margin: 0 !important;
+}
+#astra-footer-menu a,
+#astra-footer-menu .menu-link {
+  color: #E2E8F0 !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  font-size: 0.95rem !important;
+}
+#astra-footer-menu a:hover,
+#astra-footer-menu .menu-link:hover {
+  color: #00F0FF !important;
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5) !important;
+}
+
 </style>
 
 </head>
@@ -252,33 +293,30 @@ html, body {
   </div>
 
   <!-- PIE DE PÁGINA NATIVO -->
-  <footer class="ms-native-footer" style="background: radial-gradient(ellipse at 50% 0%, rgba(0, 240, 255, 0.12) 0%, transparent 65%), linear-gradient(180deg, #04060E 0%, #070B1A 50%, #020409 100%); border-top: 1px solid rgba(0, 240, 255, 0.25); padding: 50px 0 35px; text-align: center;">
-    <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
-      <div style="margin-bottom: 24px;">
-        <span style="font-family: 'Space Grotesk', sans-serif; font-size: 1.6rem; font-weight: 800; color: #FFFFFF;">MUNDOS <span style="background: linear-gradient(135deg, #00F0FF, #A855F7); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">SIMULADOS</span></span>
-        <p style="font-size: 0.95rem; color: #94A3B8; max-width: 600px; margin: 8px auto 0;">Portal de divulgación científica, astrofísica extrema y modelos matemáticos de realidades alternas.</p>
-      </div>
-
-      <nav style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 24px 0;">
-        <a href="../" style="color: #E2E8F0; text-decoration: none; font-weight: 600;">Inicio</a>
-        <span style="color: rgba(0,240,255,0.5);">·</span>
-        <a href="../escenarios/" style="color: #E2E8F0; text-decoration: none; font-weight: 600;">Escenarios</a>
-        <span style="color: rgba(0,240,255,0.5);">·</span>
-        <a href="../sobre-mi/" style="color: #E2E8F0; text-decoration: none; font-weight: 600;">Sobre mí</a>
-        <span style="color: rgba(0,240,255,0.5);">·</span>
-        <a href="../politica-de-privacidad/" style="color: #E2E8F0; text-decoration: none; font-weight: 600;">Política de Privacidad</a>
-        <span style="color: rgba(0,240,255,0.5);">·</span>
-        <a href="../terminos-y-condiciones/" style="color: #00F0FF; text-decoration: none; font-weight: 600;">Términos y Condiciones</a>
-      </nav>
-
-      <div style="width: 100%; max-width: 850px; height: 1px; background: rgba(255,255,255,0.08); margin: 24px auto;"></div>
-
-      <div>
-        <p style="color: #64748B; font-size: 0.88rem; margin: 0;">Todos los derechos © 2026 Mundos Simulados | Desarrollado por <a href="http://juan.cabellosalirrosas.com" target="_blank" rel="noopener" style="color: #94A3B8;">Xavier Cabello</a></p>
-        <p style="margin-top: 8px; font-size: 0.85rem; color: #94A3B8;">Contacto: <a href="mailto:contacto@mundossimulados.onine" style="color: #00F0FF; text-decoration: none;">contacto@mundossimulados.onine</a></p>
-      </div>
+  <footer class="ms-native-footer" style="background: radial-gradient(ellipse at 50% 0%, rgba(0, 240, 255, 0.12) 0%, transparent 65%), linear-gradient(180deg, #04060E 0%, #070B1A 50%, #020409 100%); border-top: 1px solid rgba(0, 240, 255, 0.25); padding: 50px 0 35px; text-align: center; margin-top: 60px;">
+  <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+    <div style="margin-bottom: 24px;">
+      <span style="font-family: 'Space Grotesk', sans-serif; font-size: 1.6rem; font-weight: 800; color: #FFFFFF;">MUNDOS <span style="background: linear-gradient(135deg, #00F0FF, #A855F7); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">SIMULADOS</span></span>
+      <p style="font-size: 0.95rem; color: #94A3B8; max-width: 600px; margin: 8px auto 0;">Portal de divulgación científica, astrofísica extrema y modelos matemáticos de realidades alternas.</p>
     </div>
-  </footer>
+    <nav style="display: flex; justify-content: center; align-items: center; gap: 18px; flex-wrap: wrap; margin: 24px 0;">
+      <a href="../" style="color: #E2E8F0; text-decoration: none; font-weight: 500; font-size: 0.95rem; transition: color 0.2s;">Inicio</a>
+      <span style="color: rgba(0,240,255,0.4); user-select: none;">·</span>
+      <a href="../escenarios/" style="color: #E2E8F0; text-decoration: none; font-weight: 500; font-size: 0.95rem; transition: color 0.2s;">Escenarios</a>
+      <span style="color: rgba(0,240,255,0.4); user-select: none;">·</span>
+      <a href="../sobre-mi/" style="color: #E2E8F0; text-decoration: none; font-weight: 500; font-size: 0.95rem; transition: color 0.2s;">Sobre mí</a>
+      <span style="color: rgba(0,240,255,0.4); user-select: none;">·</span>
+      <a href="../politica-de-privacidad/" style="color: #E2E8F0; text-decoration: none; font-weight: 500; font-size: 0.95rem; transition: color 0.2s;">Política de Privacidad</a>
+      <span style="color: rgba(0,240,255,0.4); user-select: none;">·</span>
+      <a href="../terminos-y-condiciones/" style="color: #E2E8F0; text-decoration: none; font-weight: 500; font-size: 0.95rem; transition: color 0.2s;">Términos y Condiciones</a>
+    </nav>
+    <div style="width: 100%; max-width: 850px; height: 1px; background: rgba(255,255,255,0.08); margin: 24px auto;"></div>
+    <div>
+      <p style="color: #64748B; font-size: 0.88rem; margin: 0;">Todos los derechos © 2026 Mundos Simulados | Desarrollado por <a href="http://juan.cabellosalirrosas.com" target="_blank" rel="noopener" style="color: #94A3B8;">Xavier Cabello</a></p>
+      <p style="margin-top: 8px; font-size: 0.85rem; color: #94A3B8;">Contacto: <a href="mailto:contacto@mundossimulados.onine" style="color: #00F0FF; text-decoration: none;">contacto@mundossimulados.onine</a></p>
+    </div>
+  </div>
+</footer>
 </div>
 </body>
 </html>
