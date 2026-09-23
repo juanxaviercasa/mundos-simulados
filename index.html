@@ -1439,29 +1439,55 @@ body #ast-hf-menu-1 ul.sub-menu li a.menu-link:hover {
 }
 
 .ms-news-input-wrap {
-  display: flex;
-  gap: 12px;
-  background: rgba(4, 6, 14, 0.8);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 14px;
-  padding: 6px;
-  transition: border-color 0.3s ease;
+  display: flex !important;
+  gap: 10px !important;
+  background: rgba(4, 6, 14, 0.85) !important;
+  border: 1px solid rgba(0, 240, 255, 0.25) !important;
+  border-radius: 16px !important;
+  padding: 6px 6px 6px 18px !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4) !important;
+  align-items: center !important;
 }
 
 .ms-news-input-wrap:focus-within {
-  border-color: #00F0FF;
-  box-shadow: 0 0 20px rgba(0, 240, 255, 0.25);
+  border-color: #00F0FF !important;
+  box-shadow: 0 0 25px rgba(0, 240, 255, 0.35) !important;
 }
 
+input[type="email"].ms-news-input,
 .ms-news-input {
-  flex: 1;
-  background: transparent;
-  border: none;
-  padding: 12px 18px;
-  font-family: 'Inter', sans-serif;
-  font-size: 1rem;
-  color: #FFFFFF;
-  outline: none;
+  flex: 1 !important;
+  min-width: 0 !important;
+  width: 100% !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+  padding: 10px 8px !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 0.95rem !important;
+  color: #FFFFFF !important;
+  outline: none !important;
+  box-shadow: none !important;
+  height: auto !important;
+  min-height: 44px !important;
+  line-height: normal !important;
+  -webkit-appearance: none !important;
+}
+
+input[type="email"].ms-news-input:focus,
+.ms-news-input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  background: transparent !important;
+}
+
+input[type="email"].ms-news-input::placeholder,
+.ms-news-input::placeholder {
+  color: #94A3B8 !important;
+  font-size: 0.92rem !important;
+  opacity: 0.85 !important;
 }
 
 /* ============================================================
@@ -1569,8 +1595,50 @@ body #ast-hf-menu-1 ul.sub-menu li a.menu-link:hover {
   .ms-method-grid { grid-template-columns: 1fr; }
   .ms-newsletter-card { grid-template-columns: 1fr; padding: 32px 24px; }
   .ms-author-strip { flex-direction: column; text-align: center; }
-  .ms-news-input-wrap { flex-direction: column; background: transparent; border: none; padding: 0; }
-  .ms-news-input { background: rgba(4, 6, 14, 0.8); border: 1px solid rgba(255,255,255,0.15); border-radius: 12px; margin-bottom: 10px; }
+  .ms-news-input-wrap {
+    flex-direction: column !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    gap: 12px !important;
+  }
+  input[type="email"].ms-news-input,
+  .ms-news-input {
+    background: rgba(4, 6, 14, 0.85) !important;
+    background-color: rgba(4, 6, 14, 0.85) !important;
+    border: 1px solid rgba(0, 240, 255, 0.3) !important;
+    border-radius: 14px !important;
+    padding: 13px 18px !important;
+    font-size: clamp(0.85rem, 3.8vw, 0.95rem) !important;
+    color: #FFFFFF !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5), inset 0 1px 2px rgba(255, 255, 255, 0.05) !important;
+    width: 100% !important;
+    margin-bottom: 0 !important;
+    text-overflow: ellipsis !important;
+    -webkit-appearance: none !important;
+  }
+  input[type="email"].ms-news-input:focus,
+  .ms-news-input:focus {
+    border-color: #00F0FF !important;
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.4) !important;
+    background: rgba(8, 12, 24, 0.95) !important;
+  }
+  .ms-newsletter-card .ms-btn-glow {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 14px 24px !important;
+    border-radius: 14px !important;
+    box-sizing: border-box !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .ms-newsletter-card {
+    padding: 26px 18px !important;
+  }
 }
 
 @media (max-width: 780px) {
@@ -2018,7 +2086,7 @@ body #ast-hf-menu-1 ul.sub-menu li a.menu-link:hover {
       <div>
         <form action="#newsletter" method="post">
           <div class="ms-news-input-wrap">
-            <input class="ms-news-input" type="email" placeholder="Introduce tu correo electrónico..." required>
+            <input class="ms-news-input" type="email" placeholder="Introduce tu correo..." required>
             <button class="ms-btn-glow" type="submit" style="padding: 12px 24px; border: none; cursor: pointer;"><span>Suscribirme</span></button>
           </div>
           <p style="font-size: 0.8rem; color: #64748B; margin-top: 10px;">Puedes cancelar en un clic. Respetamos tu privacidad al 100%.</p>
