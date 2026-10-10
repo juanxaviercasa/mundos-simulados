@@ -53,3 +53,9 @@ Esta represión sistemática no elimina el estrés, sino que lo internaliza y lo
 Para sobrevivir a esta presión, la población comienza a demandar espacios de descarga al margen de la red. Surgen así retiros clandestinos en zonas rurales apartadas, sótanos urbanos insonorizados y búnkeres de aislamiento electromagnético donde las personas pagan sumas exorbitantes de dinero solo para poder llorar, gritar o sufrir ataques de pánico sin que ningún sensor transmita la información al Ministerio de Hacienda. Son los únicos lugares donde la biología humana puede expresarse sin penalización económica.
 
 Qué nos dice esto del mundo real: la mercantilización de la salud mental no requiere necesariamente un régimen fiscal de castigo directo para empezar a deformar nuestra relación con las emociones. Cuando la productividad, la adaptabilidad y el bienestar optimizado se convierten en los únicos criterios válidos de valor social, la propia gestión del sufrimiento se transforma en una obligación de rendimiento, convirtiendo la búsqueda de ayuda en una nueva fuente de ansiedad institucional.
+
+<!-- [MS_TODOLIMA_BRIDGE_START] -->
+> **🏙️ Anclaje a la Realidad: Salud Mental y Terapia Clínica en Lima (Lima Metropolitana):**
+> La gestión de la ansiedad, el estrés laboral y el bienestar psicológico en la metrópoli limeña cuenta con terapeutas y centros de salud mental calificados en cada distrito. Accede al [Directorio de Psicólogos de Lima](https://todolima.com/psicologos).  
+> [👉 Buscar Psicólogos Calificados en Lima](https://todolima.com/psicologos)
+<!-- [MS_TODOLIMA_BRIDGE_END] -->

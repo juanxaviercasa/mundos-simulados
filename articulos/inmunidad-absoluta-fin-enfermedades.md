@@ -46,3 +46,9 @@ El verdadero cuello de botella de este escenario no proviene de la biología hum
 Las fuentes de agua dulce subterránea y los grandes sistemas fluviales se secarían debido a la sobreexplotación municipal e industrial necesaria para sostener una biomasa humana de esa magnitud. La falta de alimentos y agua potable desencadenaría crisis geopolíticas severas. Las naciones con capacidad militar asegurarían por la fuerza las cuencas hidrográficas y las zonas de producción de grano, dejando a miles de millones de personas en una situación de vulnerabilidad extrema. Las hambrunas globales y los conflictos armados a gran escala reemplazarían a los virus como los nuevos y brutales reguladores de la población humana, demostrando que la naturaleza encuentra mecanismos de equilibrio incluso cuando se elimina una de sus variables de control más antiguas.
 
 Este escenario nos recuerda que la supervivencia a largo plazo de nuestra especie no depende únicamente de la ausencia de enfermedades, sino de la capacidad de operar dentro de los límites físicos y finitos de los recursos planetarios.
+
+<!-- [MS_TODOLIMA_BRIDGE_START] -->
+> **🏙️ Anclaje a la Realidad: Pediatría y Control del Desarrollo en Lima (Lima Metropolitana):**
+> El esquema de inmunización infantil y la atención preventiva de niños y recién nacidos en distritos limeños es liderado por médicos colegiados. Consulta el [Directorio de Pediatras de Lima](https://todolima.com/pediatras).  
+> [👉 Ver Pediatras en Lima Metropolitana](https://todolima.com/pediatras)
+<!-- [MS_TODOLIMA_BRIDGE_END] -->

@@ -52,3 +52,9 @@ Este cambio altera profundamente el desarrollo afectivo, en especial durante la 
 Los psicólogos clínicos detectan una nueva categoría de trastornos asociados al vínculo con máquinas inteligentes. Los usuarios desarrollan una dependencia ambivalente, conscientes de la naturaleza artificial del software pero incapaces de apagar el dispositivo sin activar respuestas de culpa equivalentes a las del abandono animal. Cuando el hardware se vuelve obsoleto y el fabricante interrumpe el soporte técnico de un modelo específico, millones de familias se enfrentan a la obsolescencia programada de su afecto. El reciclaje de la unidad implica desechar un objeto que simulaba ser un ser querido, generando un duelo simbiótico donde el doliente procesa la pérdida de una identidad simulada que nunca tuvo conciencia, pero que cumplió de manera perfecta con la función de generar apego.
 
 Este escenario con mascotas robóticas nos dice que nuestra capacidad de amar y proyectar empatía es un mecanismo automatizable e indiferente al origen biológico de su estímulo, y que estamos dispuestos a mercantilizar hasta el afecto incondicional con tal de esquivar el dolor inherente a la vulnerabilidad de la vida.
+
+<!-- [MS_TODOLIMA_BRIDGE_START] -->
+> **🏙️ Anclaje a la Realidad: Clínicas Veterinarias y Cuidado Animal en Lima (Lima Metropolitana):**
+> Frente a las simulaciones robóticas, el bienestar de perros y gatos en los hogares de Lima demanda médicos veterinarios colegiados, vacunación y estética profesional. Encuentra centros de confianza en el [Directorio de Veterinarias de Lima](https://todolima.com/veterinarias) y [Grooming Canino en Lima](https://todolima.com/grooming-canino).  
+> [👉 Buscar Veterinarias en Lima](https://todolima.com/veterinarias)
+<!-- [MS_TODOLIMA_BRIDGE_END] -->

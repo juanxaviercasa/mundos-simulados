@@ -57,3 +57,9 @@ En este nuevo equilibrio, el ciudadano ultra adinerado aparenta ser un indigente
 La paradoja resultante es que el sistema de multas segun ingresos termina perjudicando de manera desproporcionada a la clase media alta y a los profesionales asalariados, como médicos, ingenieros senior o abogados independientes. Estos colectivos tienen ingresos altos y perfectamente visibles en las bases de datos de Hacienda, pero carecen de los recursos y la complejidad offshore necesarios para ocultar su dinero en fideicomisos. Un médico que gana trescientos mil dólares anuales no puede transferir su nómina a un paraíso fiscal con la misma facilidad que un magnate con asesores financieros internacionales. Por lo tanto, el médico pagará multas millonarias proporcionales a su sueldo nominal, mientras que los verdaderos milmillonarios quedarán exentos al aparecer en los registros oficiales con ingresos de subsistencia.
 
 Este escenario revela que la capacidad punitiva del Estado depende de la transparencia del flujo financiero. Cuando se intenta utilizar el patrimonio como vara de medir para castigar infracciones cotidianas, los actores con mayor capital no aceptan la pérdida, sino que rediseñan su entorno para volverse invisibles a los ojos de la administración.
+
+<!-- [MS_TODOLIMA_BRIDGE_START] -->
+> **🏙️ Anclaje a la Realidad: Asesoría Contable y Tributaria en Lima (Lima Metropolitana):**
+> El cumplimiento de obligaciones tributarias ante SUNAT y la gestión contable de personas y empresas en Lima Metropolitana exige respaldo técnico continuo. Encuentra asesores en el [Directorio de Contadores de Lima](https://todolima.com/contadores).  
+> [👉 Ver Contadores Colegiados en Lima](https://todolima.com/contadores)
+<!-- [MS_TODOLIMA_BRIDGE_END] -->

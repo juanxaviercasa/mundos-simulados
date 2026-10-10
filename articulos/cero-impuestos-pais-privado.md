@@ -56,3 +56,9 @@ Los centros médicos operan bajo el mismo principio de exclusión. Un accidente 
 Las carreteras de acceso a estos asentamientos son clausuradas mediante barreras físicas para proteger el valor inmobiliario de los barrios ricos. La población sin recursos queda atrapada en un entorno sin servicios básicos, donde la ley no llega y la supervivencia depende de economías de subsistencia informales y peligrosas. Las corporaciones compran grandes extensiones de terreno para instalar enclaves productivos totalmente autónomos, conectados entre sí por corredores aéreos o viales privados, ignorando por completo la existencia del resto de la población.
 
 Este escenario nos recuerda que los impuestos no son un mero robo administrativo, sino el mecanismo técnico mediante el cual una sociedad define y sostiene un espacio compartido de derechos, infraestructura y supervivencia común.
+
+<!-- [MS_TODOLIMA_BRIDGE_START] -->
+> **🏙️ Anclaje a la Realidad: Asesoría Tributaria y Contabilidad en Lima (Lima Metropolitana):**
+> En el marco fiscal peruano, la correcta tributación y optimización de costos para pymes y personas con negocio requiere contadores colegiados con experiencia en normativa SUNAT. Conoce especialistas en el [Directorio de Contadores de Lima](https://todolima.com/contadores).  
+> [👉 Ver Contadores Tributarios en Lima](https://todolima.com/contadores)
+<!-- [MS_TODOLIMA_BRIDGE_END] -->

@@ -53,3 +53,9 @@ Someter a un individuo a cien años de aislamiento virtual representa una forma 
 Los sujetos devueltos a la sociedad tras este proceso mostrarían una incapacidad absoluta para la reintegración. La corteza prefrontal, sobrecargada por la simulación de décadas de soledad y castigo, perdería la capacidad de regular las respuestas emocionales y de procesar estímulos sociales cotidianos. Las tasas de suicidio y de demencia post-desconexión se dispararían de manera drástica, convirtiendo a los liberados en pacientes psiquiátricos crónicos que requerirían cuidados de por vida, lo que anularía en la práctica gran parte del ahorro económico inicial.
 
 Este escenario nos dice que el sistema penal actual no busca solo la eficiencia económica o la neutralización del infractor, sino que está limitado por la propia fragilidad de la biología humana. La tentación de acelerar el tiempo y reducir los costos del castigo choca con el hecho de que la mente no puede ser comprimida ni torturada a voluntad sin destruir aquello que la define.
+
+<!-- [MS_TODOLIMA_BRIDGE_START] -->
+> **🏙️ Anclaje a la Realidad: Sistema Penitenciario y Derecho Penal en Lima (Lima Metropolitana):**
+> La tutela de garantías constitucionales y representación penal en el fuero judicial de Lima y Callao se gestiona mediante abogados litigantes especializados. Consulta el [Directorio Legal de Todo Lima](https://todolima.com/abogados).  
+> [👉 Ver Abogados Penalistas en Lima](https://todolima.com/abogados)
+<!-- [MS_TODOLIMA_BRIDGE_END] -->

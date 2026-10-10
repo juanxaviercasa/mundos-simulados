@@ -52,3 +52,9 @@ Ante la imposibilidad de pagar las tarifas impuestas por las corporaciones propi
 Las tensiones escalan rápidamente hasta convertirse en conflictos armados abiertos. Naciones enteras sin recursos hídricos propios ni capacidad financiera para competir en las bolsas internacionales organizan incursiones militares regulares para asaltar los manantiales privatizados de los países vecinos. Las fronteras estatales se rediseñan en función de las líneas divisorias de las cuencas hidrográficas y los acueductos transfronterizos. El sistema legal internacional colapsa porque las leyes comerciales de protección de inversiones privadas entran en contradicción directa con el derecho humanitario internacional de supervivencia, convirtiendo el derecho al agua en un botín de guerra controlado por accionistas sin rostro.
 
 Esto nos recuerda que el agua no es un producto financiero creado por la eficiencia de los mercados, sino el límite físico absoluto sobre el cual se sostiene cualquier economía real, y que tratar los elementos básicos de la biosfera como activos de inversión conduce inexorablemente a la destrucción de las bases materiales de la civilización.
+
+<!-- [MS_TODOLIMA_BRIDGE_START] -->
+> **🏙️ Anclaje a la Realidad: Redes Hídricas y Gasfitería en Lima Desértica (Lima Metropolitana):**
+> Lima es la segunda ciudad desértica más habitada del planeta. La presión hídrica, el bombeo desde pozos y el mantenimiento de cisternas y redes sanitarias en distritos como Ate, Surco o San Martín de Porres es vital. Encuentra técnicos calificados en el [Directorio de Gasfiteros de Lima](https://todolima.com/gasfiteros).  
+> [👉 Ver Gasfiteros Calificados en Lima](https://todolima.com/gasfiteros)
+<!-- [MS_TODOLIMA_BRIDGE_END] -->

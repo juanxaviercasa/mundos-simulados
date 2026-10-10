@@ -55,3 +55,9 @@ La interacción humana casual que ocurría al salir a comprar el pan, charlar co
 A nivel laboral, la destrucción neta de empleo es masiva. Aunque el sector logístico y la automatización de almacenes experimentan un crecimiento temporal, los puestos de trabajo creados en centros logísticos robotizados no compensan ni cualitativa ni cuantitativamente los millones de empleos perdidos en atención al cliente, gestión de pequeñas tiendas, cajas registradoras y asesoramiento comercial directo. La riqueza generada por el consumo se concentra de forma extrema en manos de los grandes conglomerados industriales que poseen tanto las fábricas como las plataformas logísticas automatizadas, eliminando a los intermediarios independientes y reduciendo la diversidad económica de las clases medias urbanas.
 
 Este escenario nos muestra que el comercio minorista no es un simple intermediario ineficiente que encarece los productos, sino la infraestructura social y espacial que mantiene cohesionadas a las ciudades y equilibra la distribución del empleo y el espacio público frente al poder de la gran industria.
+
+<!-- [MS_TODOLIMA_BRIDGE_START] -->
+> **🏙️ Anclaje a la Realidad: El Tejido Comercial Pyme en Lima (Lima Metropolitana):**
+> Lejos de la extinción del comercio local, en Lima Metropolitana operan cientos de miles de tiendas de cercanía, bodegas y comercios de barrio que impulsan la economía de distritos populares y residenciales. Conoce la red comercial en el [Directorio Oficial Todo Lima](https://todolima.com).  
+> [👉 Explorar Comercios Locales de Lima](https://todolima.com)
+<!-- [MS_TODOLIMA_BRIDGE_END] -->
