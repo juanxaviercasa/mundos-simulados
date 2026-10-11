@@ -19,7 +19,7 @@ def url(host, path, slug):
 def integrate(root=ROOT):
     changed = 0
     for file in root.rglob('*.html'):
-        if any(part in ('backups_posts', '.git') for part in file.relative_to(root).parts):
+        if any(part in ('backups_posts', 'editorial', '.git') for part in file.relative_to(root).parts):
             continue
         text = file.read_text(encoding='utf-8')
         result = OLD_AUTHOR.sub(AUTHOR_URL, text)
