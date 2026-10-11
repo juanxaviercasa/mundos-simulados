@@ -16,4 +16,12 @@ Se retiraron los fondos, bordes, esquinas y sombras exteriores de Astra en las p
 
 Los bloques incrustados con fondos oscuros adoptan una superficie blanca en modo claro. Los textos sobre imágenes mantienen un color claro en ambos temas. Se corrigieron también el índice de Privacidad y los metadatos de las tarjetas de categorías en oscuro.
 
+## Navegación y contacto
+
+Se corrigió el fondo y el color del submenú de categorías con reglas que también cubren los estilos propios de la portada. En modo claro se comprobó fondo blanco y texto #075e6b, tanto en escritorio como en el menú móvil desplegado.
+
+Se conserva una página de contacto dedicada y se añade Contacto a los menús de escritorio y móvil. Sobre mí presenta una llamada breve, un botón y el correo directo. La página de contacto mantiene los seis motivos existentes mediante un selector; los campos opcionales se agrupan en un desplegable. Se conserva el contrato de envío, la verificación y la ayuda contextual del formulario.
+
+Validación: 11 pruebas aprobadas; etiquetas y opciones del formulario verificadas. En móvil a 360 px se comprobó el submenú abierto, la selección de motivo desde la URL y el despliegue de los campos opcionales, sin desbordamiento. No se enviaron mensajes de prueba.
+
 Se inspeccionaron portada, escenarios, cuatro categorías, blog, autor, Sobre mí, Privacidad, Términos y Contacto. La comprobación calculada de contraste de texto sobre fondos sólidos no encontró casos pendientes en las últimas observaciones de cada plantilla y tema. Las imágenes y los gradientes se revisaron visualmente y se excluyeron del cálculo automático. No equivale a una certificación de accesibilidad. Portada, escenarios, Sobre mí, Astrofísica, blog y contacto también se comprobaron a 360 px en ambos modos, sin desbordamiento horizontal.

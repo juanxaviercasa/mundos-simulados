@@ -7,7 +7,7 @@ from PIL import Image
 from editorial_site import BASE, card_image, write_html
 from corregir_lectura import normalize_reading
 
-VERSION = '20261011-6'
+VERSION = '20261011-7'
 
 
 def clean_script(match):

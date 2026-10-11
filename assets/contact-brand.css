@@ -9,3 +9,8 @@
 .npp-info-page .npp-brand a{color:var(--ms-cyan-neon,#075e6b)!important}
 .npp-info-page .npp-contact-form :is(input,textarea){background:var(--ms-bg-card,#fff)!important;color:var(--ms-text-main,#13243b)!important}
 .npp-info-page .npp-brand .npp-button{background:#075e6b!important;border-color:#075e6b!important;color:#fff!important}
+.npp-contact-form select{display:block;width:100%;min-height:48px;border:1px solid #bacadc;border-radius:8px;padding:12px;font:inherit;background:var(--ms-bg-card,#fff);color:var(--ms-text-main,#13243b)}
+.npp-contact-form fieldset{margin-bottom:24px}.npp-contact-form textarea{min-height:140px}
+.ms-contact-optional{margin:12px 0 24px}.ms-contact-optional summary{cursor:pointer;min-height:44px;padding:10px 0;font-size:15px;color:var(--ms-cyan-neon,#075e6b)}
+.ms-contact-optional[open] .npp-form-grid{margin-top:16px}
+.npp-info-page .npp-brand{padding-top:40px}.npp-contact-intro{margin-bottom:28px}.npp-contact-intro h1{font-size:clamp(30px,3.4vw,44px)}
