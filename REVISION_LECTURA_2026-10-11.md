@@ -25,3 +25,8 @@ Se conserva una página de contacto dedicada y se añade Contacto a los menús d
 Validación: 11 pruebas aprobadas; etiquetas y opciones del formulario verificadas. En móvil a 360 px se comprobó el submenú abierto, la selección de motivo desde la URL y el despliegue de los campos opcionales, sin desbordamiento. No se enviaron mensajes de prueba.
 
 Se inspeccionaron portada, escenarios, cuatro categorías, blog, autor, Sobre mí, Privacidad, Términos y Contacto. La comprobación calculada de contraste de texto sobre fondos sólidos no encontró casos pendientes en las últimas observaciones de cada plantilla y tema. Las imágenes y los gradientes se revisaron visualmente y se excluyeron del cálculo automático. No equivale a una certificación de accesibilidad. Portada, escenarios, Sobre mí, Astrofísica, blog y contacto también se comprobaron a 360 px en ambos modos, sin desbordamiento horizontal.
+
+
+## Cabeceras de categorías en 16:9
+
+Las cuatro categorías usan una imagen completa con aspect-ratio 16/9 y object-fit contain, sin altura fija de 320 px ni filtro de brillo. En pantallas de hasta 767 px el título y la descripción pasan debajo de la imagen. Sin borde ni sombra gruesa. Verificado en navegador: las cuatro imágenes cargan en escritorio con proporción 1.77778; móvil a 360 px mantiene 16:9 y no desborda horizontalmente. Comprobación visual en modos claro y oscuro. Las 11 pruebas editoriales y de normalización pasan. Versión compartida 20261011-8 para invalidar la caché.

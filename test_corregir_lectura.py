@@ -22,7 +22,7 @@ class ReadingExportTests(unittest.TestCase):
     def test_unrelated_asset_and_content_are_preserved(self):
         source = '<a href="/contacto/">Formulario de contacto</a><link href="/wp-static-arquitect-assets/theme.css?v=20261011-3"><script src="other.js?v=20261011-3"></script>'
         result = normalize_reading(source)
-        self.assertIn('theme.css?v=20261011-7', result)
+        self.assertIn('theme.css?v=20261011-8', result)
         self.assertIn('other.js?v=20261011-3', result)
         self.assertIn('Formulario de contacto', result)
 

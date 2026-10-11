@@ -1,4 +1,14 @@
 /* Shared theme controls and a light palette over the legacy dark export. */
+/* Category artwork keeps its complete composition instead of a shallow crop. */
+html body #content .ms-cat-hero-banner{border:0!important;border-radius:12px!important;box-shadow:none!important}
+html body #content .ms-cat-hero-img{display:block;width:100%!important;height:auto!important;aspect-ratio:16/9;object-fit:contain!important;object-position:center;filter:none!important;background:#081327}
+html body #content .ms-cat-hero-overlay{background:linear-gradient(180deg,transparent 35%,rgba(4,6,14,.8) 75%,#04060e 100%)!important}
+@media(max-width:767px){
+  html body #content .ms-cat-hero-overlay{position:relative!important;inset:auto!important;padding:24px 20px!important;background:#081327!important}
+  html body #content .ms-cat-hero-title{font-size:clamp(1.7rem,7vw,2.2rem)!important;line-height:1.2!important}
+  html body #content .ms-cat-hero-desc{font-size:16px!important;line-height:1.65!important;margin-bottom:0!important}
+  html body #content .ms-cat-hero-tag{font-size:12px!important;line-height:1.6!important}
+}
 .ms-theme-toggle{display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:88px;padding:8px 12px!important;margin-left:14px;border:1px solid #60758e!important;border-radius:10px!important;background:#142238!important;color:#f8fafc!important;font:600 .88rem/1.2 system-ui,sans-serif!important;white-space:nowrap;cursor:pointer}
 .ms-theme-toggle:focus-visible{outline:3px solid #38bdf8;outline-offset:3px}
 #masthead .site-header-primary-section-right{gap:8px}
