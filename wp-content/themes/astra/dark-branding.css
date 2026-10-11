@@ -4,7 +4,7 @@
    en todas las páginas secundarias, categorías, blog y posts.
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@500;600;700;800;900&family=Space+Grotesk:wght@500;600;700;800&display=swap');
+/* System fonts avoid a remote render-blocking import and late layout shifts. */
 
 :root {
   /* Override Astra CSS variables for global dark theme */

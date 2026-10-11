@@ -46,6 +46,6 @@ Este escenario nos recuerda que el valor monetario moderno no es un objeto físi
 
 <!-- [MS_TODOLIMA_BRIDGE_START] -->
 > **🏙️ Anclaje a la Realidad: Casas de Cambio y Mercado de Divisas en Lima (San Isidro / Miraflores):**
-> Ante la volatilidad de los mercados cambiarios, los centros financieros de San Isidro, Miraflores y Cercado de Lima concentran casas de cambio y operadores formales registrados ante la SBS. Consulta las opciones en el [Directorio de Casas de Cambio de Lima](https://todolima.com/casas-de-cambio).  
+> Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.
 > [👉 Ver Casas de Cambio en Lima](https://todolima.com/casas-de-cambio)
 <!-- [MS_TODOLIMA_BRIDGE_END] -->

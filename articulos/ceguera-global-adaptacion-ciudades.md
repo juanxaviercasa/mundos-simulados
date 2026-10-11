@@ -65,6 +65,6 @@ Este escenario nos recuerda que la civilización material no es una propiedad in
 
 <!-- [MS_TODOLIMA_BRIDGE_START] -->
 > **🏙️ Anclaje a la Realidad: Salud Visual y Ópticas en Lima (Lima Metropolitana):**
-> La salud ocular y prevención de afecciones visuales en la población limeña cuenta con una amplia red de consultorios oftalmológicos y laboratorios ópticos en los 43 distritos. Accede al [Directorio de Ópticas en Lima](https://todolima.com/opticas) y [Oftalmólogos de Lima](https://todolima.com/oftalmologos).  
+> Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.
 > [👉 Ver Directorio de Ópticas en Lima](https://todolima.com/opticas)
 <!-- [MS_TODOLIMA_BRIDGE_END] -->

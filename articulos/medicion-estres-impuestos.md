@@ -56,6 +56,6 @@ Qué nos dice esto del mundo real: la mercantilización de la salud mental no re
 
 <!-- [MS_TODOLIMA_BRIDGE_START] -->
 > **🏙️ Anclaje a la Realidad: Salud Mental y Terapia Clínica en Lima (Lima Metropolitana):**
-> La gestión de la ansiedad, el estrés laboral y el bienestar psicológico en la metrópoli limeña cuenta con terapeutas y centros de salud mental calificados en cada distrito. Accede al [Directorio de Psicólogos de Lima](https://todolima.com/psicologos).  
+> Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.
 > [👉 Buscar Psicólogos Calificados en Lima](https://todolima.com/psicologos)
 <!-- [MS_TODOLIMA_BRIDGE_END] -->

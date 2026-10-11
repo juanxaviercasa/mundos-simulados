@@ -57,6 +57,6 @@ Lo que este escenario nos dice del mundo real no es una advertencia sobre un fut
 
 <!-- [MS_TODOLIMA_BRIDGE_START] -->
 > **🏙️ Anclaje a la Realidad: Ginecología y Salud Reproductiva en Lima (Lima Metropolitana):**
-> La atención obstétrica, control prenatal y salud integral femenina en la capital cuenta con centros médicos ginecológicos de primer nivel. Conoce a los especialistas en el [Directorio de Ginecólogos de Lima](https://todolima.com/ginecologos).  
+> Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.
 > [👉 Ver Ginecólogos en Lima](https://todolima.com/ginecologos)
 <!-- [MS_TODOLIMA_BRIDGE_END] -->

@@ -59,6 +59,6 @@ Esto nos dice algo fundamental sobre el mundo real: la fragmentación monetaria 
 
 <!-- [MS_TODOLIMA_BRIDGE_START] -->
 > **🏙️ Anclaje a la Realidad: Operaciones Cambiarias Seguras en Lima (Lima Metropolitana):**
-> La compra y venta de dólares y euros en los distritos financieros de Lima demanda agentes autorizados para garantizar operaciones transparentes. Accede al [Directorio de Casas de Cambio de Lima](https://todolima.com/casas-de-cambio).  
+> Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.
 > [👉 Consultar Casas de Cambio en Lima](https://todolima.com/casas-de-cambio)
 <!-- [MS_TODOLIMA_BRIDGE_END] -->

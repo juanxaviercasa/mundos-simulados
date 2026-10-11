@@ -2,6 +2,7 @@
 (() => {
   const key = 'ms-theme';
   const root = document.documentElement;
+  root.dataset.msClient = 'true';
   const system = window.matchMedia('(prefers-color-scheme: dark)');
   let preference;
   try { preference = localStorage.getItem(key); } catch { /* Storage may be disabled. */ }

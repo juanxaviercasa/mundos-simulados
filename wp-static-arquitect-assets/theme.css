@@ -9,6 +9,8 @@ html[data-ms-theme="light"] :is(a,.main-header-menu .menu-link,.ast-mobile-heade
 html[data-ms-theme="light"] :is(.site-header,.main-header-bar,.ast-primary-header-bar,.ast-mobile-header-wrap,.ast-mobile-header-content,.main-header-menu .sub-menu){background:#fff!important;box-shadow:0 1px 8px rgba(19,36,59,.08)!important;border-color:#cfdae6!important}
 html[data-ms-theme="light"] .custom-logo-link{display:inline-flex;background:#081327;padding:6px 9px;border-radius:10px}
 html[data-ms-theme="light"] :is(.ms-blog-filters,.ms-editorial-card,.ms-editorial-sidebar section,.ms-editorial-sidebar nav,.ms-practical-bridge,#ez-toc-container,.ast-article-single,.entry-header,.ms-cat-hero-banner){background:#fff!important;border-color:#cfdae6!important;box-shadow:0 4px 16px rgba(19,36,59,.04)!important}
+html[data-ms-theme="light"] :is(.ast-article-inner,.widget){background:#fff!important;border-color:#cfdae6!important;box-shadow:0 4px 16px rgba(19,36,59,.04)!important}
+html[data-ms-theme="light"] .entry-content :is(table,th,td){background:#fff!important;color:#13243b!important;border-color:#cfdae6!important}
 html[data-ms-theme="light"] :is(.ms-blog-filters input,.ms-blog-filters select,.ms-editorial-sidebar input,input:not([type=checkbox]):not([type=radio]),textarea,select){background:#fff!important;color:#13243b!important;border-color:#8a9db3!important}
 html[data-ms-theme="light"] :is(.ms-blog-filters label,.ms-editorial-sidebar label,.ms-card-copy p,.ms-blog-intro p,.entry-meta,.entry-meta *,.ms-editorial-sidebar small,.ms-card-copy time,#ms-blog-results,figcaption,.ms-editorial-review-note){color:#42546a!important}
 html[data-ms-theme="light"] :is(.ms-blog-filters button,#ms-blog-more,.ms-editorial-sidebar button,.ms-theme-toggle){background:#075e6b!important;color:#fff!important}
@@ -37,5 +39,15 @@ html[data-ms-theme="light"] .ms-universe .ms-hero-section :is(.ms-btn-glow,.ms-b
 .ms-blog-primary{margin-top:28px!important}.ms-blog-intro{padding:12px 0 24px}.ms-blog-intro h1{font-size:clamp(2rem,4vw,2.9rem)!important}.ms-blog-intro p{margin-bottom:0}
 .ms-ecosystem-hub .ms-container>p{margin:12px 0 24px}.ms-ecosystem-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.ms-ecosystem-cards article{padding:28px;background:var(--ms-bg-card,#101929);border:1px solid var(--ms-border,#45556c);border-radius:14px}.ms-ecosystem-cards h3{margin-bottom:12px}.ms-ecosystem-cards p{margin:14px 0}.ms-ecosystem-cards a{text-decoration:underline!important;font-weight:600}
 @media(max-width:620px){.ms-ecosystem-cards{grid-template-columns:1fr}}
+.ms-filter-details>summary{display:none}
+@media(max-width:620px){.ms-filter-details>summary{display:list-item;min-height:44px;padding:12px 16px;border:1px solid var(--ms-border,#45556c);border-radius:10px;background:var(--ms-bg-card,#101929);font-weight:600;cursor:pointer}.ms-filter-details .ms-blog-filters{margin-top:12px}.ms-filter-details>summary:focus-visible{outline:3px solid #38bdf8;outline-offset:3px}}
 @media(max-width:620px){.ms-theme-toggle{min-width:76px;margin-left:6px;padding:8px!important;font-size:.8rem!important}.single-post .post-thumb img{max-height:220px}.single-post .entry-header{padding:20px 0!important}}
+@media(max-width:620px){#ast-mobile-header .custom-logo-link img{max-height:34px!important;max-width:110px!important}#ast-mobile-header .ast-builder-grid-row{grid-template-columns:minmax(0,1fr) auto!important;column-gap:6px!important;width:100%!important}#ast-mobile-header .site-header-primary-section-right{gap:4px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation:none!important;transition:none!important}}
+/* Stable typography on every device; no remote font dependency. */
+html body,html body button,html body input,html body select,html body textarea,
+html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;
+}
+html[data-ms-client="true"] #ms-blog-grid:not([data-ready])>.ms-editorial-card:nth-child(n+13){display:none}
+@media(max-width:620px){html[data-ms-client="true"] .ms-filter-details:not([data-ready])>form{display:none}}

@@ -1,3 +1,13 @@
 .env
 __pycache__/
 *.pyc
+editorial/respaldo_ecosistema/
+editorial/originales_2026-10-11/
+artifacts/
+*-preview.png
+blog-modo-*.png
+blog-movil-*.png
+# One-off operators for sibling checkouts; their resulting changes live in those repos.
+/completar_destino_comercial.py
+/reparar_escritura_nube.py
+/validar_nube_revision.py

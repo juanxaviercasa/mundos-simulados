@@ -57,6 +57,6 @@ Este escenario nos dice del mundo real que la innovación tecnológica en la pro
 
 <!-- [MS_TODOLIMA_BRIDGE_START] -->
 > **🏙️ Anclaje a la Realidad: Control de Plagas y Fumigación en Lima (Lima Metropolitana):**
-> El saneamiento ambiental de almacenes de alimentos, restaurantes y locales comerciales en distritos industriales de Lima Metropolitana se certifica mediante empresas autorizadas por el MINSA. Consulta el [Directorio de Fumigación en Lima](https://todolima.com/fumigacion).  
+> Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.
 > [👉 Ver Empresas de Fumigación en Lima](https://todolima.com/fumigacion)
 <!-- [MS_TODOLIMA_BRIDGE_END] -->

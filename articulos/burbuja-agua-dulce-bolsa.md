@@ -55,6 +55,6 @@ Esto nos recuerda que el agua no es un producto financiero creado por la eficien
 
 <!-- [MS_TODOLIMA_BRIDGE_START] -->
 > **🏙️ Anclaje a la Realidad: Redes Hídricas y Gasfitería en Lima Desértica (Lima Metropolitana):**
-> Lima es la segunda ciudad desértica más habitada del planeta. La presión hídrica, el bombeo desde pozos y el mantenimiento de cisternas y redes sanitarias en distritos como Ate, Surco o San Martín de Porres es vital. Encuentra técnicos calificados en el [Directorio de Gasfiteros de Lima](https://todolima.com/gasfiteros).  
+> Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.
 > [👉 Ver Gasfiteros Calificados en Lima](https://todolima.com/gasfiteros)
 <!-- [MS_TODOLIMA_BRIDGE_END] -->

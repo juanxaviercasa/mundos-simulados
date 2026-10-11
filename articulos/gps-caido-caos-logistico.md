@@ -57,6 +57,6 @@ Este escenario demuestra que la eficiencia de la civilización contemporánea de
 
 <!-- [MS_TODOLIMA_BRIDGE_START] -->
 > **🏙️ Anclaje a la Realidad: Logística y Transporte en Lima Metropolitana (Ate / Lima Este):**
-> En escenarios reales de contingencia en arterias de alto tránsito como la Carretera Central (Ate Vitarte, Santa Clara y Chosica), la continuidad de las cadenas de suministro depende de redes físicas de asistencia inmediata. Descubre a los operadores de auxilio y talleres mecánicos verificados en el [Directorio de Auxilio Mecánico de Lima](https://todolima.com/auxilio-mecanico) y el mapa comercial de [Ate en Todo Lima](https://todolima.com/directorio?distrito=ate).  
+> Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.
 > [👉 Explorar Directorio de Auxilio en Lima](https://todolima.com/auxilio-mecanico)
 <!-- [MS_TODOLIMA_BRIDGE_END] -->

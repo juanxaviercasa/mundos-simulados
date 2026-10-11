@@ -1,0 +1,150 @@
+[
+  {
+    "run": "lighthouse-blog-before",
+    "fetch_time": "2026-10-11T13:10:35.759Z",
+    "lighthouse": "13.5.0",
+    "score": 50,
+    "metrics": {
+      "first-contentful-paint": 5253.990712278815,
+      "largest-contentful-paint": 7142.601462431785,
+      "total-blocking-time": 5,
+      "cumulative-layout-shift": 0.2464548247601978,
+      "total-byte-weight": 1917913
+    },
+    "errors": [
+      {
+        "url": "http://127.0.0.1:8085/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "status": 404
+      },
+      {
+        "url": "http://127.0.0.1:8085/wp-includes/js/wp-emoji-release.min.js?ver=7.1.1",
+        "status": 404
+      }
+    ]
+  },
+  {
+    "run": "lighthouse-blog-final",
+    "fetch_time": "2026-10-11T13:15:45.249Z",
+    "lighthouse": "13.5.0",
+    "score": 74,
+    "metrics": {
+      "first-contentful-paint": 3163.4983,
+      "largest-contentful-paint": 5351.9966,
+      "total-blocking-time": 19,
+      "cumulative-layout-shift": 0.003831956324963302,
+      "total-byte-weight": 909382
+    },
+    "errors": [
+      {
+        "url": "http://127.0.0.1:8085/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "status": 404
+      },
+      {
+        "url": "http://127.0.0.1:8085/wp-includes/js/wp-emoji-release.min.js?ver=7.1.1",
+        "status": 404
+      }
+    ]
+  },
+  {
+    "run": "lighthouse-blog-repeat",
+    "fetch_time": "2026-10-11T13:24:16.101Z",
+    "lighthouse": "13.5.0",
+    "score": 74,
+    "metrics": {
+      "first-contentful-paint": 3165.4422999999997,
+      "largest-contentful-paint": 5280.8845999999985,
+      "total-blocking-time": 11,
+      "cumulative-layout-shift": 0.003831956324963302,
+      "total-byte-weight": 904738
+    },
+    "errors": []
+  },
+  {
+    "run": "lighthouse-blog-desktop",
+    "fetch_time": "2026-10-11T13:26:20.795Z",
+    "lighthouse": "13.5.0",
+    "score": 98,
+    "metrics": {
+      "first-contentful-paint": 646.8318507414288,
+      "largest-contentful-paint": 1024.6637014828575,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.004903743617155581,
+      "total-byte-weight": 1045355
+    },
+    "errors": []
+  },
+  {
+    "run": "lighthouse-article",
+    "fetch_time": "2026-10-11T13:14:53.382Z",
+    "lighthouse": "13.5.0",
+    "score": 75,
+    "metrics": {
+      "first-contentful-paint": 2566.1036,
+      "largest-contentful-paint": 5507.2072,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0.003831956324963302,
+      "total-byte-weight": 818285
+    },
+    "errors": [
+      {
+        "url": "http://127.0.0.1:8085/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "status": 404
+      },
+      {
+        "url": "http://127.0.0.1:8085/wp-includes/js/wp-emoji-release.min.js?ver=7.1.1",
+        "status": 404
+      }
+    ]
+  },
+  {
+    "run": "lighthouse-home",
+    "fetch_time": "2026-10-11T13:16:38.528Z",
+    "lighthouse": "13.5.0",
+    "score": 66,
+    "metrics": {
+      "first-contentful-paint": 2904.834416096717,
+      "largest-contentful-paint": 8047.742317639604,
+      "total-blocking-time": 235,
+      "cumulative-layout-shift": 0.003831956324963302,
+      "total-byte-weight": 1478142
+    },
+    "errors": [
+      {
+        "url": "http://127.0.0.1:8085/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+        "status": 404
+      },
+      {
+        "url": "http://127.0.0.1:8085/wp-includes/js/wp-emoji-release.min.js?ver=7.1.1",
+        "status": 404
+      }
+    ]
+  },
+  {
+    "run": "lighthouse-home-final",
+    "fetch_time": "2026-10-11T13:23:00.165Z",
+    "lighthouse": "13.5.0",
+    "score": 74,
+    "metrics": {
+      "first-contentful-paint": 2410.5650000000005,
+      "largest-contentful-paint": 5341.775625,
+      "total-blocking-time": 189,
+      "cumulative-layout-shift": 0.017148828213539573,
+      "total-byte-weight": 814358
+    },
+    "errors": []
+  },
+  {
+    "run": "lighthouse-article-final",
+    "fetch_time": "2026-10-11T13:28:27.664Z",
+    "lighthouse": "13.5.0",
+    "score": 76,
+    "metrics": {
+      "first-contentful-paint": 2724.651,
+      "largest-contentful-paint": 5424.651000000001,
+      "total-blocking-time": 61,
+      "cumulative-layout-shift": 0.003831956324963302,
+      "total-byte-weight": 811819
+    },
+    "errors": []
+  }
+]

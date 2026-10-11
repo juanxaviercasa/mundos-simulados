@@ -49,6 +49,6 @@ Lo que nos dice este escenario del mundo real es que nuestra dependencia actual 
 
 <!-- [MS_TODOLIMA_BRIDGE_START] -->
 > **🏙️ Anclaje a la Realidad: Terapia Psicológica y Vínculos en Lima (Lima Metropolitana):**
-> El impacto emocional del aislamiento y las dinámicas sociales urbanas requiere acompañamiento profesional personalizado en consultorios de la capital. Revisa el [Directorio de Psicólogos de Lima](https://todolima.com/psicologos).  
+> Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.
 > [👉 Buscar Terapeutas en Lima](https://todolima.com/psicologos)
 <!-- [MS_TODOLIMA_BRIDGE_END] -->

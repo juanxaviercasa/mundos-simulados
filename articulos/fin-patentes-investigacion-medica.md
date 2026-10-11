@@ -56,6 +56,6 @@ Lo que nos dice este escenario del mundo real es que la innovación médica actu
 
 <!-- [MS_TODOLIMA_BRIDGE_START] -->
 > **🏙️ Anclaje a la Realidad: Registro de Marcas y Propiedad Intelectual en Perú (Lima Metropolitana):**
-> Para proteger invenciones y signos distintivos comerciales ante Indecopi en la capital, se requiere patrocinio legal en propiedad industrial. Revisa los estudios destacados en el [Directorio de Abogados de Lima](https://todolima.com/abogados).  
+> Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.
 > [👉 Ver Abogados Especialistas en Marcas](https://todolima.com/abogados)
 <!-- [MS_TODOLIMA_BRIDGE_END] -->

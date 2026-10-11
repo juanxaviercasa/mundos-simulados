@@ -9,7 +9,9 @@ from urllib.parse import urlencode
 
 import frontmatter
 import markdown
+from PIL import Image
 from bs4 import BeautifulSoup
+from related_articles import build_related
 
 BASE = Path(__file__).resolve().parent
 SITE = "https://mundossimulados.online"
@@ -47,6 +49,22 @@ def asset(soup):
         soup.head.append(fragment('<link data-ms-editorial="true" rel="stylesheet" href="/wp-static-arquitect-assets/editorial.css"/>'))
     if not soup.select_one('link[data-ms-theme-assets]'):
         soup.head.append(fragment('<link data-ms-theme-assets="true" rel="stylesheet" href="/wp-static-arquitect-assets/theme.css"/><script src="/wp-static-arquitect-assets/theme.js"></script>'))
+    # Keep the tiny preference script synchronous to avoid a theme flash.
+    for script in soup.select('script[src]'):
+        if 'theme.js' not in script['src']:
+            script['defer'] = ''
+
+
+def card_image(source):
+    """Create a small derivative for listing cards, preserving the original."""
+    target = BASE / 'wp-static-arquitect-assets/thumbs' / source.name
+    target = target.with_suffix('.webp')
+    target.parent.mkdir(parents=True, exist_ok=True)
+    if not target.exists() or target.stat().st_mtime < source.stat().st_mtime:
+        with Image.open(source) as image:
+            image.thumbnail((640, 360))
+            image.convert('RGB').save(target, 'WEBP', quality=74, method=6)
+    return '/wp-static-arquitect-assets/thumbs/' + target.name
 
 
 def metadata(entry):
@@ -140,7 +158,7 @@ def set_meta(soup, key, value, property=False):
     tag["content"] = value
 
 
-def update_article(entry, entries):
+def update_article(entry, entries, recommendations=None):
     path = BASE / entry['slug'] / 'index.html'
     if not path.exists():
         return
@@ -150,7 +168,30 @@ def update_article(entry, entries):
         return
     asset(soup)
     meta = metadata(entry)
-    for old in content.select('.ms-practical-bridge'):
+    respond = soup.select_one('#respond')
+    if respond:
+        respond.replace_with(fragment('<section class="ms-reader-note"><h2>Correcciones y comentarios</h2><p>Los comentarios públicos no están habilitados en esta versión. Puedes enviar una observación editorial a <a href="mailto:contacto@mundossimulados.online">contacto@mundossimulados.online</a>, indicando el artículo y la afirmación que deseas revisar.</p></section>'))
+    for bridge in soup.select('.ms-todolima-bridge'):
+        target = bridge.select_one('a[href*="todolima.com"]')
+        if not target:
+            bridge.decompose()
+            continue
+        href = target['href']
+        label = target.get_text(' ', strip=True).replace('verificados', '').replace('colegiados', '').rstrip(' →').strip()
+        bridge.clear()
+        bridge.append(fragment(f'<h2>Servicios locales relacionados</h2><p>Para una necesidad real en Lima, puedes consultar información del directorio de Todo Lima y contactar directamente con el proveedor para confirmar disponibilidad, condiciones y credenciales.</p><p><a href="{escape(href, quote=True)}">{escape(label)} →</a></p><small>Proyecto del mismo autor. El directorio no valida las hipótesis del escenario ni garantiza la calidad de cada proveedor.</small>'))
+        bridge.attrs = {'class': ['ms-todolima-bridge', 'ms-practical-bridge']}
+    for old in soup.select('.post-navigation, .ast-related-posts-wrap, .ms-related-articles'):
+        old.decompose()
+    if recommendations is None:
+        recommendations = build_related(entries, {e['slug']: metadata(e).get('categoria', '') for e in entries})
+    by_slug = {e['slug']: e for e in entries}
+    related = recommendations.get(entry['slug'], [])
+    links = ''.join(f'<li><a href="/{escape(slug)}/">{escape(by_slug[slug]["title"])}</a></li>' for slug in related if slug in by_slug)
+    category = meta.get('categoria', '')
+    hub = f'<p><a href="/blog/?category={escape(category, quote=True)}">Explorar todos los escenarios de {escape(CATEGORIES[category])} →</a></p>' if category in CATEGORIES else '<p><a href="/blog/">Explorar el catálogo de escenarios →</a></p>'
+    content.insert_after(fragment(f'<nav class="ms-related-articles" aria-label="Lecturas relacionadas"><h2>Continúa explorando</h2><p>Otros escenarios hipotéticos relacionados; estas lecturas no son fuentes científicas del artículo.</p><ul>{links}</ul>{hub}</nav>'))
+    for old in content.select('.ms-practical-bridge:not(.ms-todolima-bridge)'):
         old.decompose()
     if entry['slug'] in PRACTICAL_LINKS:
         route, label, description = PRACTICAL_LINKS[entry['slug']]
@@ -229,16 +270,22 @@ def build_blog(entries):
     primary['class'] = ['content-area', 'primary', 'ms-blog-primary']
     primary.clear()
     cards = []
-    for e in entries:
+    for number, e in enumerate(entries):
         meta = metadata(e)
         cat = meta.get('categoria', '')
         img = meta.get('imagen_destacada')
         img_path = BASE / 'wp-content/uploads/2026/08' / img if img else None
-        image = f'<img src="/wp-content/uploads/2026/08/{escape(img)}" alt="{escape(meta.get("alt_destacada", e["title"]), quote=True)}" loading="lazy" width="1200" height="670"/>' if img_path and img_path.exists() else '<div class="ms-card-placeholder" aria-hidden="true">MS</div>'
+        source = card_image(img_path) if img_path and img_path.exists() else None
+        loading = 'eager' if number == 0 else 'lazy'
+        priority = ' fetchpriority="high"' if number == 0 else ''
+        image = f'<img src="{escape(source)}" alt="{escape(meta.get("alt_destacada", e["title"]), quote=True)}" loading="{loading}"{priority} width="640" height="360"/>' if source else '<div class="ms-card-placeholder" aria-hidden="true">MS</div>'
         snippet = re.sub(r'\[&hellip;\]', '…', e.get('snippet', ''))
         cards.append(f'''<article class="ms-editorial-card" data-category="{escape(cat)}" data-date="{escape(e['date'][:10])}"><a class="ms-card-image" href="/{escape(e['slug'])}/" aria-label="{escape(e['title'], quote=True)}">{image}</a><div class="ms-card-copy"><span class="ms-card-category">{escape(CATEGORIES.get(cat, 'Escenarios'))}</span><h2><a href="/{escape(e['slug'])}/">{escape(e['title'])}</a></h2><p>{escape(snippet)}</p><time datetime="{escape(e['date'])}">{escape(e['date'][:10])}</time></div></article>''')
     options = ''.join(f'<option value="{key}">{value}</option>' for key, value in CATEGORIES.items())
     primary.append(fragment(f'''<main id="main" class="site-main ms-editorial-blog"><header class="ms-blog-intro"><span class="ms-card-category">La bitácora de Mundos Simulados</span><h1>Ciencia para imaginar otros mundos</h1><p>Explora escenarios hipotéticos de astrofísica, biosfera, tecnología y economía. Las publicaciones más recientes aparecen primero.</p></header><form id="ms-blog-filters" class="ms-blog-filters" role="search"><div><label for="ms-blog-search">Buscar en el blog</label><input id="ms-blog-search" type="search" name="q" placeholder="¿Qué te gustaría explorar?"/></div><div><label for="ms-blog-category">Temática</label><select id="ms-blog-category" name="category"><option value="">Todas las temáticas</option>{options}</select></div><div><label for="ms-blog-order">Ordenar</label><select id="ms-blog-order"><option value="newest">Más recientes</option><option value="oldest">Más antiguas</option></select></div><div><label for="ms-blog-since">Publicadas desde</label><input id="ms-blog-since" type="date" name="since"/></div><button type="reset">Limpiar filtros</button></form><p id="ms-blog-results" role="status" aria-live="polite">{len(entries)} artículos</p><div id="ms-blog-grid" class="ms-editorial-grid">{''.join(cards)}</div><p id="ms-blog-empty" hidden>No encontramos artículos con esos filtros. Prueba otra búsqueda.</p><button id="ms-blog-more" type="button" hidden>Mostrar más artículos</button><noscript><p>Todos los artículos se muestran por fecha. Activa JavaScript para usar los filtros.</p></noscript></main>'''))
+    # The listing does not use the exported TOC plugin.
+    for tag in soup.select('link[href*="easy-table-of-contents"], script[src*="easy-table-of-contents"], script[id^="ez-toc"], style[id^="ez-toc"]'):
+        tag.decompose()
     script = soup.select_one('script[data-ms-blog]')
     filters = soup.select_one('#ms-blog-filters')
     disclosure = soup.new_tag('details', attrs={'class': 'ms-filter-details', 'open': True})
@@ -247,7 +294,9 @@ def build_blog(entries):
     summary.string = 'Filtrar y ordenar artículos'
     disclosure.insert(0, summary)
     if not script:
-        soup.body.append(fragment('<script data-ms-blog="true" src="/wp-static-arquitect-assets/blog-filters.js" defer></script>'))
+        soup.body.append(fragment('<script data-ms-blog="true" src="/wp-static-arquitect-assets/blog-filters.js?v=20261011-2" defer></script>'))
+    else:
+        script['src'] = '/wp-static-arquitect-assets/blog-filters.js?v=20261011-2'
     for tag in soup.find_all('link', rel=['next', 'prev']):
         tag.decompose()
     canonical = soup.find('link', rel='canonical')
@@ -267,8 +316,9 @@ def sync_editorial():
     entries = sorted({e['slug']: e for e in entries}.values(), key=lambda e: e['date'], reverse=True)
     recover_error_pages(entries)
     build_blog(entries)
+    recommendations = build_related(entries, {e['slug']: metadata(e).get('categoria', '') for e in entries})
     for e in entries:
-        update_article(e, entries)
+        update_article(e, entries, recommendations)
     print(f'Blog, barras laterales y metadatos sincronizados: {len(entries)} artículos')
 
 

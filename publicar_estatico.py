@@ -6,6 +6,7 @@ import markdown as md
 from bs4 import BeautifulSoup
 from datetime import datetime, timezone
 import subprocess
+import re
 
 POSTS_PER_RUN = 1
 BORRADORES_DIR = "borradores"
@@ -14,7 +15,7 @@ TEMPLATE_HTML = os.path.join(".", "piel-camaleonica-camuflaje", "index.html")
 SEARCH_INDEX = os.path.join(".", "search-index.json")
 
 def publicar_posts():
-    archivos_md = glob.glob(os.path.join(BORRADORES_DIR, "*.md"))
+    archivos_md = sorted(glob.glob(os.path.join(BORRADORES_DIR, "*.md")))
     archivos_a_procesar = archivos_md[:POSTS_PER_RUN]
     
     if not archivos_a_procesar:
@@ -44,6 +45,10 @@ def publicar_posts():
             
         slug = post.get('slug')
         title = post.get('title')
+        if not isinstance(slug, str) or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', slug) or not title:
+            raise ValueError(f"Borrador sin título o slug válido: {filepath}")
+        if any(entry.get('slug') == slug for entry in search_db):
+            raise ValueError(f"El artículo ya está publicado: {slug}")
         
         # RankMath SEO
         rm_title = post.get('rank_math_title', title)

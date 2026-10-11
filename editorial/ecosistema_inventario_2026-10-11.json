@@ -1,0 +1,1069 @@
+{
+  "mundos": {
+    "domains": {
+      "todolima.com": 58,
+      "nubeparapymes.online": 1
+    },
+    "destinations": {
+      "https://todolima.com": 5,
+      "https://nubeparapymes.online": 1,
+      "https://todolima.com/fumigacion": 2,
+      "https://todolima.com/cerrajeros": 2,
+      "https://todolima.com/auxilio-mecanico": 3,
+      "https://todolima.com/agentes-inmobiliarios": 2,
+      "https://todolima.com/vidrierias": 1,
+      "https://todolima.com/doctores": 2,
+      "https://todolima.com/laboratorios-clinicos": 1,
+      "https://todolima.com/ginecologos": 2,
+      "https://todolima.com/psicologos": 4,
+      "https://todolima.com/gasfiteros": 4,
+      "https://todolima.com/abogados": 8,
+      "https://todolima.com/opticas": 2,
+      "https://todolima.com/oftalmologos": 1,
+      "https://todolima.com/contadores": 4,
+      "https://todolima.com/camaras-de-seguridad": 2,
+      "https://todolima.com/casas-de-cambio": 4,
+      "https://todolima.com/directorio?distrito=ate": 1,
+      "https://todolima.com/pediatras": 2,
+      "https://todolima.com/notarias": 1,
+      "https://todolima.com/veterinarias": 2,
+      "https://todolima.com/grooming-canino": 1,
+      "https://todolima.com/talleres-mecanicos": 2
+    },
+    "links": [
+      {
+        "page": "index.html",
+        "url": "https://todolima.com",
+        "text": "Directorio Todo Lima"
+      },
+      {
+        "page": "index.html",
+        "url": "https://nubeparapymes.online",
+        "text": "Nube para Pymes"
+      },
+      {
+        "page": "agricultura-robotica-fin-hambruna/index.html",
+        "url": "https://todolima.com/fumigacion",
+        "text": "Directorio de Fumigación en Lima"
+      },
+      {
+        "page": "agricultura-robotica-fin-hambruna/index.html",
+        "url": "https://todolima.com/fumigacion",
+        "text": "👉 Ver Empresas de Fumigación en Lima"
+      },
+      {
+        "page": "apagon-global-internet-7-dias/index.html",
+        "url": "https://todolima.com/cerrajeros",
+        "text": "Cerrajerías 24 Horas en Lima"
+      },
+      {
+        "page": "apagon-global-internet-7-dias/index.html",
+        "url": "https://todolima.com/auxilio-mecanico",
+        "text": "Auxilio Mecánico en Lima"
+      },
+      {
+        "page": "apagon-global-internet-7-dias/index.html",
+        "url": "https://todolima.com/cerrajeros",
+        "text": "👉 Ver Cerrajerías de Emergencia en Lima"
+      },
+      {
+        "page": "arquitectura-dinamica-ciudades/index.html",
+        "url": "https://todolima.com/agentes-inmobiliarios",
+        "text": "Directorio de Agentes Inmobiliarios de Lima"
+      },
+      {
+        "page": "arquitectura-dinamica-ciudades/index.html",
+        "url": "https://todolima.com/vidrierias",
+        "text": "Vidrierías en Lima"
+      },
+      {
+        "page": "arquitectura-dinamica-ciudades/index.html",
+        "url": "https://todolima.com/agentes-inmobiliarios",
+        "text": "👉 Consultar Agentes Inmobiliarios en Lima"
+      },
+      {
+        "page": "atencion-medica-privada-latido/index.html",
+        "url": "https://todolima.com/doctores",
+        "text": "Directorio de Doctores de Lima"
+      },
+      {
+        "page": "atencion-medica-privada-latido/index.html",
+        "url": "https://todolima.com/laboratorios-clinicos",
+        "text": "Laboratorios Clínicos en Lima"
+      },
+      {
+        "page": "atencion-medica-privada-latido/index.html",
+        "url": "https://todolima.com/doctores",
+        "text": "👉 Ver Consultorios Médicos en Lima"
+      },
+      {
+        "page": "bebes-diseno-genetico-clases/index.html",
+        "url": "https://todolima.com/ginecologos",
+        "text": "Directorio de Ginecólogos de Lima"
+      },
+      {
+        "page": "bebes-diseno-genetico-clases/index.html",
+        "url": "https://todolima.com/ginecologos",
+        "text": "👉 Ver Ginecólogos en Lima"
+      },
+      {
+        "page": "borrado-social-psicologia-global/index.html",
+        "url": "https://todolima.com/psicologos",
+        "text": "Directorio de Psicólogos de Lima"
+      },
+      {
+        "page": "borrado-social-psicologia-global/index.html",
+        "url": "https://todolima.com/psicologos",
+        "text": "👉 Buscar Terapeutas en Lima"
+      },
+      {
+        "page": "burbuja-agua-dulce-bolsa/index.html",
+        "url": "https://todolima.com/gasfiteros",
+        "text": "Directorio de Gasfiteros de Lima"
+      },
+      {
+        "page": "burbuja-agua-dulce-bolsa/index.html",
+        "url": "https://todolima.com/gasfiteros",
+        "text": "👉 Ver Gasfiteros Calificados en Lima"
+      },
+      {
+        "page": "carceles-virtuales-cadenas-perpetuas/index.html",
+        "url": "https://todolima.com/abogados",
+        "text": "Directorio Legal de Todo Lima"
+      },
+      {
+        "page": "carceles-virtuales-cadenas-perpetuas/index.html",
+        "url": "https://todolima.com/abogados",
+        "text": "👉 Ver Abogados Penalistas en Lima"
+      },
+      {
+        "page": "ceguera-global-adaptacion-ciudades/index.html",
+        "url": "https://todolima.com/opticas",
+        "text": "Directorio de Ópticas en Lima"
+      },
+      {
+        "page": "ceguera-global-adaptacion-ciudades/index.html",
+        "url": "https://todolima.com/oftalmologos",
+        "text": "Oftalmólogos de Lima"
+      },
+      {
+        "page": "ceguera-global-adaptacion-ciudades/index.html",
+        "url": "https://todolima.com/opticas",
+        "text": "👉 Ver Directorio de Ópticas en Lima"
+      },
+      {
+        "page": "cero-impuestos-pais-privado/index.html",
+        "url": "https://todolima.com/contadores",
+        "text": "Directorio de Contadores de Lima"
+      },
+      {
+        "page": "cero-impuestos-pais-privado/index.html",
+        "url": "https://todolima.com/contadores",
+        "text": "👉 Ver Contadores Tributarios en Lima"
+      },
+      {
+        "page": "ciudades-inteligentes-control/index.html",
+        "url": "https://todolima.com/camaras-de-seguridad",
+        "text": "Cámaras de Seguridad en Lima"
+      },
+      {
+        "page": "ciudades-inteligentes-control/index.html",
+        "url": "https://todolima.com/camaras-de-seguridad",
+        "text": "👉 Ver Especialistas en Cámaras de Seguridad"
+      },
+      {
+        "page": "colapso-financiero-virus-digital/index.html",
+        "url": "https://todolima.com/casas-de-cambio",
+        "text": "Directorio de Casas de Cambio de Lima"
+      },
+      {
+        "page": "colapso-financiero-virus-digital/index.html",
+        "url": "https://todolima.com/casas-de-cambio",
+        "text": "👉 Ver Casas de Cambio en Lima"
+      },
+      {
+        "page": "deepfakes-evidencia-legal/index.html",
+        "url": "https://todolima.com/abogados",
+        "text": "Directorio Legal de Todo Lima"
+      },
+      {
+        "page": "deepfakes-evidencia-legal/index.html",
+        "url": "https://todolima.com/abogados",
+        "text": "👉 Explorar Directorio Legal de Lima"
+      },
+      {
+        "page": "desaparicion-comercio-minorista/index.html",
+        "url": "https://todolima.com",
+        "text": "Directorio Oficial Todo Lima"
+      },
+      {
+        "page": "desaparicion-comercio-minorista/index.html",
+        "url": "https://todolima.com",
+        "text": "👉 Explorar Comercios Locales de Lima"
+      },
+      {
+        "page": "fin-patentes-investigacion-medica/index.html",
+        "url": "https://todolima.com/abogados",
+        "text": "Directorio de Abogados de Lima"
+      },
+      {
+        "page": "fin-patentes-investigacion-medica/index.html",
+        "url": "https://todolima.com/abogados",
+        "text": "👉 Ver Abogados Especialistas en Marcas"
+      },
+      {
+        "page": "gps-caido-caos-logistico/index.html",
+        "url": "https://todolima.com/auxilio-mecanico",
+        "text": "Directorio de Auxilio Mecánico de Lima"
+      },
+      {
+        "page": "gps-caido-caos-logistico/index.html",
+        "url": "https://todolima.com/directorio?distrito=ate",
+        "text": "Ate en Todo Lima"
+      },
+      {
+        "page": "gps-caido-caos-logistico/index.html",
+        "url": "https://todolima.com/auxilio-mecanico",
+        "text": "👉 Explorar Directorio de Auxilio en Lima"
+      },
+      {
+        "page": "inmunidad-absoluta-fin-enfermedades/index.html",
+        "url": "https://todolima.com/pediatras",
+        "text": "Directorio de Pediatras de Lima"
+      },
+      {
+        "page": "inmunidad-absoluta-fin-enfermedades/index.html",
+        "url": "https://todolima.com/pediatras",
+        "text": "👉 Ver Pediatras en Lima Metropolitana"
+      },
+      {
+        "page": "jueces-ia-sistema-legal/index.html",
+        "url": "https://todolima.com/abogados",
+        "text": "Directorio de Abogados de Lima"
+      },
+      {
+        "page": "jueces-ia-sistema-legal/index.html",
+        "url": "https://todolima.com/notarias",
+        "text": "Notarías de Lima"
+      },
+      {
+        "page": "jueces-ia-sistema-legal/index.html",
+        "url": "https://todolima.com/abogados",
+        "text": "Consultar Abogados Colegiados en Lima →"
+      },
+      {
+        "page": "mascotas-roboticas-reemplazo/index.html",
+        "url": "https://todolima.com/veterinarias",
+        "text": "Directorio de Veterinarias de Lima"
+      },
+      {
+        "page": "mascotas-roboticas-reemplazo/index.html",
+        "url": "https://todolima.com/grooming-canino",
+        "text": "Grooming Canino en Lima"
+      },
+      {
+        "page": "mascotas-roboticas-reemplazo/index.html",
+        "url": "https://todolima.com/veterinarias",
+        "text": "Buscar Veterinarias en Lima →"
+      },
+      {
+        "page": "medicion-estres-impuestos/index.html",
+        "url": "https://todolima.com/psicologos",
+        "text": "Directorio de Psicólogos de Lima"
+      },
+      {
+        "page": "medicion-estres-impuestos/index.html",
+        "url": "https://todolima.com/psicologos",
+        "text": "Buscar Psicólogos Calificados en Lima →"
+      },
+      {
+        "page": "mineria-asteroides-desplome-economia/index.html",
+        "url": "https://todolima.com/talleres-mecanicos",
+        "text": "Directorio de Talleres Mecánicos de Lima"
+      },
+      {
+        "page": "mineria-asteroides-desplome-economia/index.html",
+        "url": "https://todolima.com/talleres-mecanicos",
+        "text": "Ver Talleres Mecánicos en Lima →"
+      },
+      {
+        "page": "moneda-global-unica-soberania/index.html",
+        "url": "https://todolima.com/casas-de-cambio",
+        "text": "Directorio de Casas de Cambio de Lima"
+      },
+      {
+        "page": "moneda-global-unica-soberania/index.html",
+        "url": "https://todolima.com/casas-de-cambio",
+        "text": "Consultar Casas de Cambio en Lima →"
+      },
+      {
+        "page": "monopolio-corporativo-unico-omnicorp/index.html",
+        "url": "https://todolima.com",
+        "text": "todolima.com"
+      },
+      {
+        "page": "monopolio-corporativo-unico-omnicorp/index.html",
+        "url": "https://todolima.com",
+        "text": "Ver Directorio de Pymes Limeñas →"
+      },
+      {
+        "page": "multas-segun-ingresos/index.html",
+        "url": "https://todolima.com/contadores",
+        "text": "Directorio de Contadores de Lima"
+      },
+      {
+        "page": "multas-segun-ingresos/index.html",
+        "url": "https://todolima.com/contadores",
+        "text": "Ver Contadores Colegiados en Lima →"
+      },
+      {
+        "page": "oceanos-agua-dulce-extincion/index.html",
+        "url": "https://todolima.com/gasfiteros",
+        "text": "Directorio de Gasfiteros en Lima"
+      },
+      {
+        "page": "oceanos-agua-dulce-extincion/index.html",
+        "url": "https://todolima.com/gasfiteros",
+        "text": "Consultar Gasfiteros en Lima →"
+      }
+    ]
+  },
+  "nube_export": {
+    "domains": {
+      "todolima.com": 29
+    },
+    "destinations": {
+      "https://todolima.com/auditoria": 4,
+      "https://todolima.com/agentes-inmobiliarios": 2,
+      "https://todolima.com": 6,
+      "https://todolima.com/contadores": 2,
+      "https://todolima.com/abogados": 2,
+      "https://todolima.com/notarias": 1,
+      "https://todolima.com/escuelas-de-manejo": 2,
+      "https://todolima.com/pollerias": 2,
+      "https://todolima.com/chifas": 1,
+      "https://todolima.com/cevicherias": 1,
+      "https://todolima.com/alquiler-de-canchas": 2,
+      "https://todolima.com/gimnasios": 1,
+      "https://todolima.com/dentistas": 2,
+      "https://todolima.com/veterinarias": 1
+    },
+    "links": [
+      {
+        "page": "crm-con-whatsapp-integrado/index.html",
+        "url": "https://todolima.com/auditoria",
+        "text": "Todo Lima Soluciones B2B"
+      },
+      {
+        "page": "crm-con-whatsapp-integrado/index.html",
+        "url": "https://todolima.com/auditoria",
+        "text": "Ver Soluciones de Automatización en Lima →"
+      },
+      {
+        "page": "crm-integrado-whatsapp-business/index.html",
+        "url": "https://todolima.com/auditoria",
+        "text": "Auditoría Digital y Asistentes IA de Todo Lima"
+      },
+      {
+        "page": "crm-integrado-whatsapp-business/index.html",
+        "url": "https://todolima.com/auditoria",
+        "text": "Solicitar Demostración de Asistente IA →"
+      },
+      {
+        "page": "crm-para-inmobiliarias/index.html",
+        "url": "https://todolima.com/agentes-inmobiliarios",
+        "text": "Directorio de Agentes Inmobiliarios de Lima"
+      },
+      {
+        "page": "crm-para-inmobiliarias/index.html",
+        "url": "https://todolima.com/agentes-inmobiliarios",
+        "text": "Ver Agentes Inmobiliarios en Lima →"
+      },
+      {
+        "page": "digitalizar-procesos-negocio-pequeno/index.html",
+        "url": "https://todolima.com",
+        "text": "Directorio comercial de Todo Lima"
+      },
+      {
+        "page": "digitalizar-procesos-negocio-pequeno/index.html",
+        "url": "https://todolima.com",
+        "text": "Publicar Negocio en Todo Lima →"
+      },
+      {
+        "page": "facturar-independiente-peru/index.html",
+        "url": "https://todolima.com/contadores",
+        "text": "Directorio de Contadores de Lima"
+      },
+      {
+        "page": "facturar-independiente-peru/index.html",
+        "url": "https://todolima.com/contadores",
+        "text": "Buscar Contadores Colegiados en Lima →"
+      },
+      {
+        "page": "geo-para-pymes-respuestas-inteligencia-artificial/index.html",
+        "url": "https://todolima.com",
+        "text": "todolima.com"
+      },
+      {
+        "page": "geo-para-pymes-respuestas-inteligencia-artificial/index.html",
+        "url": "https://todolima.com",
+        "text": "Indexar mi Negocio en Todo Lima →"
+      },
+      {
+        "page": "gestion-despachos-abogados/index.html",
+        "url": "https://todolima.com/abogados",
+        "text": "Directorio de Abogados de Lima"
+      },
+      {
+        "page": "gestion-despachos-abogados/index.html",
+        "url": "https://todolima.com/notarias",
+        "text": "Notarías en Lima"
+      },
+      {
+        "page": "gestion-despachos-abogados/index.html",
+        "url": "https://todolima.com/abogados",
+        "text": "Consultar Directorio Legal de Lima →"
+      },
+      {
+        "page": "herramientas-profesores-particulares/index.html",
+        "url": "https://todolima.com/escuelas-de-manejo",
+        "text": "Escuelas de Capacitación en Lima"
+      },
+      {
+        "page": "herramientas-profesores-particulares/index.html",
+        "url": "https://todolima.com/escuelas-de-manejo",
+        "text": "Ver Directorio Educativo en Lima →"
+      },
+      {
+        "page": "punto-de-venta-restaurantes/index.html",
+        "url": "https://todolima.com/pollerias",
+        "text": "Directorio de Pollerías de Lima"
+      },
+      {
+        "page": "punto-de-venta-restaurantes/index.html",
+        "url": "https://todolima.com/chifas",
+        "text": "Chifas de Lima"
+      },
+      {
+        "page": "punto-de-venta-restaurantes/index.html",
+        "url": "https://todolima.com/cevicherias",
+        "text": "Cevicherías de Lima"
+      },
+      {
+        "page": "punto-de-venta-restaurantes/index.html",
+        "url": "https://todolima.com/pollerias",
+        "text": "Explorar Directorio Gastronómico de Lima →"
+      },
+      {
+        "page": "seo-geo-para-pymes-visibilidad-ia/index.html",
+        "url": "https://todolima.com",
+        "text": "Directorio Oficial Todo Lima"
+      },
+      {
+        "page": "seo-geo-para-pymes-visibilidad-ia/index.html",
+        "url": "https://todolima.com",
+        "text": "Ver Directorio Oficial Todo Lima →"
+      },
+      {
+        "page": "software-gimnasios-estudios/index.html",
+        "url": "https://todolima.com/alquiler-de-canchas",
+        "text": "Directorio de Alquiler de Canchas Sintéticas en Lima"
+      },
+      {
+        "page": "software-gimnasios-estudios/index.html",
+        "url": "https://todolima.com/gimnasios",
+        "text": "Gimnasios de Lima"
+      },
+      {
+        "page": "software-gimnasios-estudios/index.html",
+        "url": "https://todolima.com/alquiler-de-canchas",
+        "text": "Explorar Centros Deportivos en Lima →"
+      },
+      {
+        "page": "software-reservas-clinicas/index.html",
+        "url": "https://todolima.com/dentistas",
+        "text": "Directorio de Dentistas de Lima"
+      },
+      {
+        "page": "software-reservas-clinicas/index.html",
+        "url": "https://todolima.com/veterinarias",
+        "text": "Veterinarias de Lima"
+      },
+      {
+        "page": "software-reservas-clinicas/index.html",
+        "url": "https://todolima.com/dentistas",
+        "text": "Ver Especialistas de Salud en Lima →"
+      }
+    ]
+  },
+  "nube_dist": {
+    "domains": {
+      "todolima.com": 68,
+      "mundossimulados.online": 6
+    },
+    "destinations": {
+      "https://todolima.com/auditoria?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=automatizacion-ia-pymes-criterios-decision": 2,
+      "https://mundossimulados.online/robots-con-derechos-laborales/?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=automatizacion-ia-pymes-criterios-decision": 2,
+      "https://todolima.com/auditoria?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=crm-con-ia-para-pymes-que-automatizar": 2,
+      "https://mundossimulados.online/resurreccion-digital-avatares/?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=crm-con-ia-para-pymes-que-automatizar": 2,
+      "https://todolima.com/auditoria?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=crm-con-whatsapp-integrado": 2,
+      "https://todolima.com/auditoria?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=crm-integrado-whatsapp-business": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=crm-para-inmobiliarias": 2,
+      "https://todolima.com/auditoria?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=digitalizar-procesos-negocio-pequeno": 2,
+      "https://mundossimulados.online/realidad-virtual-indistinguible/?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=digitalizar-procesos-negocio-pequeno": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=software-reservas-clinicas": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=facturar-independiente-peru": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=geo-para-pymes-respuestas-inteligencia-artificial": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=software-gimnasios-estudios": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=gestion-despachos-abogados": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-profesores-particulares": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=punto-de-venta-restaurantes": 2,
+      "https://todolima.com/auditoria?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=seo-geo-para-pymes-visibilidad-ia": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-calculadora-descuentos-promociones": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-calculadora-precios-venta-igv": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-calculadora-prestamos-amortizaciones": 1,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-calculadora-sobrecostos-laborales": 1,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-flujo-caja-pymes": 1,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-generador-contratos-servicios": 1,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-generador-politicas-devolucion": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-generador-politicas-terminos": 1,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-analizador-titulares": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-auditor-seo-basico": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-comparador-campanas-avanzado": 1,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-consola-campanas": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-organizador-matriz-contenidos": 1,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-calculadora-flete-envio-local": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-inventario-compras-pymes": 1,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-simulador-tco-fisico-nube": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-conversor-optimizador-imagenes": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-firma-correo-html": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-generador-contrasenas-pymes": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-generador-paletas-corporativas": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-tareas-proyectos-pymes": 1,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-creador-facturas-proforma": 1,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-crm-pymes": 1,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-generador-codigos-qr": 2,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-generador-cotizaciones": 1,
+      "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-guiones-manejo-objeciones": 2
+    },
+    "links": [
+      {
+        "page": "automatizacion-ia-pymes-criterios-decision/index.html",
+        "url": "https://todolima.com/auditoria?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=automatizacion-ia-pymes-criterios-decision",
+        "text": "Consultar una revisión digital →"
+      },
+      {
+        "page": "automatizacion-ia-pymes-criterios-decision/index.html",
+        "url": "https://mundossimulados.online/robots-con-derechos-laborales/?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=automatizacion-ia-pymes-criterios-decision",
+        "text": "Robots y derechos laborales"
+      },
+      {
+        "page": "crm-con-ia-para-pymes-que-automatizar/index.html",
+        "url": "https://todolima.com/auditoria?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=crm-con-ia-para-pymes-que-automatizar",
+        "text": "Consultar una revisión digital →"
+      },
+      {
+        "page": "crm-con-ia-para-pymes-que-automatizar/index.html",
+        "url": "https://mundossimulados.online/resurreccion-digital-avatares/?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=crm-con-ia-para-pymes-que-automatizar",
+        "text": "Avatares digitales y sus límites"
+      },
+      {
+        "page": "crm-con-whatsapp-integrado/index.html",
+        "url": "https://todolima.com/auditoria?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=crm-con-whatsapp-integrado",
+        "text": "Consultar una revisión digital →"
+      },
+      {
+        "page": "crm-integrado-whatsapp-business/index.html",
+        "url": "https://todolima.com/auditoria?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=crm-integrado-whatsapp-business",
+        "text": "Consultar una revisión digital →"
+      },
+      {
+        "page": "crm-para-inmobiliarias/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=crm-para-inmobiliarias",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "digitalizar-procesos-negocio-pequeno/index.html",
+        "url": "https://todolima.com/auditoria?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=digitalizar-procesos-negocio-pequeno",
+        "text": "Consultar una revisión digital →"
+      },
+      {
+        "page": "digitalizar-procesos-negocio-pequeno/index.html",
+        "url": "https://mundossimulados.online/realidad-virtual-indistinguible/?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=digitalizar-procesos-negocio-pequeno",
+        "text": "Los límites de una realidad virtual indistinguible"
+      },
+      {
+        "page": "en/ai-automation-smbs-decision-criteria/index.html",
+        "url": "https://todolima.com/auditoria?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=automatizacion-ia-pymes-criterios-decision",
+        "text": "Discuss a digital review →"
+      },
+      {
+        "page": "en/ai-automation-smbs-decision-criteria/index.html",
+        "url": "https://mundossimulados.online/robots-con-derechos-laborales/?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=automatizacion-ia-pymes-criterios-decision",
+        "text": "Robots and labour rights"
+      },
+      {
+        "page": "en/ai-crm-for-smbs-what-to-automate/index.html",
+        "url": "https://todolima.com/auditoria?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=crm-con-ia-para-pymes-que-automatizar",
+        "text": "Discuss a digital review →"
+      },
+      {
+        "page": "en/ai-crm-for-smbs-what-to-automate/index.html",
+        "url": "https://mundossimulados.online/resurreccion-digital-avatares/?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=crm-con-ia-para-pymes-que-automatizar",
+        "text": "Digital avatars and their limits"
+      },
+      {
+        "page": "en/clinic-appointment-booking-software/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=software-reservas-clinicas",
+        "text": "Request a business listing review →"
+      },
+      {
+        "page": "en/crm-for-real-estate/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=crm-para-inmobiliarias",
+        "text": "Request a business listing review →"
+      },
+      {
+        "page": "en/crm-integrated-whatsapp-business/index.html",
+        "url": "https://todolima.com/auditoria?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=crm-integrado-whatsapp-business",
+        "text": "Discuss a digital review →"
+      },
+      {
+        "page": "en/crm-with-whatsapp-integration/index.html",
+        "url": "https://todolima.com/auditoria?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=crm-con-whatsapp-integrado",
+        "text": "Discuss a digital review →"
+      },
+      {
+        "page": "en/digitize-small-business-processes/index.html",
+        "url": "https://todolima.com/auditoria?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=digitalizar-procesos-negocio-pequeno",
+        "text": "Discuss a digital review →"
+      },
+      {
+        "page": "en/digitize-small-business-processes/index.html",
+        "url": "https://mundossimulados.online/realidad-virtual-indistinguible/?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=digitalizar-procesos-negocio-pequeno",
+        "text": "The limits of indistinguishable virtual reality"
+      },
+      {
+        "page": "en/freelance-invoicing-peru-guide/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=facturar-independiente-peru",
+        "text": "Request a business listing review →"
+      },
+      {
+        "page": "en/geo-for-smbs-ai-recommendations/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=geo-para-pymes-respuestas-inteligencia-artificial",
+        "text": "Request a business listing review →"
+      },
+      {
+        "page": "en/gym-fitness-studio-software/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=software-gimnasios-estudios",
+        "text": "Request a business listing review →"
+      },
+      {
+        "page": "en/law-firm-management-software/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=gestion-despachos-abogados",
+        "text": "Request a business listing review →"
+      },
+      {
+        "page": "en/management-tools-private-tutors/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-profesores-particulares",
+        "text": "Request a business listing review →"
+      },
+      {
+        "page": "en/pos-systems-restaurants/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=punto-de-venta-restaurantes",
+        "text": "Request a business listing review →"
+      },
+      {
+        "page": "en/seo-geo-smb-ai-visibility/index.html",
+        "url": "https://todolima.com/auditoria?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=seo-geo-para-pymes-visibilidad-ia",
+        "text": "Discuss a digital review →"
+      },
+      {
+        "page": "facturar-independiente-peru/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=facturar-independiente-peru",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "geo-para-pymes-respuestas-inteligencia-artificial/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=geo-para-pymes-respuestas-inteligencia-artificial",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "gestion-despachos-abogados/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=gestion-despachos-abogados",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/finanzas/calculadora-descuentos-promociones/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-calculadora-descuentos-promociones",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/finanzas/calculadora-descuentos-promociones/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-calculadora-descuentos-promociones",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/finanzas/calculadora-precios-venta-igv/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-calculadora-precios-venta-igv",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/finanzas/calculadora-precios-venta-igv/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-calculadora-precios-venta-igv",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/finanzas/calculadora-prestamos-amortizaciones/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-calculadora-prestamos-amortizaciones",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/finanzas/calculadora-sobrecostos-laborales/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-calculadora-sobrecostos-laborales",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/finanzas/flujo-caja-pymes/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-flujo-caja-pymes",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/legal/generador-contratos-servicios/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-generador-contratos-servicios",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/legal/generador-politicas-devolucion/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-generador-politicas-devolucion",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/legal/generador-politicas-devolucion/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-generador-politicas-devolucion",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/legal/generador-politicas-terminos/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-generador-politicas-terminos",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/marketing/analizador-titulares/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-analizador-titulares",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/marketing/analizador-titulares/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-analizador-titulares",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/marketing/auditor-seo-basico/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-auditor-seo-basico",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/marketing/auditor-seo-basico/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-auditor-seo-basico",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/marketing/comparador-campanas-avanzado/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-comparador-campanas-avanzado",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/marketing/consola-campanas/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-consola-campanas",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/marketing/consola-campanas/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-consola-campanas",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/marketing/organizador-matriz-contenidos/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-organizador-matriz-contenidos",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/operaciones/calculadora-flete-envio-local/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-calculadora-flete-envio-local",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/operaciones/calculadora-flete-envio-local/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-calculadora-flete-envio-local",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/operaciones/inventario-compras-pymes/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-inventario-compras-pymes",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/operaciones/simulador-tco-fisico-nube/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-simulador-tco-fisico-nube",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/operaciones/simulador-tco-fisico-nube/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-simulador-tco-fisico-nube",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/productividad/conversor-optimizador-imagenes/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-conversor-optimizador-imagenes",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/productividad/conversor-optimizador-imagenes/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-conversor-optimizador-imagenes",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/productividad/firma-correo-html/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-firma-correo-html",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/productividad/firma-correo-html/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-firma-correo-html",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/productividad/generador-contrasenas-pymes/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-generador-contrasenas-pymes",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/productividad/generador-contrasenas-pymes/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-generador-contrasenas-pymes",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/productividad/generador-paletas-corporativas/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-generador-paletas-corporativas",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/productividad/generador-paletas-corporativas/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-generador-paletas-corporativas",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/productividad/tareas-proyectos-pymes/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-tareas-proyectos-pymes",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/ventas/creador-facturas-proforma/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-creador-facturas-proforma",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/ventas/crm-pymes/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-crm-pymes",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/ventas/generador-codigos-qr/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-generador-codigos-qr",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/ventas/generador-codigos-qr/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-generador-codigos-qr",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/ventas/generador-cotizaciones/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-generador-cotizaciones",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/ventas/guiones-manejo-objeciones/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-guiones-manejo-objeciones",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas/ventas/guiones-manejo-objeciones/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramienta-guiones-manejo-objeciones",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "herramientas-profesores-particulares/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=herramientas-profesores-particulares",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "punto-de-venta-restaurantes/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=punto-de-venta-restaurantes",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "seo-geo-para-pymes-visibilidad-ia/index.html",
+        "url": "https://todolima.com/auditoria?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=seo-geo-para-pymes-visibilidad-ia",
+        "text": "Consultar una revisión digital →"
+      },
+      {
+        "page": "software-gimnasios-estudios/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=software-gimnasios-estudios",
+        "text": "Solicitar revisión de mi ficha →"
+      },
+      {
+        "page": "software-reservas-clinicas/index.html",
+        "url": "https://todolima.com/para-negocios?utm_source=nubeparapymes&utm_medium=referral&utm_campaign=ecosistema&utm_content=software-reservas-clinicas",
+        "text": "Solicitar revisión de mi ficha →"
+      }
+    ]
+  },
+  "todo_out": {
+    "domains": {
+      "nubeparapymes.online": 19,
+      "mundossimulados.online": 4
+    },
+    "destinations": {
+      "https://nubeparapymes.online/herramientas/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=auditoria": 1,
+      "https://nubeparapymes.online/crm-con-ia-para-pymes-que-automatizar/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=auditoria": 1,
+      "https://nubeparapymes.online/calculadora-precios-venta-igv.html": 1,
+      "https://nubeparapymes.online/calculadora-sobrecostos-laborales.html": 1,
+      "https://nubeparapymes.online/calculadora-prestamos-amortizaciones.html": 1,
+      "https://nubeparapymes.online/flujo-caja-pymes.html": 1,
+      "https://nubeparapymes.online/generador-codigos-qr.html": 1,
+      "https://nubeparapymes.online/calculadora-flete-envio-local.html": 1,
+      "https://nubeparapymes.online/creador-facturas-proforma.html": 1,
+      "https://nubeparapymes.online/generador-cotizaciones.html": 1,
+      "https://nubeparapymes.online/crm-pymes.html": 1,
+      "https://nubeparapymes.online/generador-contratos-servicios.html": 1,
+      "https://nubeparapymes.online/generador-politicas-devolucion.html": 1,
+      "https://nubeparapymes.online/generador-politicas-terminos.html": 1,
+      "https://nubeparapymes.online/auditor-seo-basico.html": 1,
+      "https://nubeparapymes.online/conversor-optimizador-imagenes.html": 1,
+      "https://nubeparapymes.online/analizador-titulares.html": 1,
+      "https://nubeparapymes.online/generador-paletas-corporativas.html": 1,
+      "https://mundossimulados.online/": 2,
+      "https://mundossimulados.online/turismo-virtual-quiebra-aerolineas/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=museos-de-lima-como-elegir-una-visita-segun-tus-intereses": 1,
+      "https://mundossimulados.online/turismo-virtual-quiebra-aerolineas/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=que-visitar-centro-historico-lima": 1,
+      "https://nubeparapymes.online/herramientas/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=revisar-informacion-negocio-lima": 1
+    },
+    "links": [
+      {
+        "page": "auditoria.html",
+        "url": "https://nubeparapymes.online/herramientas/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=auditoria",
+        "text": "Explorar las herramientas de Nube para Pymes"
+      },
+      {
+        "page": "auditoria.html",
+        "url": "https://nubeparapymes.online/crm-con-ia-para-pymes-que-automatizar/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=auditoria",
+        "text": "Qué revisar antes de automatizar un CRM"
+      },
+      {
+        "page": "herramientas.html",
+        "url": "https://nubeparapymes.online/calculadora-precios-venta-igv.html",
+        "text": "SUNAT Perú Popular Calculadora de Precios con IGV (18% SUNAT) Calcula al instante el valor de venta, IGV desglosado y precio final al consumidor conforme a la normativa tributaria peruana. Abrir herramienta interactiva"
+      },
+      {
+        "page": "herramientas.html",
+        "url": "https://nubeparapymes.online/calculadora-sobrecostos-laborales.html",
+        "text": "Laboral Perú Calculadora de Sobrecostos Laborales Perú Simula el costo real de planilla: régimen mype, gratificaciones, CTS, EsSalud (9%) y vacaciones en el Perú. Abrir herramienta interactiva"
+      },
+      {
+        "page": "herramientas.html",
+        "url": "https://nubeparapymes.online/calculadora-prestamos-amortizaciones.html",
+        "text": "Financiero Calculadora de Préstamos y Amortizaciones Evalúa cronogramas de pago, cuotas fijas, método francés y costo financiero total para financiamiento comercial. Abrir herramienta interactiva"
+      },
+      {
+        "page": "herramientas.html",
+        "url": "https://nubeparapymes.online/flujo-caja-pymes.html",
+        "text": "Operativo Flujo de Caja y Cobranzas para Pymes Plantilla interactiva para proyectar ingresos semanales, egresos fijos y control de cuentas por cobrar en soles. Abrir herramienta interactiva"
+      },
+      {
+        "page": "herramientas.html",
+        "url": "https://nubeparapymes.online/generador-codigos-qr.html",
+        "text": "Yape / Plin Popular Generador de Códigos QR (Yape, Plin y WhatsApp) Genera códigos QR de alta resolución listos para imprimir en tu mostrador o vitrina para cobrar con billeteras digitales. Abrir herramienta interactiva"
+      },
+      {
+        "page": "herramientas.html",
+        "url": "https://nubeparapymes.online/calculadora-flete-envio-local.html",
+        "text": "Lima & Callao Popular Calculadora de Flete y Envíos Locales en Lima Estima costos y tarifas de despacho por distancia y peso para entregas entre los 43 distritos de Lima Metropolitana. Abrir herramienta interactiva"
+      },
+      {
+        "page": "herramientas.html",
+        "url": "https://nubeparapymes.online/creador-facturas-proforma.html",
+        "text": "Comercial Creador de Facturas Proforma y Presupuestos Genera documentos proforma formales con logo, RUC, detalle de productos y cálculo automático de totales para clientes. Abrir herramienta interactiva"
+      },
+      {
+        "page": "herramientas.html",
+        "url": "https://nubeparapymes.online/generador-cotizaciones.html",
+        "text": "Servicios Técnicos Generador de Cotizaciones Comerciales Ideal para técnicos, gasfiteros, carpinteros, vidrierías y pintores que necesitan enviar cotizaciones claras por WhatsApp. Abrir herramienta interactiva"
+      },
+      {
+        "page": "herramientas.html",
+        "url": "https://nubeparapymes.online/crm-pymes.html",
+        "text": "Ventas Micro CRM y Pipeline Comercial Gestiona prospectos, estados de negociación y tareas de seguimiento de ventas sin pagar suscripciones mensuales. Abrir herramienta interactiva"
+      },
+      {
+        "page": "herramientas.html",
+        "url": "https://nubeparapymes.online/generador-contratos-servicios.html",
+        "text": "Legal Perú Generador de Contratos de Prestación de Servicios Minuta contractual redactada bajo el Código Civil peruano para proteger tus acuerdos comerciales y plazos de entrega. Abrir herramienta interactiva"
+      },
+      {
+        "page": "herramientas.html",
+        "url": "https://nubeparapymes.online/generador-politicas-devolucion.html",
+        "text": "Indecopi Generador de Políticas de Devolución y Garantías Define condiciones de cambio, reembolso y garantías para tu tienda física o virtual según la Ley de Protección al Consumidor. Abrir herramienta interactiva"
+      },
+      {
+        "page": "herramientas.html",
+        "url": "https://nubeparapymes.online/generador-politicas-terminos.html",
+        "text": "Web Legal Generador de Términos y Condiciones Web Genera los términos de uso estándar para tu sitio web, catálogo digital o landing page comercial. Abrir herramienta interactiva"
+      },
+      {
+        "page": "herramientas.html",
+        "url": "https://nubeparapymes.online/auditor-seo-basico.html",
+        "text": "SEO Técnico Auditor SEO Básico y Estructura Web Audita títulos, etiquetas meta, jerarquía H1-H3 y legibilidad móvil para mejorar el posicionamiento en Google. Abrir herramienta interactiva"
+      },
+      {
+        "page": "herramientas.html",
+        "url": "https://nubeparapymes.online/conversor-optimizador-imagenes.html",
+        "text": "Velocidad Web Popular Optimizador y Conversor a Formato WebP Reduce el peso de las fotos de tus productos y servicios hasta en un 80% sin perder calidad visual. Abrir herramienta interactiva"
+      },
+      {
+        "page": "herramientas.html",
+        "url": "https://nubeparapymes.online/analizador-titulares.html",
+        "text": "Copywriting Analizador de Titulares Persuasivos Evalúa la fuerza emocional y tasa de clics de los titulares de tus anuncios, publicaciones o promociones. Abrir herramienta interactiva"
+      },
+      {
+        "page": "herramientas.html",
+        "url": "https://nubeparapymes.online/generador-paletas-corporativas.html",
+        "text": "Branding Generador de Paletas Corporativas Crea combinaciones de colores contrastadas y profesionales para la imagen gráfica de tu comercio. Abrir herramienta interactiva"
+      },
+      {
+        "page": "blog/museos-de-lima-como-elegir-una-visita-segun-tus-intereses.html",
+        "url": "https://mundossimulados.online/",
+        "text": "ensayos sobre ciudades futuras y simulación tecnológica"
+      },
+      {
+        "page": "blog/museos-de-lima-como-elegir-una-visita-segun-tus-intereses.html",
+        "url": "https://mundossimulados.online/turismo-virtual-quiebra-aerolineas/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=museos-de-lima-como-elegir-una-visita-segun-tus-intereses",
+        "text": "¿Qué cambiaría si el turismo fuera virtual? →"
+      },
+      {
+        "page": "blog/museos-de-lima-como-elegir-una-visita-segun-tus-intereses.html",
+        "url": "https://mundossimulados.online/",
+        "text": "ensayos sobre ciudades futuras y simulación tecnológica"
+      },
+      {
+        "page": "blog/que-visitar-centro-historico-lima.html",
+        "url": "https://mundossimulados.online/turismo-virtual-quiebra-aerolineas/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=que-visitar-centro-historico-lima",
+        "text": "Un escenario sobre el futuro del turismo virtual →"
+      },
+      {
+        "page": "blog/revisar-informacion-negocio-lima.html",
+        "url": "https://nubeparapymes.online/herramientas/?utm_source=todolima&utm_medium=referral&utm_campaign=ecosistema&utm_content=revisar-informacion-negocio-lima",
+        "text": "Herramientas para organizar mi negocio →"
+      }
+    ]
+  }
+}

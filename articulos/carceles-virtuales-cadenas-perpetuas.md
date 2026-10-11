@@ -56,6 +56,6 @@ Este escenario nos dice que el sistema penal actual no busca solo la eficiencia 
 
 <!-- [MS_TODOLIMA_BRIDGE_START] -->
 > **🏙️ Anclaje a la Realidad: Sistema Penitenciario y Derecho Penal en Lima (Lima Metropolitana):**
-> La tutela de garantías constitucionales y representación penal en el fuero judicial de Lima y Callao se gestiona mediante abogados litigantes especializados. Consulta el [Directorio Legal de Todo Lima](https://todolima.com/abogados).  
+> Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.
 > [👉 Ver Abogados Penalistas en Lima](https://todolima.com/abogados)
 <!-- [MS_TODOLIMA_BRIDGE_END] -->

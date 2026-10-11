@@ -23,12 +23,20 @@ TONO:
 
 FORMATO DE SALIDA, obligatorio:
 - No repitas el H1, ya está puesto por WordPress.
-- Usa exactamente los H2 que te doy en el brief, en ese orden, como
-  subtítulos Markdown ("## "). Puedes añadir H3 dentro de cada H2 si el
-  desarrollo lo pide.
-- Extensión total: entre 1400 y 1900 palabras.
-- Incluye la palabra clave que te doy de forma natural en el primer párrafo
-  y en al menos un H2.
+- Usa los H2 del brief como orientación y ajusta los que presuponen hechos
+  no demostrados. Puedes añadir H3 cuando ayuden a comprender el escenario.
+- Escribe la extensión necesaria para responder bien, sin rellenar ni
+  presentar un número de palabras como requisito de SEO.
+- Usa la palabra clave cuando resulte natural, sin repetirla por obligación.
+- Comienza con una respuesta breve y delimita la evidencia, los supuestos
+  hipotéticos y las consecuencias condicionadas. Añade preguntas útiles.
+- Vincula cada afirmación comprobable importante a una fuente primaria
+  específica con título y URL; no uses portadas genéricas como prueba.
+  No inventes referencias ni afirmes que consultaste una fuente sin acceso.
+  Si no puedes verificar un dato, retíralo o márcalo como pendiente de revisión.
+- Distingue cifras observadas de cálculos propios, modelos e ilustraciones.
+  No extrapoles resultados animales a salud humana ni inventes plazos de
+  catástrofe, tasas de desempleo o resultados económicos universales.
 - En algún punto razonable del cuerpo (después del primer o segundo H2)
   inserta la línea exacta: {{IMAGEN_INTERNA_1}}
 - Más adelante, antes del cierre, inserta la línea exacta: {{IMAGEN_INTERNA_2}}

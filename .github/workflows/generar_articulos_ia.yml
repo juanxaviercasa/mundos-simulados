@@ -69,4 +69,4 @@ jobs:
           git config --global user.email "bot@mundossimulados.online"
           git add articulos/*.md
           git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Contenido IA: Nuevos artículos generados automáticamente con SEO & GEO"
-          git push || true
+          git push

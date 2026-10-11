@@ -58,6 +58,6 @@ Lo que nos dice este escenario del mundo real no es que la tecnología destruir�
 
 <!-- [MS_TODOLIMA_BRIDGE_START] -->
 > **🏙️ Anclaje a la Realidad: Peritaje Legal y Ciberdelincuencia en Perú (Lima Metropolitana):**
-> El derecho penal informático y la validación de pruebas documentales en Lima se apoyan en juristas y peritos forenses especializados. Conoce a los profesionales habilitados en el [Directorio Legal de Todo Lima](https://todolima.com/abogados).  
+> Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.
 > [👉 Explorar Directorio Legal de Lima](https://todolima.com/abogados)
 <!-- [MS_TODOLIMA_BRIDGE_END] -->

@@ -59,6 +59,6 @@ Este escenario nos dice que la economía global actual no está limitada por la 
 
 <!-- [MS_TODOLIMA_BRIDGE_START] -->
 > **🏙️ Anclaje a la Realidad: Talleres Metalmecánicos y Repuestos en Lima (Lima Metropolitana):**
-> En la actividad industrial real de Lima Este y Lima Norte, el maquinado de piezas, tornería y mantenimiento automotriz es sostenido por talleres especializados. Conoce los mejores talleres en el [Directorio de Talleres Mecánicos de Lima](https://todolima.com/talleres-mecanicos).  
+> Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.
 > [👉 Ver Talleres Mecánicos en Lima](https://todolima.com/talleres-mecanicos)
 <!-- [MS_TODOLIMA_BRIDGE_END] -->

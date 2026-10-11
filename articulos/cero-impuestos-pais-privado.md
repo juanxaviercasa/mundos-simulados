@@ -59,6 +59,6 @@ Este escenario nos recuerda que los impuestos no son un mero robo administrativo
 
 <!-- [MS_TODOLIMA_BRIDGE_START] -->
 > **🏙️ Anclaje a la Realidad: Asesoría Tributaria y Contabilidad en Lima (Lima Metropolitana):**
-> En el marco fiscal peruano, la correcta tributación y optimización de costos para pymes y personas con negocio requiere contadores colegiados con experiencia en normativa SUNAT. Conoce especialistas en el [Directorio de Contadores de Lima](https://todolima.com/contadores).  
+> Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.
 > [👉 Ver Contadores Tributarios en Lima](https://todolima.com/contadores)
 <!-- [MS_TODOLIMA_BRIDGE_END] -->

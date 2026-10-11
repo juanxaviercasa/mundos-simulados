@@ -58,6 +58,6 @@ Este escenario nos muestra que el comercio minorista no es un simple intermediar
 
 <!-- [MS_TODOLIMA_BRIDGE_START] -->
 > **🏙️ Anclaje a la Realidad: El Tejido Comercial Pyme en Lima (Lima Metropolitana):**
-> Lejos de la extinción del comercio local, en Lima Metropolitana operan cientos de miles de tiendas de cercanía, bodegas y comercios de barrio que impulsan la economía de distritos populares y residenciales. Conoce la red comercial en el [Directorio Oficial Todo Lima](https://todolima.com).  
+> Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.
 > [👉 Explorar Comercios Locales de Lima](https://todolima.com)
 <!-- [MS_TODOLIMA_BRIDGE_END] -->

@@ -317,6 +317,10 @@ def sincronizar_todo():
     sincronizar_author(total)
     sincronizar_sitemap(search_db)
     corregir_featured_images_posts(search_db, articulos_meta)
+    from editorial_site import sync_editorial
+    sync_editorial()
+    from optimizar_exportaciones import optimize_exports
+    optimize_exports()
     
     print("--- Sincronización Global Completada con Éxito ---")
 

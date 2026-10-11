@@ -58,6 +58,6 @@ Este ejercicio nos muestra que la concentración extrema de los mercados no cond
 
 <!-- [MS_TODOLIMA_BRIDGE_START] -->
 > **🏙️ Anclaje a la Realidad: Emprendimientos Independientes en los 43 Distritos (Lima Metropolitana):**
-> Frente a las megacorporaciones distópicas, la fortaleza económica de Lima radica en la diversidad de sus 56 rubros comerciales independientes, desde ferreterías hasta gastronomía. Revisa el catálogo oficial en [todolima.com](https://todolima.com).  
+> Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.
 > [👉 Ver Directorio de Pymes Limeñas](https://todolima.com)
 <!-- [MS_TODOLIMA_BRIDGE_END] -->

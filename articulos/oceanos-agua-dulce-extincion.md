@@ -47,6 +47,6 @@ Este escenario demuestra que la estabilidad de los ecosistemas y del clima terre
 
 <!-- [MS_TODOLIMA_BRIDGE_START] -->
 > **🏙️ Anclaje a la Realidad: Mantenimiento Sanitario e Hidráulico en Lima (Lima Metropolitana):**
-> La gestión del agua potable y la detección de fugas en edificaciones y residencias de Lima Metropolitana requiere gasfitería especializada con equipos de detección electrónica. Accede al [Directorio de Gasfiteros en Lima](https://todolima.com/gasfiteros).  
+> Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.
 > [👉 Consultar Gasfiteros en Lima](https://todolima.com/gasfiteros)
 <!-- [MS_TODOLIMA_BRIDGE_END] -->

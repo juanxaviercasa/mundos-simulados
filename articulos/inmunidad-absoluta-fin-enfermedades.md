@@ -49,6 +49,6 @@ Este escenario nos recuerda que la supervivencia a largo plazo de nuestra especi
 
 <!-- [MS_TODOLIMA_BRIDGE_START] -->
 > **🏙️ Anclaje a la Realidad: Pediatría y Control del Desarrollo en Lima (Lima Metropolitana):**
-> El esquema de inmunización infantil y la atención preventiva de niños y recién nacidos en distritos limeños es liderado por médicos colegiados. Consulta el [Directorio de Pediatras de Lima](https://todolima.com/pediatras).  
+> Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.
 > [👉 Ver Pediatras en Lima Metropolitana](https://todolima.com/pediatras)
 <!-- [MS_TODOLIMA_BRIDGE_END] -->

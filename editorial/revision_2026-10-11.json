@@ -1,0 +1,131 @@
+[
+  {
+    "slug": "semana-laboral-dos-dias",
+    "original_title": "Semana de dos días: El impacto en el consumo de una jornada laboral de 16 horas",
+    "reviewed_title": "Semana laboral de dos días: productividad, ocio y límites del escenario",
+    "status": "reviewed_draft",
+    "sources": [
+      "https://www.oecd.org/en/publications/2022/09/oecd-employment-outlook-2022_7a5a73b3/full-report/component-9.html"
+    ],
+    "original_sha256": "5d56b7e843a62b0ee48d1acb528a80eb1dc2b9bbff9ce0cea547f5cffb4e4d62",
+    "reviewed_sha256": "f4291e82b9ba9474354e6f0d5b7683e42d441cc120095844acfe71eb3f22f2ba"
+  },
+  {
+    "slug": "salario-emocional-realidad-virtual",
+    "original_title": "Salario emocional: Trabajos que pagan exclusivamente en experiencias de realidad virtual",
+    "reviewed_title": "Salario en realidad virtual: límites económicos de una distopía",
+    "status": "reviewed_draft",
+    "sources": [
+      "https://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB%3A12100%3A%3ANO%3A12100%3AP12100_ILO_CODE%3AC095%3ANO"
+    ],
+    "original_sha256": "ebfdcbb62aafff3a67b433de0aca181d5c6ffba15f946cca84976f4ed9eecf79",
+    "reviewed_sha256": "f214e6850c2132481322f42e0d869f13f56ed79339e7d1fa8ab6d229c6b708d5"
+  },
+  {
+    "slug": "redes-neuronales-planetarias",
+    "original_title": "Redes neuronales planetarias: La Tierra funcionando como un solo cerebro gigante",
+    "reviewed_title": "Redes neuronales planetarias: coordinación global y límites físicos",
+    "status": "reviewed_draft",
+    "sources": [
+      "https://www.itu.int/en/mediacentre/Pages/PR-2024-11-27-facts-and-figures.aspx",
+      "https://www.nist.gov/pml/special-publication-330/sp-330-section-2"
+    ],
+    "original_sha256": "5a49d6db69f0f8ab9efc37362963737b056b9224d2a5f4fda82dcd7f440de3ec",
+    "reviewed_sha256": "3f112008f1900c0efdc19a7c8545bc3e3ca4a612c0d14a18087acfd9b41c815c"
+  },
+  {
+    "slug": "virus-antiguos-permafrost",
+    "original_title": "Despertar de los virus antiguos: Las pandemias del permafrost derretido",
+    "reviewed_title": "Virus del permafrost: qué demuestra la ciencia y qué sigue siendo hipotético",
+    "status": "reviewed_draft",
+    "sources": [
+      "https://www.mdpi.com/1999-4915/15/2/564"
+    ],
+    "original_sha256": "e06c3b982dec530d6bc8526763a72fc3cc4db50e9690e58f30de417fd23b3a3f",
+    "reviewed_sha256": "592e4bd482746a5f65629697ce8dee9e247e3a9a3251d83253099a7afa84e752"
+  },
+  {
+    "slug": "semillas-extraterrestres-invasion",
+    "original_title": "Especies invasoras alienígenas: Semillas extraterrestres germinando en la Tierra",
+    "reviewed_title": "Semillas extraterrestres: los supuestos de una invasión hipotética",
+    "status": "reviewed_draft",
+    "sources": [
+      "https://science.nasa.gov/uap/faqs/",
+      "https://www.ipbes.net/ias"
+    ],
+    "original_sha256": "1ad8eb060d026d6ead59b8ab384fd8634aa814b580c1070b9281d790087de9b8",
+    "reviewed_sha256": "06d449e956a821aac805770c748eaf137da90c94b692405fcce13082b45f7229"
+  },
+  {
+    "slug": "silencio-movil-sin-smartphones",
+    "original_title": "Silencio móvil: El impacto biológico en los humanos al apagarse todos los smartphones",
+    "reviewed_title": "Un mundo sin smartphones: efectos posibles y límites de la evidencia",
+    "status": "reviewed_draft",
+    "sources": [
+      "https://academic.oup.com/pnasnexus/article/4/2/pgaf017/8016017",
+      "https://www.itu.int/en/mediacentre/Pages/PR-2024-11-27-facts-and-figures.aspx"
+    ],
+    "original_sha256": "6f2029c2a3804b90712b6a6d0e6f614b6b285022e6314f7204ca94cb98009c0f",
+    "reviewed_sha256": "e33d76427ffa434b6b5114af8ecb07ad04d398aa0851a22b79158d4ba7ba4fc0"
+  },
+  {
+    "slug": "universo-holografico-realidad-falsa",
+    "original_title": "El eco holográfico: Las pruebas de que el universo es una proyección",
+    "reviewed_title": "Universo holográfico: qué propone la teoría y qué no demuestra",
+    "status": "reviewed_draft",
+    "sources": [
+      "https://arxiv.org/abs/hep-th/0203101",
+      "https://arxiv.org/abs/hep-th/9711200",
+      "https://news.fnal.gov/2015/12/holometer-rules-out-first-theory-of-space-time-correlations/"
+    ],
+    "original_sha256": "7713a59b562f28c577fc33c52cbe0316f7ce21df6f92cfe1d00c78a2aceee8dd",
+    "reviewed_sha256": "e0d6e1486b49a37bd22c0292547b6e15e1f632dbed4d93f93b00cf60280d4708"
+  },
+  {
+    "slug": "viento-solar-auroras-urbanas-letales",
+    "original_title": "Cuando la aurora boreal baja al suelo: El colapso por radiación polar",
+    "reviewed_title": "Auroras sobre ciudades: riesgos reales y límites del escenario",
+    "status": "reviewed_draft",
+    "sources": [
+      "https://science.nasa.gov/sun/auroras/",
+      "https://www.swpc.noaa.gov/phenomena/geomagnetic-storms"
+    ],
+    "original_sha256": "c3e066567b8d497199b15a07eef49f80982c5814a9967312dbd222d8e06fa2de",
+    "reviewed_sha256": "f319bef8a3178731419672ca53f99835fa8f2d6309ddab2028c8e322f0cb10ef"
+  },
+  {
+    "slug": "ropa-inteligente-emociones",
+    "original_title": "Ropa inteligente: Las prendas que monitorean tus emociones en tiempo real",
+    "reviewed_title": "Ropa inteligente y emociones: qué miden los sensores y qué no",
+    "status": "reviewed_draft",
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC7014446/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9695360/"
+    ],
+    "original_sha256": "7d32e6ee33a7101a9b70a76244086c9a03714e623999de3c4c20605eadfd3ea9",
+    "reviewed_sha256": "f4f090daf872ea0e5cc1a6a7d7d5719234f29de39d7e74995e65e0c99df09f2f"
+  },
+  {
+    "slug": "vida-planeta-anclado-marea",
+    "original_title": "Planeta Dos Caras: Sobrevivir en un mundo anclado por marea",
+    "reviewed_title": "Planeta anclado por marea: clima, atmósfera y habitabilidad",
+    "status": "reviewed_draft",
+    "sources": [
+      "https://science.nasa.gov/universe/exoplanets/webb-measures-the-temperature-of-a-trappist-1-exoplanet/",
+      "https://arxiv.org/abs/1307.0515"
+    ],
+    "original_sha256": "d2641f032e5822575edd363a06f950302a3a317cbc4ceb03cbec87282e896f6e",
+    "reviewed_sha256": "28cc3d9587bfb3ac42c06568e1be8a5d0ed148a15b55fe4125692b129002b2b6"
+  },
+  {
+    "slug": "salario-universal-obligatorio",
+    "original_title": "El fin del trabajo: Tu cuenta bancaria en un sistema de Salario Universal Obligatorio",
+    "reviewed_title": "Renta básica universal: financiación, precios y límites del modelo",
+    "status": "reviewed_draft",
+    "sources": [
+      "https://www.worldbank.org/en/topic/socialprotection/publication/exploring-universal-basic-income-a-guide-to-navigating-concepts-evidence-and-practices"
+    ],
+    "original_sha256": "8662e924ba112d23f2e5af4dbeeaa68200fe76e92cf8a5f9123ef21a8660e2c6",
+    "reviewed_sha256": "18aefadaf4dc354322be855dd785ffdab0100417049bb647e58adbff4a52fac0"
+  }
+]

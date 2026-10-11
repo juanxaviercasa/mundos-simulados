@@ -1,10 +1,10 @@
-name: Publicar Artículos en WordPress
+name: Publicar entradas estáticas
 
 on:
   schedule:
-    - cron: '0 13 * * *' # Mañana (13:00 UTC / 8:00 AM EST)
-    - cron: '0 18 * * *' # Tarde (18:00 UTC / 1:00 PM EST)
-    - cron: '0 23 * * *' # Noche (23:00 UTC / 6:00 PM EST)
+    - cron: '0 13 * * *' # 08:00 en Perú; GitHub puede retrasar el inicio
+    - cron: '0 18 * * *' # 13:00 en Perú
+    - cron: '0 23 * * *' # 18:00 en Perú
   workflow_dispatch: # Permite ejecución manual desde la interfaz de GitHub
 
 jobs:
@@ -23,7 +23,7 @@ jobs:
       - name: Instalar dependencias
         run: |
           python -m pip install --upgrade pip
-          pip install requests python-frontmatter markdown beautifulsoup4
+          pip install requests python-frontmatter markdown beautifulsoup4 Pillow
 
       - name: Ejecutar SSG (Publicación Estática)
         run: python publicar_estatico.py

@@ -4,3 +4,5 @@ markdown
 requests
 pandas
 python-dotenv
+beautifulsoup4
+Pillow

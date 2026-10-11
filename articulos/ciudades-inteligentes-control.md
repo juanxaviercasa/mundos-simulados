@@ -60,6 +60,6 @@ Este escenario nos dice del mundo real que la búsqueda ciega de la eficiencia m
 
 <!-- [MS_TODOLIMA_BRIDGE_START] -->
 > **🏙️ Anclaje a la Realidad: Seguridad Perimetral y Monitoreo en Lima (Lima Metropolitana):**
-> Frente a las simulaciones de vigilancia algorítmica total, en los distritos de Lima Metropolitana las comunidades y negocios protegen sus instalaciones mediante sistemas de circuito cerrado y videovigilancia local. Consulta las empresas certificadas en [Cámaras de Seguridad en Lima](https://todolima.com/camaras-de-seguridad).  
+> Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.
 > [👉 Ver Especialistas en Cámaras de Seguridad](https://todolima.com/camaras-de-seguridad)
 <!-- [MS_TODOLIMA_BRIDGE_END] -->

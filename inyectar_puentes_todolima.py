@@ -202,6 +202,8 @@ BRIDGES_CONFIG = {
 }
 
 def generate_cyber_bridge_html(bridge_data):
+    bridge_data = dict(bridge_data)
+    bridge_data['desc'] = 'Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.'
     return f"""<!-- [MS_TODOLIMA_BRIDGE_START] -->
 <div class="ms-todolima-bridge" style="margin: 2.5em 0; padding: 1.5em 1.8em; background: rgba(13, 20, 36, 0.95); border: 1.5px solid rgba(0, 240, 255, 0.35); border-left: 5px solid #00F0FF; border-radius: 16px; color: #F8FAFC; font-family: inherit; box-shadow: 0 10px 30px rgba(0, 240, 255, 0.08);">
   <div style="display: flex; align-items: flex-start; gap: 14px;">
@@ -224,13 +226,15 @@ def generate_cyber_bridge_html(bridge_data):
 """
 
 def generate_markdown_bridge(bridge_data):
+    bridge_data = dict(bridge_data)
+    bridge_data['desc'] = 'Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.'
     # Genera bloque limpio para el archivo markdown
     clean_desc = re.sub(r'<a href="([^"]+)"[^>]*>([^<]+)</a>', r'[\2](\1)', bridge_data['desc'])
     return f"""
 
 <!-- [MS_TODOLIMA_BRIDGE_START] -->
 > **🏙️ {bridge_data['title']} ({bridge_data['distrito']}):**
-> {clean_desc}  
+> {clean_desc}
 > [👉 {bridge_data['cta']}]({bridge_data['url']})
 <!-- [MS_TODOLIMA_BRIDGE_END] -->
 """

@@ -60,6 +60,6 @@ Este escenario revela que la capacidad punitiva del Estado depende de la transpa
 
 <!-- [MS_TODOLIMA_BRIDGE_START] -->
 > **🏙️ Anclaje a la Realidad: Asesoría Contable y Tributaria en Lima (Lima Metropolitana):**
-> El cumplimiento de obligaciones tributarias ante SUNAT y la gestión contable de personas y empresas en Lima Metropolitana exige respaldo técnico continuo. Encuentra asesores en el [Directorio de Contadores de Lima](https://todolima.com/contadores).  
+> Para una necesidad real en Lima, consulta información de proveedores y confirma directamente disponibilidad, condiciones y credenciales. El directorio no garantiza la calidad de cada proveedor ni valida las hipótesis científicas del escenario. Proyecto del mismo autor.
 > [👉 Ver Contadores Colegiados en Lima](https://todolima.com/contadores)
 <!-- [MS_TODOLIMA_BRIDGE_END] -->
