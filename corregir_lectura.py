@@ -3,7 +3,7 @@ import re
 
 
 def normalize_reading(html):
-    html = re.sub(r'(wp-static-arquitect-assets/(?:theme\.(?:css|js)|editorial\.css|blog-filters\.js)\?v=)20261011-[34]', r'\g<1>20261011-5', html)
+    html = re.sub(r'(wp-static-arquitect-assets/(?:theme\.(?:css|js)|editorial\.css|blog-filters\.js)\?v=)20261011-[345]', r'\g<1>20261011-6', html)
     html = re.sub(r'(<p\b[^>]*class="ez-toc-title"[^>]*>)Table of Contents(</p>)', r'\1Tabla de contenidos\2', html)
     html = html.replace('>Toggle</span>', '>Mostrar u ocultar índice</span>')
     def prioritize(match):
