@@ -156,6 +156,8 @@ def publicar_posts():
     print(f"\n--- Resumen: {exitosos}/{len(archivos_a_procesar)} procesados con éxito ---")
 
 if __name__ == "__main__":
+    from editorial_site import recover_existing_exports
+    recover_existing_exports()
     publicar_posts()
     from integrate_ecosystem import integrate
     integrate()

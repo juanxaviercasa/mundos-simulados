@@ -27,7 +27,7 @@ if sys.stdout.encoding.lower() != 'utf-8':
 
 def run_curl(url, output_path=None, binary=False):
     """Ejecuta curl.exe de forma segura para evitar bloqueos por TLS/Cloudflare."""
-    cmd = ["curl.exe", "-s", "-L", "--compressed", "--retry", "2", "--connect-timeout", "15"]
+    cmd = ["curl.exe", "--fail", "-s", "-L", "--compressed", "--retry", "2", "--connect-timeout", "15"]
     if output_path:
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
         cmd.extend(["-o", output_path])
@@ -36,6 +36,8 @@ def run_curl(url, output_path=None, binary=False):
     else:
         res = subprocess.run(cmd + [url], capture_output=True)
         if res.returncode != 0:
+            return None
+        if not binary and re.search(rb'<title[^>]*>\s*(?:429\b|(?:502|503|504)\b)', res.stdout, re.I):
             return None
         if binary:
             return res.stdout
