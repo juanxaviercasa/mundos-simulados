@@ -1,0 +1,14 @@
+{
+  "name": "Mundos Simulados",
+  "domain": "mundossimulados.online",
+  "recipient": "mundossimulados@gmail.com",
+  "zone": "1b34fb52c4f5380dd16c1218d5765b17",
+  "categories": {
+    "escenario": "Proponer un escenario",
+    "correccion": "Corrección científica o editorial",
+    "herramientas": "Ayuda con una simulación",
+    "educacion": "Uso educativo",
+    "colaboracion": "Colaboración",
+    "otra": "Otra consulta"
+  }
+}
