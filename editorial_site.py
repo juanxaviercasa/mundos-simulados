@@ -168,6 +168,12 @@ def update_article(entry, entries, recommendations=None):
         return
     asset(soup)
     meta = metadata(entry)
+    for title in soup.select('#ez-toc-container .ez-toc-title'):
+        title.string = 'Tabla de contenidos'
+    for image in soup.select('.ast-single-post-featured-section img'):
+        image['loading'] = 'eager'
+        image['fetchpriority'] = 'high'
+        image['decoding'] = 'async'
     respond = soup.select_one('#respond')
     if respond:
         respond.replace_with(fragment('<section class="ms-reader-note"><h2>Correcciones y comentarios</h2><p>Los comentarios públicos no están habilitados en esta versión. Puedes enviar una observación editorial a <a href="mailto:contacto@mundossimulados.online">contacto@mundossimulados.online</a>, indicando el artículo y la afirmación que deseas revisar.</p></section>'))

@@ -5,8 +5,9 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 from PIL import Image
 from editorial_site import BASE, card_image, write_html
+from corregir_lectura import normalize_reading
 
-VERSION = '20261011-3'
+VERSION = '20261011-5'
 
 
 def clean_script(match):
@@ -28,6 +29,7 @@ def optimize_exports():
                 continue
             path = Path(folder) / name
             text = path.read_text(encoding='utf-8')
+            text = normalize_reading(text)
             value = re.sub(r'<script\b[^>]*>.*?</script>', clean_script, text, flags=re.S | re.I)
             value = value.replace('mundossimulados.onine', 'mundossimulados.online')
             value = value.replace('Portal de divulgación científica, astrofísica extrema y modelos matemáticos de realidades alternas.', 'Escenarios hipotéticos para explorar ciencia, tecnología y sociedad.')
