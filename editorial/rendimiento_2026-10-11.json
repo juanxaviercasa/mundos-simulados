@@ -146,5 +146,20 @@
       "total-byte-weight": 811819
     },
     "errors": []
+  },
+  {
+    "run": "lighthouse-blog-public-mobile",
+    "url": "https://mundossimulados.online/blog/",
+    "fetch_time": "2026-10-11T13:35:28.813Z",
+    "lighthouse": "13.5.0",
+    "score": 88,
+    "metrics": {
+      "first-contentful-paint": 2109.4850000000006,
+      "largest-contentful-paint": 3319.0370000000003,
+      "total-blocking-time": 0,
+      "cumulative-layout-shift": 0,
+      "total-byte-weight": 462556
+    },
+    "errors": []
   }
 ]

@@ -14,8 +14,11 @@ Lighthouse 13.5.0 con Chrome, sobre la exportación servida en localhost. Las pr
 | Portada móvil antes de optimizar sus recursos | 66 | 2,90 s | 8,05 s | 0,004 | 1,41 MiB |
 | Portada móvil terminada | 74 | 2,41 s | 5,34 s | 0,017 | 0,78 MiB |
 | Artículo móvil terminado: semana laboral | 76 | 2,72 s | 5,42 s | 0,004 | 0,77 MiB |
+| Blog móvil en producción: mundossimulados.online | 88 | 2,12 s | 3,32 s | 0 | 0,44 MiB |
 
 La repetición del blog móvil mantuvo 74 puntos; la ejecución anterior terminada también dio 74. Los valores son ejecuciones individuales, no percentiles de una población. Los JSON completos están en `artifacts/` como resultados locales; el resumen transportable está en `editorial/rendimiento_2026-10-11.json`.
+
+Después del push se midió también el dominio público con Lighthouse móvil: 88 puntos, bloqueo de hilo principal de 0 ms, CLS de 0 y ninguna solicitud fallida. El navegador mostró el catálogo y el selector de tema actualizados. Esta ejecución verifica la entrega real por la red y el CDN, pero sigue siendo una medición de laboratorio, no una medición de visitantes.
 
 ## Mejoras comprobadas
 
@@ -38,7 +41,7 @@ La página comercial de Todo Lima se completó con un contacto visible en cabece
 
 ## Límite que sigue visible
 
-El LCP móvil local permanece alrededor de 5,3 segundos. La siguiente mejora estructural sería reducir el HTML y CSS heredados de WordPress y evaluar paginación rastreable del catálogo. No se ocultó ese resultado ni se sustituyó por una puntuación de escritorio. No se añadió analítica ni seguimiento comercial.
+El LCP móvil local permanece alrededor de 5,3 segundos; en la ejecución sobre producción fue de 3,32 segundos. La siguiente mejora estructural sería reducir el HTML y CSS heredados de WordPress y evaluar paginación rastreable del catálogo. No se ocultó ese resultado ni se sustituyó por una puntuación de escritorio. No se añadió analítica ni seguimiento comercial.
 
 Las copias originales y respaldos voluminosos permanecen locales y se excluyen del commit. Se preservan también las ediciones institucionales de otras tareas que están en curso en los proyectos vecinos.
 
