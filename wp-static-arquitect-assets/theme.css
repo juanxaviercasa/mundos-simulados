@@ -1,4 +1,16 @@
 /* Shared theme controls and a light palette over the legacy dark export. */
+/* Remove Astra's empty strip above the first content surface site-wide. */
+html[data-ms-theme] body #content,html[data-ms-theme] body #content>.ast-container{padding-top:0!important;margin-top:0!important}
+html[data-ms-theme] body #content #primary{margin-top:0!important;padding-top:0!important}
+html[data-ms-theme] body #content #main,html[data-ms-theme] body #content .entry-content{margin-top:0!important}
+html body #content .ms-cat-hero-banner{margin-top:0!important}
+html body #content .ms-escenarios-hub{padding-top:0!important}
+html body #content .ms-escenarios-hub>div:first-child{margin-top:0!important}
+html body #content .ms-escenarios-hub>div:first-child>img{display:block;width:100%!important;height:auto!important;aspect-ratio:16/9;object-fit:contain!important;opacity:1!important;background:#081327}
+@media(max-width:767px){
+ html body #content .ms-escenarios-hub>div:first-child>div:nth-of-type(1){display:none!important}
+ html body #content .ms-escenarios-hub>div:first-child>div:nth-of-type(2){position:relative!important;inset:auto!important;padding:24px 20px!important;background:#081327!important}
+}
 /* Category artwork keeps its complete composition instead of a shallow crop. */
 html body #content .ms-cat-hero-banner{border:0!important;border-radius:12px!important;box-shadow:none!important}
 html body #content .ms-cat-hero-img{display:block;width:100%!important;height:auto!important;aspect-ratio:16/9;object-fit:contain!important;object-position:center;filter:none!important;background:#081327}

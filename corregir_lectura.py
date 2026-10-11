@@ -6,7 +6,7 @@ def normalize_reading(html):
     # Make the dedicated contact page discoverable in both header menus.
     about_item = r'(<li\b[^>]*>(?:(?!</li>).)*<a\b[^>]*href="[^"]*sobre-mi/"[^>]*>Sobre mí</a>\s*</li>)(?!\s*<li[^>]*ms-contact-nav)'
     html = re.sub(about_item, r'\1<li class="menu-item ms-contact-nav"><a class="menu-link" href="/contacto/">Contacto</a></li>', html, flags=re.S)
-    html = re.sub(r'(wp-static-arquitect-assets/(?:theme\.(?:css|js)|editorial\.css|blog-filters\.js)\?v=)20261011-[34567]', r'\g<1>20261011-8', html)
+    html = re.sub(r'(wp-static-arquitect-assets/(?:theme\.(?:css|js)|editorial\.css|blog-filters\.js)\?v=)20261011-[345678]', r'\g<1>20261011-9', html)
     html = re.sub(r'(<p\b[^>]*class="ez-toc-title"[^>]*>)Table of Contents(</p>)', r'\1Tabla de contenidos\2', html)
     html = html.replace('>Toggle</span>', '>Mostrar u ocultar índice</span>')
     def prioritize(match):
