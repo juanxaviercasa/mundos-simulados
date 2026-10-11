@@ -157,3 +157,5 @@ def publicar_posts():
 
 if __name__ == "__main__":
     publicar_posts()
+    from integrate_ecosystem import integrate
+    integrate()
