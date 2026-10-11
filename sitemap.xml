@@ -3523,4 +3523,10 @@
     <priority>0.8</priority>
   </url>
 <url><loc>https://mundossimulados.online/contacto/</loc></url>
+  <url>
+    <loc>https://mundossimulados.online/pulsar-cercano-emision-ondas-radio/</loc>
+    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
